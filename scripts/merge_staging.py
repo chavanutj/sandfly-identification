@@ -139,12 +139,20 @@ def merge_batch(data, stage, log):
 
 def main():
     args = sys.argv[1:]
-    if not args:
+    if not args or any(a in ("-h", "--help", "help") for a in args):
         sys.exit(__doc__)
     check = "--check" in args
     args = [a for a in args if a != "--check"]
     stroot = ROOT / "data" / "staging"
-    batches = [p.name for p in stroot.iterdir() if p.is_dir() and not p.name.startswith("_")] if args == ["--all"] else args
+    if args == ["--all"]:
+        batches = [p.name for p in stroot.iterdir() if p.is_dir() and not p.name.startswith("_")] if stroot.exists() else []
+    else:
+        unknown = [a for a in args if a.startswith("-") or not (stroot / a).is_dir()]
+        if unknown:
+            sys.exit(f"Unknown option or no such batch folder in data/staging/: {', '.join(unknown)}\n\n{__doc__}")
+        batches = args
+    if not batches:
+        sys.exit("Nothing to merge: data/staging/ has no batch folders.")
     log = []
     if check:
         tmp = Path(tempfile.mkdtemp())
