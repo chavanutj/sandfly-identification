@@ -33,10 +33,13 @@ def find_pdf(name):
         p = d / name
         if p.exists():
             return p
+        hits = list(d.rglob(name)) if d != ROOT else []
+        if hits:
+            return hits[0]
     # tolerate small differences in punctuation of file names
     key = re.sub(r"[^a-z0-9]", "", name.lower())[:40]
     for d in PDF_DIRS:
-        for q in d.glob("*.pdf"):
+        for q in (d.glob("*.pdf") if d == ROOT else d.rglob("*.pdf")):
             if re.sub(r"[^a-z0-9]", "", q.name.lower())[:40] == key:
                 return q
     return None

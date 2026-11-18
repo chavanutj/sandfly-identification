@@ -72,6 +72,12 @@ def italic_names(text):
 
 # --------------------------------------------------------------------------- data
 sources = {s["source_id"]: s for s in read("sources.csv")}
+for _s in sources.values():  # a bare DOI ("10.1186/...") becomes a full link
+    _u = (_s.get("doi_or_url") or "").strip()
+    if _u.lower().startswith("doi:"):
+        _u = _u[4:].strip()
+    if _u.startswith("10."):
+        _s["doi_or_url"] = "https://doi.org/" + _u
 keys_index = sorted(read("keys_index.csv"), key=lambda k: int(k["order"]))
 leads = read("keys.csv")
 taxa = read("taxa.csv")

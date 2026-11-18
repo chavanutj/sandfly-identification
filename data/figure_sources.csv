@@ -4,3 +4,14 @@ italy,dantastorres2014,19. Morphological keys for the identification of Italian 
 galati2017,galati2017,"3. An illustrated guide for characters and terminology used in descriptions of Phlebotominae (Diptera, Psychodidae).pdf",^Figure\s+(\d+)\.\s*(.*),CC BY 4.0 - Galati et al. 2017
 renauxtorres2023,renauxtorres2023,"17. (Phletobomus shadenae) Phlebotomine sand flies (Diptera, Psychodidae) from Pha Tong cave, Northern Thailand with a description of two new species and taxonomical thoughts about Phlebotomus stantoni.pdf",^Fig\s+(\d+)\.\s*(.*),CC BY 4.0 - Renaux Torres et al. 2023
 ding2025,ding2025,15. (Phlebotomus seowpohi) Hidden in plain sight discovery of sand flies in Singapore and description of four species new to science.pdf,^Fig\.\s*(\d+)\s+(.*),CC BY 4.0 - Ding et al. 2025
+shah2024,shah2024,shah2024_1024064682.pdf,^Fig\.\s*(\d+)\s+(.*),CC BY 4.0 - Shah et al. 2024
+shah2025,shah2025,shah2025_ts16060598.pdf,^Figure\s*(\d+)\.\s*(.*),CC BY 4.0 - Shah et al. 2025
+shah2026,shah2026,shah2026_0261814368.pdf,^FIGURE\s+(\d+)\s+(.*),CC BY 4.0 - Shah et al. 2026
+prasetyo2026,prasetyo2026,prasetyo2026_2026100356.pdf,^Fig\.\s*(\d+)\.\s+(.*),CC BY 4.0 - Prasetyo et al. 2026
+chung2025,chung2025,chung2025_1025070171.pdf,^Fig\.\s*(\d+)\s+(.*),CC BY 4.0 - Chung et al. 2025
+polseela2016,polseela2016,polseela2016_7101613004.pdf,^Fig\.\s*(\d+)\s+(.*),CC BY 4.0 - Polseela et al. 2016
+depaquit2009,depaquit2009,depaquit2009_1756330525.pdf,^P\. barguesae n\. sp\. (?:male|female) Figure\s+(\d+)\s+(.*),CC BY 2.0 - Depaquit et al. 2009
+soomro2025,soomro2025,soomro2025_1024066408.pdf,^Fig\.\s*(\d+)\s+(.*),CC BY 4.0 - Soomro et al. 2025
+sunantaraporn2024,sunantaraporn2024,sunantarapor2024_1024066168.pdf,^Fig\.\s*(\d+)\s+(.*),CC BY 4.0 - Sunantaraporn et al. 2024
+laoskarst,vongphayloth2024,vongphayloth2024_102406444w.pdf,^Fig\.\s*(\d+)\s+(.*),CC BY 4.0 - Vongphayloth et al. 2024
+vongphayloth2026,vongphayloth2026,vongphayloth2026_ntd0013641.pdf,^Fig\s*(\d+)\.\s+(.*),CC0 (public domain) - Vongphayloth et al. 2026

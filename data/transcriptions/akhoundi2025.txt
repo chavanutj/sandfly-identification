@@ -1,0 +1,205 @@
+# Akhoundi, M., Maroli, M., Gradoni, L., Izri, A., Dedet, J.-P., Votýpka, J., Guernaoui, S., Benikhlef, R., Eddaikra, N.,
+# Bates, P., Sereno, D. & Depaquit, J. (2025) A pictorial identification key for Mediterranean and Middle Eastern
+# Phlebotomus sand flies. Scientific Reports 15: 7492. https://doi.org/10.1038/s41598-024-77815-7 (CC BY-NC-ND 4.0)
+# "III.II. Dichotomous identification key", pp. 92-100: ten flowcharts printed as images (boxes joined by lines).
+# Transcription conventions (editorial, not printed):
+# - Box texts are copied word for word; boxes set in capitals (headings such as "STYLE SPINES NUMBER") are given in
+#   sentence case. A question box followed by YES/NO boxes is written "Question: yes" / "Question: no".
+# - Where a white character box leads straight to a yellow result box that adds further characters, the two box
+#   texts are joined with " → ".
+# - Where a box has three or more branches, the branches are split into successive couplets in printed order; the
+#   extra leads are in [square brackets] and are not printed.
+# - Intermediate yellow boxes that only list taxa (e.g. "Ph. papatasi, Ph. bergeroti") are given in the note.
+# - The flowcharts cite no figures. Each species result notes the page and figure numbers (N°) of that species in the
+#   paper's pictorial key (figure N° = species number in Table 1). Figures are not reproduced (CC BY-NC-ND).
+
+# key_id: akhoundi2025_subgenera
+# Akhoundi et al. 2025 p. 92. Subgenera of Phlebotomus of the Mediterranean and Middle East, males (M) and females (F).
+# Footnotes printed: "*: Sometimes 6 spines"; "**: Ring spermatheca"; "***: These subgenera are mostly defined by the males morphology".
+0a | Genitalia: male | M1 | | | Akhoundi et al. 2025 p. 92. Flowchart: "Unknown species" → "Genitalia" → "Male".
+0b | Genitalia: female | F1 | | | Akhoundi et al. 2025 p. 92. Flowchart: "Unknown species" → "Genitalia" → "Female".
+M1a | Style spines number: 4 | M2 | | | Akhoundi et al. 2025 p. 92. Box below: "Paraphlebotomus, Artemievus".
+M1b | Style spines number: 5 | M3 | | | Akhoundi et al. 2025 p. 92. Box below: "Phlebotomus, Synphlebotomus, Larroussius, Adlerius, Abonnencius, Transphlebotomus*, Euphlebotomus"; footnote *: "Sometimes 6 spines".
+M2a | Gonocoxite basal lobe: yes | M4 | | | Akhoundi et al. 2025 p. 92
+M2b | Gonocoxite basal lobe: no | | Subgenus Paraphlebotomus; Subgenus Artemievus | | Akhoundi et al. 2025 p. 92. As printed the "NO" box has no further box or result; the result given here is the group box above it ("Paraphlebotomus, Artemievus"). Continue with the key akhoundi2025_paraphlebotomus_male.
+M4a | Antennal F1 length: < 200µm | | Subgenus Artemievus | | Akhoundi et al. 2025 p. 92. Species: P. alexandri, see key akhoundi2025_paraphlebotomus_male.
+M4b | Antennal F1 length: ≥ 200µm | | Subgenus Paraphlebotomus | | Akhoundi et al. 2025 p. 92. Species: see key akhoundi2025_paraphlebotomus_male.
+M3a | Gonocoxite basal lobe: yes | M5 | | | Akhoundi et al. 2025 p. 92
+M3b | Gonocoxite basal lobe: no | M6 | | | Akhoundi et al. 2025 p. 92
+M5a | Short gonostyle with 2 terminal long spines, simple spatulated paramere | | Subgenus Synphlebotomus | | Akhoundi et al. 2025 p. 92. The paper gives no species flowchart for Synphlebotomus (species accounts pp. 73-76).
+M5b | Long gonostyle with 3 terminal short spines, trifurcated paramere | | Subgenus Phlebotomus | | Akhoundi et al. 2025 p. 92. Species: see key akhoundi2025_phlebotomus_male.
+M6a | Paramere without accessory process | M7 | | | Akhoundi et al. 2025 p. 92
+M6b | Paramere with accessory process | M8 | | | Akhoundi et al. 2025 p. 92
+M7a | Parameral sheath with apical tubercle | | Subgenus Adlerius | | Akhoundi et al. 2025 p. 92. Species: see key akhoundi2025_adlerius_male.
+M7b | Parameral sheath without apical tubercle | | Subgenus Larroussius; Subgenus Transphlebotomus | | Akhoundi et al. 2025 p. 92. Species: see keys akhoundi2025_larroussius_male and akhoundi2025_transphlebotomus_male.
+M8a | Complex paramere | | Subgenus Euphlebotomus | | Akhoundi et al. 2025 p. 92. The paper gives no species flowchart for Euphlebotomus (species accounts pp. 77-79).
+M8b | Paramere with an accessory hook | | Subgenus Abonnencius | | Akhoundi et al. 2025 p. 92. Only species in the paper: P. fortunatarum (species account p. 90).
+F1a | Spermatheca segmentation: yes** | F2 | | | Akhoundi et al. 2025 p. 92. Footnote **: "Ring spermatheca". Box below: "Phlebotomus, Paraphlebotomus, Larroussius, Euphlebotomus, Synphlebotomus".
+F1b | Spermatheca segmentation: no | F3 | | | Akhoundi et al. 2025 p. 92
+F2a | Spermathecal neck: yes | | Subgenus Larroussius | | Akhoundi et al. 2025 p. 92. Species: see key akhoundi2025_larroussius_female.
+F2b | Spermathecal neck: no | | Subgenus Phlebotomus; Subgenus Artemievus; Subgenus Paraphlebotomus; Subgenus Euphlebotomus; Subgenus Synphlebotomus | | Akhoundi et al. 2025 p. 92. Printed "Phlebotomus***"; footnote ***: "These subgenera are mostly defined by the males morphology". As printed; Artemievus is listed here although it is not in the box above F1a. Species: keys akhoundi2025_phlebotomus_female, akhoundi2025_paraphlebotomus_female.
+F3a | Smooth spermatheca | | Subgenus Abonnencius | | Akhoundi et al. 2025 p. 92
+F3b | Wrinkled spermatheca | F4 | | | Akhoundi et al. 2025 p. 92
+F4a | Large ducts | | Subgenus Transphlebotomus | | Akhoundi et al. 2025 p. 92. Species: see key akhoundi2025_transphlebotomus_female.
+F4b | Narrow ducts with swollen and thicken base | | Subgenus Adlerius | | Akhoundi et al. 2025 p. 92. No female species key: "The females are morphologically indistinguishable from each other and identified based on the male specimens" (p. 98 footnote; female Adlerius in SI-VIII).
+
+# key_id: akhoundi2025_phlebotomus_male
+# Akhoundi et al. 2025 p. 93 ("Phlebotomus ♂"). Males of subgenus Phlebotomus, Mediterranean and Middle East.
+1a | Paramere strongly curved | | Phlebotomus salehi | | Akhoundi et al. 2025 p. 93. Species account p. 9 (Figures N°4).
+1b | Paramere slightly curved | 2 | | | Akhoundi et al. 2025 p. 93
+2a | Surstyle with 2-3 spines of similar size. | 3 | | | Akhoundi et al. 2025 p. 93. Box below: "Ph. papatasi, Ph. bergeroti".
+2b | Surstyle with presence of 5 to 7 spines at the end | | Phlebotomus duboscqi | | Akhoundi et al. 2025 p. 93. Species account p. 6 (Figures N°2).
+3a | Gonostyle with median spines closed to distal ones: yes | | Phlebotomus bergeroti | | Akhoundi et al. 2025 p. 93. Species account p. 4 (Figures N°1).
+3b | Gonostyle with median spines closed to distal ones: no | | Phlebotomus papatasi | | Akhoundi et al. 2025 p. 93. Species account p. 7 (Figures N°3).
+
+# key_id: akhoundi2025_phlebotomus_female
+# Akhoundi et al. 2025 p. 93 ("Phlebotomus ♀"). Females of subgenus Phlebotomus, Mediterranean and Middle East.
+1a | Spermatheca segments with equal thickness: yes | 2 | | | Akhoundi et al. 2025 p. 93. Box below: "Ph. papatasi, Ph. duboscqi Ph. bergeroti".
+1b | Spermatheca segments with equal thickness: no | | Phlebotomus salehi | | Akhoundi et al. 2025 p. 93. Species account p. 9 (Figures N°4).
+2a | Short ascoid never reaching the next articulation: no | | Phlebotomus papatasi; Phlebotomus duboscqi | | Akhoundi et al. 2025 p. 93. As printed; the species account of the female of P. papatasi (p. 8) says "Short ascoid not reaching to the junction area with the antennal segment", i.e. the opposite of this lead. Species accounts pp. 6-8 (Figures N°2, N°3).
+2b | Short ascoid never reaching the next articulation: yes | | Phlebotomus bergeroti | | Akhoundi et al. 2025 p. 93. As printed; the species account of the female of P. bergeroti (p. 5) says "Long ascoids reaching or exceeding the subsequent junction antennal segment spaces", i.e. the opposite of this lead. The YES/NO boxes of this couplet may be swapped - check. Species account p. 4-5 (Figures N°1).
+
+# key_id: akhoundi2025_paraphlebotomus_male
+# Akhoundi et al. 2025 p. 94 ("Artemievus & Paraphlebotomus ♂"). Males of subgenera Artemievus and Paraphlebotomus.
+1a | Third antennal segment short (A3/E = 0.5-0.6), Gonocoxite's basal lobe short and almost round | | Phlebotomus alexandri | Subgenus Artemievus | Akhoundi et al. 2025 p. 94. Result printed "ARTEMIEVUS (Ph. alexandri)". Species account p. 27 (Figures N°16).
+1b | Gonocoxite's basal lobe long and slender, third antennal segment long (A3/E = 0.8-1) | 2 | | Subgenus Paraphlebotomus | Akhoundi et al. 2025 p. 94. Box printed with "PARAPHLEBOTOMUS".
+2a | Top of the parameral sheath pointed | 3 | | | Akhoundi et al. 2025 p. 94
+2b | Top of the parameral sheath rounded or hooked | 4 | | | Akhoundi et al. 2025 p. 94
+3a | Gonocoxite's basal lobe long (>42µm) harboring more than 21 setae | | Phlebotomus riouxi | | Akhoundi et al. 2025 p. 94. Species account p. 21 (Figures N°12).
+3b | Gonocoxite's basal lobe short (<36µm) harboring up to 15 setae | | Phlebotomus chabaudi | | Akhoundi et al. 2025 p. 94. Species account p. 13 (Figures N°7).
+4a | Wide and asymmetrical gonocoxite harbouring setae on its distal part and inner face | | Phlebotomus caucasicus | | Akhoundi et al. 2025 p. 94. Species account p. 12 (Figures N°6).
+4b | Gonocoxite's basal lobe bearing setae only on its distal part | 5 | | | Akhoundi et al. 2025 p. 94
+5a | Short and stocky gonocoxite bearing 2 terminal spines, or one terminal and one subterminal | 6 | | | Akhoundi et al. 2025 p. 94. As printed ("gonocoxite"; the spines are those of the gonostyle).
+5b | Elongated gonostyle bearing a terminal spine and one imploutoted much more basally | 7 | | | Akhoundi et al. 2025 p. 94. As printed ("imploutoted", probably "implanted").
+6a | Short gonostyle (<50µm) | 8 | | | Akhoundi et al. 2025 p. 94
+6b | Long gonostyle (>50µm) | 9 | | | Akhoundi et al. 2025 p. 94
+7a | Long gonostyle (>150 µm). Very long tubercle bearing terminal spines | | Phlebotomus mongolensis | | Akhoundi et al. 2025 p. 94. Species account p. 18 (Figures N°10).
+7b | Gonostyle shorter than 150 µm | | Phlebotomus jacusieli | | Akhoundi et al. 2025 p. 94. Species account p. 15 (Figures N°8).
+8a | Gonostyle narrow | 10 | | | Akhoundi et al. 2025 p. 94
+8b | Gonostyle thick → Gonocoxite basal lobe with 24-37 hairs | | Phlebotomus similis | | Akhoundi et al. 2025 p. 94. Species account p. 25 (Figures N°15).
+10a | Angled gonostyle with pale teguments | | Phlebotomus sergenti | | Akhoundi et al. 2025 p. 94. Species account p. 24 (Figures N°14).
+10b | Straight gonostyle with dove teguments | | Phlebotomus kazeruni | | Akhoundi et al. 2025 p. 94. As printed ("dove teguments"). Species account p. 16 (Figures N°9).
+9a | Parameral sheath straight | 11 | | | Akhoundi et al. 2025 p. 94. As printed this box has no branch below it, and the line to the P. saevus and P. nuri boxes is drawn from below "Parameral sheath hooked". Interpreted here as straight → couplet 11 because the species account of P. nuri (p. 19) gives "a conical, straight parameral sheath". Check.
+9b | Parameral sheath hooked → Gonocoxite basal lobe with asymmetrical head | | Phlebotomus andrejevi | | Akhoundi et al. 2025 p. 94. As printed; the species account (p. 10) says "Gonocoxite basal lobe thick and long with symmetrical head". Species account p. 10 (Figures N°5).
+11a | Gonostyle with 2 terminal spines | | Phlebotomus saevus | | Akhoundi et al. 2025 p. 94. Species account p. 22 (Figures N°13).
+11b | Gonostyle with 1 terminal and 1 subterminal spines | | Phlebotomus nuri | | Akhoundi et al. 2025 p. 94. Species account p. 19 (Figures N°11).
+
+# key_id: akhoundi2025_paraphlebotomus_female
+# Akhoundi et al. 2025 p. 95 ("Artemievus & Paraphlebotomus ♀"). Females of subgenera Artemievus and Paraphlebotomus.
+1a | Spermatheca consisting one or two round segments | | Phlebotomus kazeruni | | Akhoundi et al. 2025 p. 95. Species account p. 16 (Figures N°9).
+1b | Spermatheca consisting more than two segments | 2 | | | Akhoundi et al. 2025 p. 95
+2a | Third antennal segment shorter than labrum (A3/E = 0.5-0.6). Pharyngeal armature condensed with quadrangle form | | Phlebotomus alexandri | Subgenus Artemievus | Akhoundi et al. 2025 p. 95. Result printed "ARTEMIEVUS (Ph. alexandri)". Species account p. 27 (Figures N°16).
+2b | Third antennal segment longer than labrum (A3/E = 1-1.2) | 3 | | | Akhoundi et al. 2025 p. 95
+3a | Enlarged distal segment of the spermatheca | 4 | | | Akhoundi et al. 2025 p. 95
+3b | Distal segment of spermatheca bellflower-like | | Phlebotomus riouxi; Phlebotomus chabaudi | | Akhoundi et al. 2025 p. 95. Species accounts pp. 13, 21 (Figures N°7, N°12).
+4a | Pharyngeal armature with central group of long teeth | 5 | | | Akhoundi et al. 2025 p. 95
+4b | Pharyngeal framework consisted of long teeth on the whole width | | Phlebotomus sergenti; Phlebotomus saevus; Phlebotomus similis; Phlebotomus nuri | | Akhoundi et al. 2025 p. 95. Species accounts pp. 19-25 (Figures N°11, N°13-15).
+5a | Spermatheca with 4 or 5 segments | | Phlebotomus mongolensis; Phlebotomus caucasicus; Phlebotomus andrejevi | | Akhoundi et al. 2025 p. 95. Species accounts pp. 10, 12, 18 (Figures N°5, N°6, N°10).
+5b | Spermatheca with ≥ 8 segments | | Phlebotomus jacusieli | | Akhoundi et al. 2025 p. 95. Species account p. 15 (Figures N°8).
+
+# key_id: akhoundi2025_larroussius_male
+# Akhoundi et al. 2025 p. 96 ("Larroussius ♂"). Males of subgenus Larroussius, Mediterranean and Middle East.
+# Footnotes printed: "*: Taxonomic status uncertain"; "**: It can be differentiated from Ph. burneyi according to ascoid formula".
+1a | Parameral sheath with ventral teeth: yes → Paramere with short hairy process on ventral side | | Phlebotomus kandelakii | | Akhoundi et al. 2025 p. 96. Printed "Ph. kandelakii**"; footnote **: "It can be differentiated from Ph. burneyi according to ascoid formula". Species account p. 34 (Figures N°20).
+1b | Parameral sheath with ventral teeth: no | 2 | | | Akhoundi et al. 2025 p. 96
+2a | Parameral sheath bifid | 3 | | | Akhoundi et al. 2025 p. 96
+2b | Parameral sheath not bifid | 4 | | | Akhoundi et al. 2025 p. 96
+3a | Distal branch of parameral sheath rounded: yes | | Phlebotomus tobbi | | Akhoundi et al. 2025 p. 96. Species account p. 56 (Figures N°33).
+3b | Distal branch of parameral sheath rounded: no | | Phlebotomus perniciosus | | Akhoundi et al. 2025 p. 96. Species account p. 55 (Figures N°32).
+4a | Parameral sheath with ventral transparent apex | 5 | | | Akhoundi et al. 2025 p. 96. This box is joined to the side of "Parameral sheath not bifid".
+4b | [Other boxes below "Parameral sheath not bifid"] | 6 | | | Akhoundi et al. 2025 p. 96. Editorial lead, not printed: the flowchart branches three ways below "Parameral sheath not bifid".
+5a | Antennal formula: 2/III-XIII, 1/IX-XV | | Phlebotomus galilaeus | | Akhoundi et al. 2025 p. 96. Flowchart: "Antennal formula" → "2/III-XIII, 1/IX-XV". Species account p. 51 (Figures N°30).
+5b | Antennal formula: 2/III-XV | | Phlebotomus perfiliewi; Phlebotomus transcaucasicus | | Akhoundi et al. 2025 p. 96. Printed "Ph. perfiliewi*", "Ph. transcaucasicus*"; footnote *: "Taxonomic status uncertain". Species accounts pp. 49, 53 (Figures N°29, N°31).
+6a | Parameral sheath with nearly same width | 7 | | | Akhoundi et al. 2025 p. 96
+6b | Parameral sheath narrowing towards tip | 10 | | | Akhoundi et al. 2025 p. 96
+7a | Thick parameral sheath with semitransparent end | 8 | | | Akhoundi et al. 2025 p. 96
+7b | Thin parameral sheath with rounded tip | 9 | | | Akhoundi et al. 2025 p. 96
+8a | Gonocoxite with 20 hairs, thick parameral sheath enlarged at the apex | | Phlebotomus ariasi | | Akhoundi et al. 2025 p. 96. Species account p. 29 (Figures N°17).
+8b | [Other two boxes joined to "Thick parameral sheath with semitransparent end"] | 13 | | | Akhoundi et al. 2025 p. 96. Editorial lead, not printed: the flowchart gives three boxes here.
+13a | Gonocoxite with 25-30 hairs, parameral sheath long, slender and symmetric with faintly flared apex | | Phlebotomus mariae | | Akhoundi et al. 2025 p. 96. Species account p. 46 (Figures N°27).
+13b | Gonocoxite with 70 hairs, thick parameral sheath enlarged at the apex | | Phlebotomus chadlii | | Akhoundi et al. 2025 p. 96. Species account p. 31 (Figures N°18).
+9a | Pharyngeal armatur occuped 1/3 of pharynx. Teeth fine and punctiform | | Phlebotomus major major; Phlebotomus neglectus; Phlebotomus syriacus | | Akhoundi et al. 2025 p. 96. Printed name: "Ph. major" (treated in the paper as "Phlebotomus major s.st. Annandale, 1910"). As printed ("armatur occuped"). Species accounts pp. 41-45 (Figures N°24-26).
+9b | Pharyngeal armatur occuped 1/2 of pharynx. Teeth large | | Phlebotomus wenyoni | | Akhoundi et al. 2025 p. 96. As printed ("armatur occuped"). Species account p. 58 (Figures N°34).
+10a | Short parameral sheath | 11 | | | Akhoundi et al. 2025 p. 96
+10b | Long parameral sheath | 12 | | | Akhoundi et al. 2025 p. 96
+11a | Parameral sheath with symmetrical tip | | Phlebotomus keshishiani | | Akhoundi et al. 2025 p. 96. Species account p. 35 (Figures N°21).
+11b | Parameral sheath with asymmetrical tip | | Phlebotomus langeroni | | Akhoundi et al. 2025 p. 96. Species account p. 37 (Figures N°22).
+12a | Parameral sheath with a bent tip | | Phlebotomus orientalis | | Akhoundi et al. 2025 p. 96. Species account p. 47 (Figures N°28).
+12b | Parameral sheath with a curved tip | 14 | | | Akhoundi et al. 2025 p. 96
+14a | Number of gonocoxite internal hairs: 8-13 hairs | | Phlebotomus perniciosus | | Akhoundi et al. 2025 p. 96. Result box printed "Ph. perniciosus (Atypical form called PNA)". Species account p. 55 (Figures N°32).
+14b | Number of gonocoxite internal hairs: 18-32 hairs | | Phlebotomus longicuspis | | Akhoundi et al. 2025 p. 96. Species account p. 39 (Figures N°23).
+
+# key_id: akhoundi2025_larroussius_female
+# Akhoundi et al. 2025 p. 97 ("Larroussius ♀"). Females of subgenus Larroussius. P. major and P. mariae are not in this flowchart.
+# Footnote printed: "*: The females are identified mainly according to morphology of spermathecal basal structure."
+1a | Common spermatheca duct | 2 | | | Akhoundi et al. 2025 p. 97
+1b | Separate spermatheca duct | 4 | | | Akhoundi et al. 2025 p. 97. The flowchart gives ten result boxes side by side here (with drawings); they are split into couplets 4-12 in printed order (left column top to bottom, then right column).
+2a | Very short common duct → Spermatheca with 18-23 segments wider in middle with a long and thin neck (0/4 of the capsule) | | Phlebotomus ilami | | Akhoundi et al. 2025 p. 97. As printed ("0/4 of the capsule", also so in the species account p. 33). Species account p. 33 (Figures N°19).
+2b | Long common duct | 3 | | | Akhoundi et al. 2025 p. 97
+3a | Pharyngeal armature occupying the 1/3 of the pharynx | | Phlebotomus syriacus | | Akhoundi et al. 2025 p. 97. Species account p. 45 (Figures N°26).
+3b | Pharyngeal armature occupying half of the pharynx | | Phlebotomus neglectus; Phlebotomus wenyoni | | Akhoundi et al. 2025 p. 97. Species accounts pp. 43, 58 (Figures N°25, N°34).
+4a | Spermathecal base reticulated and dilated in form of a spindle. Narrow distal ducts as long as the body. | | Phlebotomus ariasi | | Akhoundi et al. 2025 p. 97. Species account p. 29 (Figures N°17).
+4b | [Other boxes for separate spermathecal ducts] | 5 | | | Akhoundi et al. 2025 p. 97. Editorial lead, not printed.
+5a | Smooth spermathecal base dilated on ¾ basals of spermathecal duct. Very short narrow distal duct | | Phlebotomus chadlii | | Akhoundi et al. 2025 p. 97. Species account p. 31 (Figures N°18).
+5b | [Other boxes for separate spermathecal ducts] | 6 | | | Akhoundi et al. 2025 p. 97. Editorial lead, not printed.
+6a | Individual duct with transverse striation without structure at the base | | Phlebotomus langeroni | | Akhoundi et al. 2025 p. 97. Species account p. 37 (Figures N°22).
+6b | [Other boxes for separate spermathecal ducts] | 7 | | | Akhoundi et al. 2025 p. 97. Editorial lead, not printed.
+7a | Individual striated spermathecal duct with a sub-terminal bulb slightly bilobed | | Phlebotomus longicuspis | | Akhoundi et al. 2025 p. 97. Species account p. 39 (Figures N°23).
+7b | [Other boxes for separate spermathecal ducts] | 8 | | | Akhoundi et al. 2025 p. 97. Editorial lead, not printed.
+8a | Spermathecal duct with a long dilated cornet thickened at basis without lateral structure | | Phlebotomus orientalis | | Akhoundi et al. 2025 p. 97. "cornet" is hard to read in the image (rn/m); read as in the species account p. 47 ("long-dilated cornet"). Species account p. 47 (Figures N°28).
+8b | [Other boxes for separate spermathecal ducts] | 9 | | | Akhoundi et al. 2025 p. 97. Editorial lead, not printed.
+9a | Separate sub-terminal lateral bulb with about 20 µm width | | Phlebotomus perniciosus | | Akhoundi et al. 2025 p. 97. Species account p. 55 (Figures N°32).
+9b | [Other boxes for separate spermathecal ducts] | 10 | | | Akhoundi et al. 2025 p. 97. Editorial lead, not printed.
+10a | Asymmetric lateral pocket near the opening of each spermathecal duct | | Phlebotomus perfiliewi; Phlebotomus galilaeus; Phlebotomus transcaucasicus | | Akhoundi et al. 2025 p. 97. Species accounts pp. 49-53 (Figures N°29-31).
+10b | [Other boxes for separate spermathecal ducts] | 11 | | | Akhoundi et al. 2025 p. 97. Editorial lead, not printed.
+11a | Spermatheca with 13-18 segments with a relatively short neck | | Phlebotomus keshishiani | | Akhoundi et al. 2025 p. 97. Species account p. 35 (Figures N°21).
+11b | [Other boxes for separate spermathecal ducts] | 12 | | | Akhoundi et al. 2025 p. 97. Editorial lead, not printed.
+12a | Individual spermathecal ducts gradually widen in the distal portion. Limit between duct and body difficult to observe | | Phlebotomus kandelakii | | Akhoundi et al. 2025 p. 97. Species account p. 34 (Figures N°20).
+12b | Asymmetric bell-shaped swellings on the outer side of spermathecal duct | | Phlebotomus tobbi | | Akhoundi et al. 2025 p. 97. Species account p. 56 (Figures N°33).
+
+# key_id: akhoundi2025_adlerius_male
+# Akhoundi et al. 2025 p. 98 ("Adlerius* ♂"). Males of subgenus Adlerius, Mediterranean and Middle East.
+# Footnotes printed: "*: The females are morphologically indistinguishable from each other and identified based on the male specimens."; "**: Variation in antennal formula".
+1a | Antennal ascoid formula 2/3-15 → Gonocoxite with about 20 internal hairs | | Phlebotomus simici | | Akhoundi et al. 2025 p. 98. Species account p. 71 (Figures N°46).
+1b | [Antennal ascoid formula 2/3-8, 1/9-15 or 2/3-5, 1/6-15] | 2 | | | Akhoundi et al. 2025 p. 98. Editorial lead, not printed: the flowchart branches three ways by ascoid formula.
+2a | Antennal ascoid formula 2/3-8, 1/9-15 | 3 | | | Akhoundi et al. 2025 p. 98
+2b | Antennal ascoid formula 2/3-5, 1/6-15 | 4 | | | Akhoundi et al. 2025 p. 98
+3a | Gonocoxite with 17-27 hairs | 5 | | | Akhoundi et al. 2025 p. 98
+3b | Gonocoxite with 29-115 hairs | 6 | | | Akhoundi et al. 2025 p. 98
+5a | Subterminal tubercle 6-16µm far from the tip of parameral sheath, hairs on both basal and distal halves of the gonocoxite | | Phlebotomus turanicus | | Akhoundi et al. 2025 p. 98. Species account p. 72 (Figures N°47).
+5b | Subterminal tubercle 19-28µm far from the tip of parameral sheath, all hairs on the basal part of the gonocoxite | | Phlebotomus brevis | | Akhoundi et al. 2025 p. 98. Species account p. 62 (Figures N°37).
+6a | Parameral sheath with right-angled subterminal tubercle, gonocoxite with 34-53 hairs | | Phlebotomus halepensis | | Akhoundi et al. 2025 p. 98. Species account p. 65 (Figures N°40).
+6b | Parameral sheath with obtuse angled subterminal | 7 | | | Akhoundi et al. 2025 p. 98
+7a | Gonocoxite with 50-85 hairs | 8 | | | Akhoundi et al. 2025 p. 98
+7b | Gonocoxite with 27-50 hairs → The hairs are mostly located in the middle of the gonocoxite | | Phlebotomus kabulensis | | Akhoundi et al. 2025 p. 98. As printed; the range 27-50 overlaps 50-85 (7a) and starts below the 29-115 hairs of 3b. Species account p. 66 (Figures N°41).
+8a | Genital filament ≤1100µm | 9 | | | Akhoundi et al. 2025 p. 98
+8b | Genital filament 1200-1700µm → Parameral sheath with a subterminal tubercle at 12-24µm from the apex | | Phlebotomus longiductus | | Akhoundi et al. 2025 p. 98. Species account p. 68 (Figures N°43).
+9a | Gonocoxite with 50-60 hairs, A3=400-430µm | | Phlebotomus arabicus | | Akhoundi et al. 2025 p. 98. As printed; hair counts overlap with 9b. Species account p. 60 (Figures N°35).
+9b | Gonocoxite with 54-98 hairs, A3=400µm | | Phlebotomus naqbenius | | Akhoundi et al. 2025 p. 98. As printed; hair counts overlap with 9a and exceed the 50-85 of 7a. Species account p. 69 (Figures N°44).
+4a | Gonocoxite with 90-220 hairs | 10 | | | Akhoundi et al. 2025 p. 98
+4b | Gonocoxite with 30-85 hairs | 11 | | | Akhoundi et al. 2025 p. 98
+10a | Wide gonocoxite with 125-220 hairs | | Phlebotomus comatus | | Akhoundi et al. 2025 p. 98. As printed; hair counts overlap with 10b (125-130). Species account p. 63 (Figures N°38).
+10b | Narrow gonocoxite with 90-130 hairs | | Phlebotomus balcanicus | | Akhoundi et al. 2025 p. 98. Species account p. 61 (Figures N°36).
+11a | Gonocoxite with 30-40 hairs → Parameral sheath with a subterminal tubercle at 10-14µm from the apex | | Phlebotomus kyreniae | | Akhoundi et al. 2025 p. 98. Species account p. 67 (Figures N°42).
+11b | Gonocoxite with 40-85 hairs | 12 | | | Akhoundi et al. 2025 p. 98
+12a | Parameral sheath with a subterminal tubercle at 10-20µm from the apex | | Phlebotomus salangensis | | Akhoundi et al. 2025 p. 98. Species account p. 70 (Figures N°45).
+12b | Gonocoxite hairs (54-85) equally distributed between the proximal and distal halves | | Phlebotomus creticus | | Akhoundi et al. 2025 p. 98. Printed "Ph. creticus**"; footnote **: "Variation in antennal formula". Species account p. 64 (Figures N°39).
+
+# key_id: akhoundi2025_transphlebotomus_male
+# Akhoundi et al. 2025 p. 99 ("Transphlebotomus♂"). Males of subgenus Transphlebotomus. P. simonahalepae is not in this flowchart.
+1a | Third antennal segment shorter than 300 µm → Antennal formula: 2/3–11,1/12–15. Pharyngeal armature occupying the quarter third of the pharynx, 26-38 hairs in middle of gonocoxite | | Phlebotomus anatolicus | | Akhoundi et al. 2025 p. 99. As printed ("quarter third"). Species account p. 80 (Figures N°53).
+1b | Third antennal segment longer than 300 µm | 2 | | | Akhoundi et al. 2025 p. 99
+2a | Parameral sheath tapered regularly and terminated by a foam tip, gonocoxite more than 300 µm | 3 | | | Akhoundi et al. 2025 p. 99. As printed ("foam tip").
+2b | Gonocoxite length less than 300 µm | | Phlebotomus killicki | | Akhoundi et al. 2025 p. 99. Species account p. 86 (Figures N°56).
+3a | Gonostyle > 200 µm → Gonostyle with 4 to 6 spines. Gonocoxite with 35 to 40 sparse hairs. | | Phlebotomus economidesi | | Akhoundi et al. 2025 p. 99. Species account p. 84 (Figures N°55).
+3b | Gonostyle < 200 µm | 4 | | | Akhoundi et al. 2025 p. 99
+4a | Gonocoxite with 35 to 45 hairs | | Phlebotomus mascittii | | Akhoundi et al. 2025 p. 99. Printed name: "Ph. mascitti" (spelled "mascittii" in the paper's Table 1). Species account p. 87 (Figures N°57).
+4b | Gonocoxite with 21 to 27 hairs | | Phlebotomus canaaniticus | | Akhoundi et al. 2025 p. 99. Species account p. 82 (Figures N°54).
+
+# key_id: akhoundi2025_transphlebotomus_female
+# Akhoundi et al. 2025 p. 100 ("Transphlebotomus ♀"). Females of subgenus Transphlebotomus.
+# Footnote printed: "*: Taking into account the spermatheca of Ph. killicki has never been described. We excluded this species from the dichotomic key."
+1a | Cylindrical striated spermatheca | 2 | | | Akhoundi et al. 2025 p. 100
+1b | Non-cylindrical striated spermatheca with swollen duct | | Phlebotomus canaaniticus; Phlebotomus mascittii | | Akhoundi et al. 2025 p. 100. Printed name: "Ph. mascitti". Species accounts pp. 82, 87 (Figures N°54, N°57).
+2a | Spermatheca with terminal knob → Spermathecal terminal knob round-shaped with 9 finger-like prolongations connected by a thin neck | | Phlebotomus simonahalepae | | Akhoundi et al. 2025 p. 100. Species account p. 89 (Figures N°58).
+2b | Spermatheca without terminal knob | | Phlebotomus anatolicus; Phlebotomus economidesi | | Akhoundi et al. 2025 p. 100. Species accounts pp. 80, 84 (Figures N°53, N°55).

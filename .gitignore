@@ -3,6 +3,12 @@
 # working files made while transcribing
 inbox/img/
 inbox/*.txt
+inbox/*/
 data/.last_build.json
 __pycache__/
 *.pyc
+
+# staged additions from parallel agents (merged into data/ by merge_staging.py)
+data/staging/
+sources/*/
+inbox/_download_report.json

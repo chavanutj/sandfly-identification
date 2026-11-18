@@ -1,0 +1,71 @@
+# key_id: vongphayloth2024_female
+# Vongphayloth, K., Randrianambinintsoa, F.J., Lakeomany, K., Phommavanh, N., Pongsanarm, T., Vungkyly, V.,
+# Luangamath, P., Chonephetsarath, S., Brey, P.T. & Depaquit, J. (2024) Parasites & Vectors 17: 385.
+# doi:10.1186/s13071-024-06444-w (CC BY 4.0)
+# Table 4 (p. 15) "Dichotomous key for females found in the karst area of Vientiane": females of the 19 species
+# identified to species level in karstic limestone areas of Vientiane Province, Laos (Chinius, Idiophlebotomus,
+# Phlebotomus, Sergentomyia, Grassomyia). Printed as a table: one row = one lead; the second lead of each couplet
+# has no number in the table and is given here as "b". Taxon names abbreviated in the table (Ch., Id., Ph., Se., Gr.)
+# are written out in the taxon column.
+1a | Five radial veins on the wing | 2 | | | Vongphayloth et al. 2024 p. 15
+1b | Four radial veins on the wing (fusion of r2 + r3) | | Chinius eunicegalatiae | | Vongphayloth et al. 2024 p. 15
+2a | The longest palpal segment is the distal one (p5) | 3 | | | Vongphayloth et al. 2024 p. 15
+2b | The longest palpal segment is not the distal one (p5) | | Idiophlebotomus longiforceps | | Vongphayloth et al. 2024 p. 15
+3a | Abdominal tergites 2–6 with erect hairs | 4 | | Genus Phlebotomus | Vongphayloth et al. 2024 p. 15
+3b | Abdominal tergites 2–6 with recumbent hairs | 9 | | | Vongphayloth et al. 2024 p. 15. Leads to Sergentomyia and Grassomyia.
+4a | Non-pigmented pharyngeal armature | 5 | | | Vongphayloth et al. 2024 p. 15
+4b | Pigmented pharyngeal armature | 6 | | | Vongphayloth et al. 2024 p. 15
+5a | Fourth palpal segments > 130 µm, terminal knob of the spermatheca carried by a long and narrow neck | | Phlebotomus breyi | | Vongphayloth et al. 2024 p. 15. As printed; values between 120 and 130 µm are covered by neither lead, use the spermathecal neck.
+5b | Fourth palpal segments < 120 µm, terminal knob of the spermatheca carried by short and wide neck | | Phlebotomus sinxayarami | | Vongphayloth et al. 2024 p. 15
+6a | Presence of a thick and long common spermathecal duct | | Phlebotomus stantoni | | Vongphayloth et al. 2024 p. 15
+6b | Absence of a thick and long common spermathecal duct | 7 | | | Vongphayloth et al. 2024 p. 15
+7a | Smooth spermathecae | | Phlebotomus barguesae | | Vongphayloth et al. 2024 p. 15
+7b | Annealed spermathecae | 8 | | | Vongphayloth et al. 2024 p. 15. As printed ("Annealed"); probably meant "annulated" (segmented, ringed) spermathecae, as opposed to smooth in 7a.
+8a | Rounded distal ring. Limit between spermathecae and ducts difficult to observe | | Phlebotomus mascomai | | Vongphayloth et al. 2024 p. 15
+8b | Rectangular distal ring. Limit between spermathecae and ducts easy to observe | | Phlebotomus kiangsuensis | | Vongphayloth et al. 2024 p. 15
+9a | Absence of a cibarial sclerotized area | | Sergentomyia phasukae | | Vongphayloth et al. 2024 p. 15
+9b | Presence of a cibarial sclerotized area | 10 | | | Vongphayloth et al. 2024 p. 15. CORRECTION: printed as "11"; couplet 10 (little versus well-developed sclerotized area) would otherwise be unreachable and its second lead already leads to 11.
+10a | Little sclerotized area | | Sergentomyia silvatica | | Vongphayloth et al. 2024 p. 15. Printed name: "Se. sylvatica"
+10b | Well-developed sclerotized area | 11 | | | Vongphayloth et al. 2024 p. 15
+11a | Two ascoids on flagellomere 1 | 12 | | | Vongphayloth et al. 2024 p. 15
+11b | One ascoid on flagellomere 1 | | Grassomyia indica | | Vongphayloth et al. 2024 p. 15. Treated as Gr. indica s.l. by the authors (p. 18).
+12a | Presence of several cibarial teeth | 13 | | | Vongphayloth et al. 2024 p. 15
+12b | Presence of one big V-shaped cibarial tooth | | Sergentomyia anodontis | | Vongphayloth et al. 2024 p. 15. Treated as Se. anodontis s.l. (possible species complex) by the authors (p. 17).
+13a | Presence of numerous comb-like cibarial teeth | 14 | | | Vongphayloth et al. 2024 p. 15
+13b | Presence of pointed cibarial teeth | 16 | | | Vongphayloth et al. 2024 p. 15
+14a | Bifurcated proximal part of the sclerotized area | | Sergentomyia siamensis | | Vongphayloth et al. 2024 p. 15
+14b | Non-furcated proximal part of the sclerotized area | 15 | | | Vongphayloth et al. 2024 p. 15
+15a | More than 75 cibarial teeth | | Sergentomyia rudnicki | | Vongphayloth et al. 2024 p. 15. As printed; counts between 65 and 75 are covered by neither lead.
+15b | From 45 to 65 cibarial teeth | | Sergentomyia brevicaulis | | Vongphayloth et al. 2024 p. 15. Printed name: "Se. brevicaulis group"; called "Se. brevicaulis-like" in the text (about 50 comb-like teeth, long pharyngeal teeth; taxonomic status unresolved, p. 17).
+16a | Cibarium with less than 10 vertical teeth | | Sergentomyia perturbans | | Vongphayloth et al. 2024 p. 15. Printed name: "Se. perturbans s. l"; the authors consider the identity of Se. perturbans doubtful (p. 18).
+16b | Cibarium with more than 10 vertical teeth | 17 | | | Vongphayloth et al. 2024 p. 15. As printed; exactly 10 vertical teeth is covered by neither lead. Doubtful: the same paper gives Se. dvoraki 2-12 anterior teeth (Table 2, p. 11), Se. hivernus "a few vertical teeth" (19b) and Se. marolii no anterior teeth (text p. 12; key 18a), yet all three key out under this lead.
+17a | Pharynx armed with pointed teeth oriented backwards, wrinkled spermathecae | | Sergentomyia dvoraki | | Vongphayloth et al. 2024 p. 15. Printed name: "Se. dvoraki n. sp.". As printed; doubtful: the description of Se. marolii (p. 12, Fig. 4E) gives "Pharynx strongly armed with pointed translucent teeth oriented backwards" and wrinkled spermathecae, while the description of Se. dvoraki does not mention pharyngeal teeth. Check both species against the descriptions.
+17b | Pharynx armed with faint ridges | 18 | | | Vongphayloth et al. 2024 p. 15. As printed; see note on 17a.
+18a | Cibarium without vertical teeth | | Sergentomyia marolii | | Vongphayloth et al. 2024 p. 15. Printed name: "Se. marolii n. sp.". The description (p. 12) has 11 big cibarial teeth and no denticles (anterior teeth), but Table 3 (p. 14) lists 11 anterior teeth and posterior teeth absent.
+18b | Cibarium with vertical teeth | 19 | | | Vongphayloth et al. 2024 p. 15
+19a | Cibarium with two or more rows of vertical teeth occupying all the cibarial width, spermathecae are not tubular with limits between the body and duct | | Sergentomyia khawi | | Vongphayloth et al. 2024 p. 15
+19b | Cibarium with one or two rows with a few vertical teeth in the center of the cibarium, spermathecae are tubular without limits between the body and duct | | Sergentomyia hivernus | | Vongphayloth et al. 2024 p. 15
+
+# key_id: vongphayloth2024_male
+# Vongphayloth et al. (2024) Parasites & Vectors 17: 385. doi:10.1186/s13071-024-06444-w (CC BY 4.0)
+# Table 5 (p. 16) "Dichotomous key for males found in the karst area of Vientiane": males from karstic limestone
+# areas of Vientiane Province, Laos. Sergentomyia males are not identified to species (p. 3: "high similarity of the
+# male morphology within this genus"). One row = one lead; the unnumbered second lead is given here as "b".
+1a | Five radial veins on the wing | 2 | | | Vongphayloth et al. 2024 p. 16
+1b | Four radial veins on the wing (fusion of r2 + r3) | | Chinius eunicegalatiae | | Vongphayloth et al. 2024 p. 16
+2a | Absence of abdominal rods surrounding the aedeagal ducts | 3 | | | Vongphayloth et al. 2024 p. 16
+2b | Presence of abdominal rods surrounding the aedeagal ducts | | Idiophlebotomus longiforceps | | Vongphayloth et al. 2024 p. 16
+3a | Five spines on the gonostyle | 4 | | | Vongphayloth et al. 2024 p. 16
+3b | Four spines on the gonostyle | 8 | | | Vongphayloth et al. 2024 p. 16
+4a | Simple paramere | 5 | | | Vongphayloth et al. 2024 p. 16
+4b | Tri-lobed paramere | 6 | | | Vongphayloth et al. 2024 p. 16
+5a | Aedeagal ducts > 500 µm | | Phlebotomus breyi | | Vongphayloth et al. 2024 p. 16
+5b | Aedeagal ducts < 500 µm | | Phlebotomus sinxayarami | | Vongphayloth et al. 2024 p. 16
+6a | One ascoid on flagellomeres 2 and 3 | | Phlebotomus kiangsuensis | | Vongphayloth et al. 2024 p. 16
+6b | Two ascoids on flagellomeres 2 and 3 | 7 | | | Vongphayloth et al. 2024 p. 16
+7a | Parameral sheath slender on all their length with a round top, aedeagal ducts/pump ratio > 4 | | Phlebotomus mascomai | | Vongphayloth et al. 2024 p. 16
+7b | Thick parameral sheath with a blunt-end top, aedeagal ducts/pump ratio < 4 | | Phlebotomus barguesae | | Vongphayloth et al. 2024 p. 16
+8a | Simple paramere | 9 | | | Vongphayloth et al. 2024 p. 16
+8b | Tri-lobed paramere | | Phlebotomus stantoni | | Vongphayloth et al. 2024 p. 16
+9a | Two ascoids on flagellomere 1 | | Genus Sergentomyia | | Vongphayloth et al. 2024 p. 16. Printed: "Sergentomyia spp."; males of Sergentomyia were not identified to species in this study.
+9b | One ascoid on flagellomere 1 | | Grassomyia indica | | Vongphayloth et al. 2024 p. 16. Treated as Gr. indica s.l. by the authors (p. 18).
