@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Home | Sand Fly ID</title>
+<link rel="stylesheet" href="assets/style.css">
+<script>(function(){var d=document.documentElement,q=new URLSearchParams(location.search),s=null,v=null;
+try{s=localStorage.getItem("sf-size");v=localStorage.getItem("sf-view");}catch(e){}
+if(q.get("size")){s=q.get("size");try{localStorage.setItem("sf-size",s);}catch(e){}}
+if(q.get("view")){v=q.get("view");try{localStorage.setItem("sf-view",v);}catch(e){}}
+d.dataset.size=s||"m";d.dataset.view=v||"normal";})();</script></head>
+<body>
+<header class="banner"><a class="brand" href="index.html"><span class="t1">Phlebotomine Sand Flies of the Oriental Region</span>
+<span class="t2">Identification keys, species pages and terminology</span></a>
+<div class="viewctl" role="group" aria-label="Display settings">
+<span class="lbl">Text</span><button type="button" data-size="s" title="Smaller text">A−</button><button type="button" data-size="m" title="Normal text">A</button><button type="button" data-size="l" title="Large text">A+</button><button type="button" data-size="xl" title="Extra large text">A++</button>
+<button type="button" class="scope" data-view="scope" title="Large high-contrast view for use beside the microscope">🔬 Microscope mode</button></div></header>
+<div class="wrap">
+<nav class="side"><ul><li><a href="index.html" class=on>Home</a></li><li><a href="keys.html">Identification keys</a></li><li><a href="taxa/index.html">Species list</a></li><li><a href="thailand.html">Thailand records</a></li><li><a href="glossary.html">Glossary</a></li><li><a href="figures.html">Figures</a></li><li><a href="conflicts.html">Conflicts &amp; updates</a></li><li><a href="sources.html">Sources</a></li><li><a href="about.html">About / how to edit</a></li></ul>
+<form class="search" action="taxa/index.html"><input name="q" placeholder="Find a species…" aria-label="Find a species"></form>
+</nav>
+<main><h1>Phlebotomine Sand Flies of the Oriental Region</h1>
+<div class="intro"><img src="img/figures/galati2017_fig1.jpg" alt="Head of a female phlebotomine (Galati et al. 2017, CC BY)"><div><p>Phlebotomine sand flies (Diptera: Psychodidae: Phlebotominae) transmit <i>Leishmania</i>, phleboviruses and <i>Bartonella</i>. Identification rests on microscopic characters of slide-mounted adults: the cibarium and pharynx, spermathecae and antennae of females, and the genitalia of males.</p><p>This site brings together the published dichotomous keys for the Oriental Region and updates them with later taxonomic work on Thailand and neighbouring countries.</p></div></div>
+<div class="tiles">
+<a href="keys.html"><b>11</b> identification keys<br><span>644 leads, 322 couplets</span></a>
+<a href="taxa/index.html"><b>161</b> taxa<br><span>with key paths and notes</span></a>
+<a href="thailand.html"><b>21</b> recorded from Thailand<br><span>in the sources used</span></a>
+<a href="conflicts.html"><b>21</b> documented conflicts<br><span>plus 29 update notes</span></a>
+</div>
+<h2>Quick start</h2>
+<ol><li>Clear and slide-mount the specimen. Sex it (female spermathecae / male genitalia).</li><li>Open <a href="keys/lewis1978.html">Lewis 1978</a> and use <b>Step through</b>. At each couplet choose the lead that fits.</li><li>Read any <span class="warn">⚠</span> note on the leads you passed: later work may have split the species.</li><li>Open the species page: compare the <b>diagnostic notes</b>, <b>conflicting characters</b> and figures.</li><li>Unsure of a term? See the <a href="glossary.html">glossary</a>.</li></ol>
+<h2>Keys</h2><ul><li><a href="keys/lewis1978.html">Oriental Phlebotominae: species and subspecies</a> <span class="muted">(Lewis 1978)</span></li><li><a href="keys/quate1962.html">Indo-Chinese species (Thailand to Viet Nam)</a> <span class="muted">(Quate 1962)</span></li><li><a href="keys/srilanka_female.html">Sri Lanka: females</a> <span class="muted">(Wijerathna &amp; Gunathilaka 2020)</span></li><li><a href="keys/srilanka_male.html">Sri Lanka: males</a> <span class="muted">(Wijerathna &amp; Gunathilaka 2020)</span></li><li><a href="keys/lewis1982_subgenera.html">Subgenera of Phlebotomus</a> <span class="muted">(Lewis 1982)</span></li><li><a href="keys/lewis1982_idiophlebotomus.html">Idiophlebotomus species</a> <span class="muted">(Lewis 1982)</span></li><li><a href="keys/lewis1982_euphlebotomus.html">Euphlebotomus species (argentipes group)</a> <span class="muted">(Lewis 1982)</span></li><li><a href="keys/lewis1982_anaphlebotomus.html">Anaphlebotomus species (stantoni group)</a> <span class="muted">(Lewis 1982)</span></li><li><a href="keys/lewis1987_grassomyia.html">Grassomyia: females</a> <span class="muted">(Lewis 1987)</span></li><li><a href="keys/lewis1987_babu.html">Sergentomyia babu series: females</a> <span class="muted">(Lewis 1987)</span></li><li><a href="keys/italy.html">Italy (comparison key)</a> <span class="muted">(Dantas-Torres et al. 2014)</span></li></ul></main></div>
+<footer>Built 2026-11-18 from <code>data/*.csv</code>. Key texts are transcribed from the cited
+publications; check the original before formal identification. Figures © their authors (CC BY 4.0 where stated).</footer>
+<script src="assets/site.js"></script>
+</body></html>

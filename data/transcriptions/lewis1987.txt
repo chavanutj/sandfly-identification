@@ -1,0 +1,25 @@
+# key_id: lewis1987_grassomyia
+# Lewis, D.J. (1987) Phlebotomine sandflies (Diptera: Psychodidae) from the Oriental Region.
+# Systematic Entomology 12: 163-180. "Key to females of all species of Grassomyia" (p. 165),
+# based partly on Abonnenc (1972). Lewis here treats Grassomyia as a genus.
+1a | Femora with short spines. Anepimeron bare. Cibarium with 42-55 teeth | 2 | | |
+1b | Femora without short spines | 3 | | |
+2a | Femur 1 with 8-9 short spines | | Grassomyia dreyfussi dreyfussi | | Not Oriental
+2b | Femur 1 with about 3-5 short spines. Oriental Region | | Grassomyia dreyfussi turkestanica | |
+3a | Anepimeron with scales | 4 | | |
+3b | Anepimeron without scales | 6 | | |
+4a | Anepimeron with 17-35 scales. Cibarium with 48-55 teeth | | Grassomyia squamipleuris | | Not Oriental
+4b | Anepimeron with 1-12 scales | 5 | | |
+5a | Cibarium with 19-25 teeth. Anepimeron with 4-9 scales. Pharynx without teeth | | Grassomyia inermis | | Not Oriental
+5b | Cibarium with 36-43 teeth. Anepimeron with 1-12 scales. Pharynx with many teeth | | Grassomyia madagascarensis | | Not Oriental
+6a | Dark part of pigment belt concave anteriorly. Cibarium with 27-37 teeth. West Africa and Ethiopia | | Grassomyia ghesquierei | | Not Oriental
+6b | Dark part of pigment belt straight anteriorly. Oriental Region | | Grassomyia indica | |
+# key_id: lewis1987_babu
+# "Key to females of the S. babu series" (Lewis 1987: 171). The four taxa with a hind notch in the dental area
+# of the cibarium. Values: mean (range ± SD).
+1a | Pharyngeal teeth short (scale-like and some denticulate). Cibarium with 16.7 (12-20 ±1.9) teeth and a rounded notch 15.2 (11-19 ±2.2) µm wide internally | | Sergentomyia baghdadis | |
+1b | Pharyngeal teeth long and pointed | 2 | | |
+2a | Cibarium with V-shaped notch and 12.6 (10-16 ±1.3) teeth | | Sergentomyia shorttii | |
+2b | Cibarium with rounded notch | 3 | | |
+3a | Cibarium with 25.0 (20-29 ±2.3) teeth. Wing narrow, 4.52 (4.19-5.06) times as long as wide. Notch 17.6 (11-28 ±4.1) µm wide | | Sergentomyia babu babu | |
+3b | Cibarium with 45.8 (42-51) teeth. Wing wide, 3.85 (3.76-3.96) times as long as wide | | Sergentomyia babu insularis | |

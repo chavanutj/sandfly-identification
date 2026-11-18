@@ -1,0 +1,8 @@
+# Source PDFs are copyrighted: keep them local, do not push to a public repository
+*.pdf
+# working files made while transcribing
+inbox/img/
+inbox/*.txt
+data/.last_build.json
+__pycache__/
+*.pyc

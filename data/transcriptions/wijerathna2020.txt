@@ -1,0 +1,81 @@
+# key_id: srilanka_female
+# Wijerathna, T. & Gunathilaka, N. (2020) Morphological identification keys for adults of sand flies
+# (Diptera: Psychodidae) in Sri Lanka. Parasites & Vectors 13: 450. doi:10.1186/s13071-020-04305-w (CC BY 4.0)
+# Table 1 - key based on female morphology. Couplet ids: G = genus couplet, P = Phlebotomus part, S = Sergentomyia part.
+G1a | Wings broader, asymmetrical along the length (Fig. 1f). Cibarium unarmed or with scattered spicules, without a pigment patch (Fig. 1d) | P1 | | Genus Phlebotomus |
+G1b | Wings narrow, lanceolate, symmetrical along the length (Fig. 1e). Cibarium with one or more rows of teeth, pigment patch usually present (Fig. 1c) | S1 | | Genus Sergentomyia |
+P1a | Head of spermatheca with a distinct neck; spermatheca spindle-shaped (Fig. 2a) | | Phlebotomus stantoni | |
+P1b | Head of spermatheca without a distinct neck (Figs 2b, 4a); spermatheca not spindle-shaped | P2 | | |
+P2a | Spermatheca with 7-8 segments; apical segment not enlarged (Fig. 4a) | | Phlebotomus salehi | |
+P2b | Spermatheca with 15-17 segments; apical segment enlarged (Fig. 2b) | P3 | | |
+P3a | Thorax dorsum brown, sides dark | | Phlebotomus marginatus | | Status debated; often treated as a variety of P. argentipes (see paper's discussion).
+P3b | Thorax dorsum black, sides pale | P4 | | Phlebotomus argentipes sensu lato |
+P4a | Wing overlap (R1 overlap with R2 / complete length of R2) < 0.2; wing index (R2/R2+3) < 0.2; ascoid : antennal flagellomere ratio > 0.5 | | Phlebotomus glaucus | |
+P4b | Wing overlap ≥ 0.2; wing index > 0.2; ascoid : antennal flagellomere ratio < 0.5 | P5 | | |
+P5a | Wing overlap = 0.2; wing index = 2.0; ascoid : antennal flagellomere ratio > 0.4 | | Phlebotomus argentipes | | sensu stricto
+P5b | Wing overlap > 0.2; wing index < 2.0; ascoid : antennal flagellomere ratio < 0.4 | | Phlebotomus annandalei | |
+S1a | Spermatheca with capsule (Fig. 4b, c), not tubular | S2 | | |
+S1b | Spermatheca without capsule, tubular (Fig. 4d) | S10 | | |
+S2a | Capsule of spermatheca with numerous spicules or striations (Fig. 4b, c) | S3 | | Subgenus Grassomyia |
+S2b | Capsule of spermatheca smooth | S4 | | Subgenus Parrotomyia |
+S3a | Tip of spermatheca with minute projections (Fig. 4b) | | Sergentomyia indica | |
+S3b | Tip of spermatheca with small projections (Fig. 4c) | | Sergentomyia dreyfussi | |
+S4a | Pharynx with distinct pointed teeth (Fig. 3a) | S5 | | |
+S4b | Pharynx with fine spicules or none (Fig. 5a) | S7 | | |
+S5a | Cibarium with a deep notch in hind end of ventral plate (Fig. 3b) | | Sergentomyia babu insularis | |
+S5b | Cibarium without a notch in hind end of ventral plate (Fig. 5b) | S6 | | |
+S6a | Pharynx broad with numerous finely pointed teeth; cibarium with 40-70 teeth; tip of pigment patch bifid, ragged or fenestrated (Fig. 5b) | | Sergentomyia barraudi | |
+S6b | Without this combination | | Sergentomyia rudnicki | |
+S7a | Cibarium with a deep notch (Fig. 5c) | | Sergentomyia baghdadis | |
+S7b | Cibarium without a deep notch | S8 | | |
+S8a | Pharynx with well-defined scales (Fig. 5d) | | Sergentomyia grekovi | |
+S8b | Pharynx without scales | S9 | | |
+S9a | Cibarium with pigment patch and 17 hind teeth; pharynx with long teeth (Fig. 5e) | | Sergentomyia modii | |
+S9b | Cibarial pigment patch small or absent (Fig. 5f); pharynx with spiculate ridges | | Sergentomyia bailyi | |
+S10a | Spermatheca smooth (Fig. 4e) | S11 | | Subgenus Sergentomyia |
+S10b | Spermatheca with striations (Fig. 4d) | S13 | | Subgenus Neophlebotomus |
+S11a | Pharynx broad at posterior end with a deep constriction at base (Fig. 5g) | | Sergentomyia punjabensis | |
+S11b | Pharynx barrel-shaped at posterior end and lacking a deep constriction at the base (Fig. 5h, i) | S12 | | |
+S12a | Posterior margin of pharyngeal armature convex (Fig. 5h) | | Sergentomyia dentata | |
+S12b | Posterior margin of pharyngeal armature straight (Fig. 5i) | | Sergentomyia pondicherriensis | |
+S13a | Cibarium with about 8 rows of fore teeth (Fig. 3c); labrum 0.13-0.15 times the length of wing | | Sergentomyia arboris | |
+S13b | Cibarium with one or more rows of teeth; labrum > 0.11 times the length of wing | S14 | | | As printed. S. jamesi (14a) has no tooth row, so read 13b as "cibarium without about 8 rows of fore teeth".
+S14a | Cibarium without row of teeth; labrum 0.11 times the length of wing | | Sergentomyia jamesi | |
+S14b | Cibarium with 3 rows of fore teeth (Fig. 3d) | S15 | | |
+S15a | Labrum 0.18-0.20 times length of wing; R2/R2+3 < 2.06 | | Sergentomyia malayae | |
+S15b | Labrum 0.13-0.15 times length of wing; R2/R2+3 > 2.06 | | Sergentomyia zeylanica | |
+# key_id: srilanka_male
+# Table 2 - key based on male morphology. Males unknown for P. marginatus, S. bailyi, S. jamesi, S. modii.
+# S. babu insularis and S. baghdadis are not separated in the male key.
+G1a | Style with 4 or 5 spines; not all spines terminal (Fig. 1b) | P1 | | Genus Phlebotomus |
+G1b | Style with 4-5 spines, usually terminal; if not all spines terminal, 2 spines terminal and 2 sub-terminal, often in pairs (Fig. 1g) | S1 | | Genus Sergentomyia |
+P1a | Paramere with 2 long dorsal processes; style long, with 5 short spines (Fig. 4f) | | Phlebotomus salehi | |
+P1b | Paramere without processes or with short ventral processes; style long or short, with long spines (Fig. 2c, d) | P2 | | |
+P2a | Parameres tri-lobed. Style with 4 spines (Fig. 2d) | | Phlebotomus stantoni | |
+P2b | Parameres with 2 ventral processes; style with 5 spines, rarely 6 spines (Fig. 2c) | P3 | | Phlebotomus argentipes sensu lato |
+P3a | Gonocoxite : gonostyle ratio < 1.5 | | Phlebotomus glaucus | |
+P3b | Gonocoxite : gonostyle ratio > 1.5 | P4 | | |
+P4a | Gonocoxite : gonostyle ratio > 1.65 | | Phlebotomus argentipes | | sensu stricto. Ratios in 4a/4b overlap as printed; confirm with other characters.
+P4b | Gonocoxite : gonostyle ratio > 1.75 | | Phlebotomus annandalei | |
+S1a | Aedeagus thick, finger-shaped (Fig. 2e) | S2 | | Subgenus Sergentomyia |
+S1b | Aedeagus gradually tapering to the end (Fig. 2f) | S4 | | |
+S2a | Style with 2 terminal and 2 subterminal spines (Fig. 4g); cibarial teeth not uniform in size | | Sergentomyia dentata | |
+S2b | Style with 4 terminal spines and no subterminal spines (Fig. 2g); cibarial teeth uniform in size | S3 | | |
+S3a | Cibarial teeth arranged in 2 rows | | Sergentomyia pondicherriensis | |
+S3b | Cibarial teeth arranged in a single row | | Sergentomyia punjabensis | |
+S4a | Genital filaments with dilated ends; A3 without ascoid | S5 | | Subgenus Grassomyia |
+S4b | Genital filaments with narrow ends (Fig. 2h); A3 with one ascoid | S6 | | |
+S5a | Paramere with rounded end (Fig. 4h) | | Sergentomyia indica | |
+S5b | Paramere with hooked end (Fig. 4i) | | Sergentomyia dreyfussi | |
+S6a | Paramere with hairy ventral tubercles (Fig. 2i) | S7 | | Subgenus Neophlebotomus |
+S6b | Paramere without ventral tubercles (Fig. 2j) | S9 | | Subgenus Parrotomyia |
+S7a | Aedeagus length c. 10 times mid-width of shaft (Fig. 2k) | | Sergentomyia arboris | |
+S7b | Aedeagus length c. 5 times mid-width of shaft | S8 | | |
+S8a | Outer hairs of the coxite evenly spaced | | Sergentomyia malayae | |
+S8b | Outer hairs of the coxite not evenly spaced, some of the hairs concentrated (Fig. 2l) | | Sergentomyia zeylanica | |
+S9a | Style c. 4 times as long as thick; all spines on style apical | | Sergentomyia barraudi | |
+S9b | Style 5 or 6 times as long as thick; spines on style not always apical | S10 | | |
+S10a | Cibarial fore teeth well developed | | Sergentomyia grekovi | |
+S10b | Cibarial fore teeth not well developed | S11 | | |
+S11a | Antennal segment 3 > 0.25 mm in length | | Sergentomyia rudnicki | |
+S11b | Antennal segment 3 < 0.20 mm in length | | Sergentomyia babu insularis | | Printed as S. babu insularis only, but the authors state that males of S. baghdadis cannot be separated from it and key out here too.

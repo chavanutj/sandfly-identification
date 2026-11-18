@@ -1,0 +1,403 @@
+# key_id: lewis1978
+# Lewis, D.J. (1978) The phlebotomine sandflies (Diptera: Psychodidae) of the Oriental Region.
+# Bull. Br. Mus. nat. Hist. (Ent.) 37(6): 217-343. Key on pp. 223-232.
+# Transcribed from page images. Format: couplet+lead | text | goto | taxon | defines-group | note
+# Page references "(p. NNN)" in the original are kept in the note column as "Lewis 1978 p. NNN".
+1a | Cibarial teeth absent or, if present, usually in the form of spicules and not in a definite row (Fig. 27). Pigment patch nearly always absent. Hind ends of abdominal tergites 2-6 with many erect hairs (Fig. 1), sockets as large as on 1. Style of ♂ with three to five spines (Figs 19, 25) and sometimes (some species of subgenus Idiophlebotomus) with two hairs as well | 2 | | Genus Phlebotomus | Lewis 1978 p. 233
+1b | Cibarial teeth in a transverse row (Fig. 65), fore teeth sometimes present (Figs 136, 245) and usually pointing upward. Pigment patch (Figs 66, 136) usually present. Hind ends of abdominal tergites 2-6 usually with all or most hairs recumbent, most sockets much smaller than on 1 except in S. musai. Style of ♂ with four major spines and an accessory seta (Fig. 80) | 48 | | Genus Sergentomyia | Lewis 1978 p. 252. CORRECTION: printed as "43" in the original; the Sergentomyia section of the key begins at couplet 48.
+2a | Cibarium with teeth. Pharynx unarmed. Palp not extending further than antenna 3. Style of ♂ with three to five spines, and a pair of intra-abdominal rods | 3 | | Subgenus Idiophlebotomus | Lewis 1978 p. 250. Idiophlebotomus is now usually treated as a separate genus.
+2b | Cibarium with spicules or unarmed. Pharynx usually armed. Palp extending further than antenna 3 | 15 | | |
+3a | Female | 4 | | |
+3b | Male | 11 | | |
+4a | Cibarial armature with median rod | 5 | | |
+4b | Cibarial armature without median rod | 9 | | |
+5a | Cibarial median rod with large serrations | | Phlebotomus asperulus | | Lewis 1978 p. 250
+5b | Cibarial median rod with minute serrations or none | 6 | | |
+6a | Cibarium without teeth except a few granulose spicules | | Phlebotomus erebicolus | | Lewis 1978 p. 251
+6b | Cibarium with teeth | 7 | | |
+7a | Cibarial teeth all short | | Phlebotomus pholetor | | Lewis 1978 p. 251
+7b | Some or all cibarial teeth long | 8 | | |
+8a | Cibarial teeth in radiating lines | | Phlebotomus tubifer | | Lewis 1978 p. 252
+8b | Cibarial teeth not in lines, very long, and parallel | | Phlebotomus frondifer | | Lewis 1978 p. 251
+9a | Cibarial teeth all small | | Phlebotomus stellae | | Lewis 1978 p. 251
+9b | Cibarial teeth not all small | 10 | | |
+10a | Median tooth the longest | | Phlebotomus teshi | | Lewis 1978 p. 252
+10b | Anterior teeth the longest | | Phlebotomus sejunctus | | Lewis 1978 p. 251
+11a | Apical spine of style with marked basal expansion | | Phlebotomus asperulus | | Lewis 1978 p. 250
+11b | Apical spine of style without marked basal expansion | 12 | | |
+12a | Style with three spines | | Phlebotomus erebicolus | | Lewis 1978 p. 251
+12b | Style with more than three spines | 13 | | |
+13a | Style with four spines | | Phlebotomus frondifer | | Lewis 1978 p. 251
+13b | Style with five spines | 14 | | |
+14a | Aedeagus prominent and capitate; paramere slender and without dorsal appendage | | Phlebotomus pholetor | | Lewis 1978 p. 251
+14b | Aedeagus small and triangular; paramere with basal dorsal curved appendage | | Phlebotomus stellae | | Lewis 1978 p. 251
+15a | Coxite of ♂ with sub-basal hairy process. Genital filaments 1.3-2.3 times as long as pump | 16 | | |
+15b | Coxite of ♂ without such process. Genital filaments 3-11 times as long as pump | 24 | | |
+16a | Coxite 0.37-0.74 mm long, its process very small. Style long and cylindrical with three terminal spatulate spines and two other spines. Paramere with two dorsal processes. Surstyle with terminal spines. Pharyngeal armature comprising either a network of lines or scales. Spermatheca with nearly equal segments and a refractive membrane (Figs 2, 3) near bases of ductules | 17 | | Subgenus Phlebotomus | Lewis 1978 p. 233
+16b | Coxite 0.20-0.33 mm long, its process usually large and having a brush of long hairs. Style not long, with four or five spines. Paramere simple, distal upper surface flat and elliptical with short hairs. Surstyle without terminal spines. Pharynx of ♀ with teeth or scales. Spermatheca sometimes with differentiated rounded end-segment | 19 | | |
+17a | Female | | Phlebotomus papatasi; Phlebotomus salehi | | Lewis 1978 pp. 233, 235. Females not separated in this key.
+17b | Male | 18 | | |
+18a | Upper parameral lobe much longer than paramere. Surstyle with two, or sometimes three, similar spines | | Phlebotomus papatasi | | Lewis 1978 p. 233
+18b | Upper parameral lobe same length as paramere. Surstyle with seven spines, large to very small | | Phlebotomus salehi | | Lewis 1978 p. 235
+19a | Style with five long spines, two at the tip and two near the middle. Pharynx of ♀ with irregular scales or punctiform teeth | | Phlebotomus eleanorae | Subgenus Synphlebotomus | Lewis 1978 pp. 236-237
+19b | Style with four long spines, two near the tip and two near the base. Pharynx of ♀ with large backwardly directed teeth | 20 | | Subgenus Paraphlebotomus | Lewis 1978 p. 235
+20a | Female | 21 | | |
+20b | Male | 22 | | |
+21a | Antenna 3 short (0.12-0.16 mm), 0.5-0.6 length of labrum | | Phlebotomus alexandri | | Lewis 1978 p. 235
+21b | Antenna 3 long (0.23-0.33 mm), 0.7-1.0 length of labrum | | Phlebotomus sergenti | | Lewis 1978 p. 236
+22a | Basal process of coxite very large and thick with many hairs on its distal third | | Phlebotomus nuri | | Lewis 1978 p. 236
+22b | Basal process of coxite small and thin with hairs only at its end | 23 | | |
+23a | Antenna 3 short (0.12-0.16 mm), 0.7-0.9 length of labrum. Genital pump short (0.12 mm) with small basal plate or funnel | | Phlebotomus alexandri | | Lewis 1978 p. 235
+23b | Antenna 3 long (0.25-0.34 mm), 1.0-1.4 length of labrum. Genital pump long (0.17-0.2 mm) with broad basal plate | | Phlebotomus sergenti | | Lewis 1978 p. 236
+24a | Style with four long spines of which one is terminal, one subterminal, and two near the middle. Paramere with two or three lobes, with or without accessory spine. Aedeagus short and conical. Pharynx with a small group of teeth in the middle and behind it some concentric lines. Spermatheca segmented, apical segment not enlarged | 25 | | Subgenus Anaphlebotomus | Lewis 1978 p. 247
+24b | Style with five long spines | 30 | | |
+25a | Female | 26 | | |
+25b | Male | 28 | | |
+26a | Spermatheca slightly carrot-shaped with small end-segment, individual duct about four (possibly more) times length of spermatheca. Sternal tubercle broad | | Phlebotomus colabaensis | | Lewis 1978 p. 247
+26b | Spermatheca spindle-shaped with very narrow cylindrical apical segment, duct short but common duct very long. Ascoids long. Palpal segment 3 with peg sensilla grouped around middle | 27 | | |
+27a | Pharyngeal armature with antero-median numerous long pointed teeth which blend laterally with ridges. Individual ducts longer than spermathecae | | Phlebotomus stantoni | | Lewis 1978 p. 248
+27b | Pharyngeal armature with several antero-median rows of small short teeth, and antero-laterally a number of backward-pointing teeth. Individual ducts shorter than spermathecae | | Phlebotomus hoepplii | | Lewis 1978 p. 247
+28a | Paramere bilobed | | Phlebotomus colabaensis | | Lewis 1978 p. 247
+28b | Paramere trilobed | 29 | | |
+29a | Spine near aedeagus not longer than it. Pharynx with a series of oblique ridges radiating from mid-line and ending in loops laterally | | Phlebotomus stantoni | | Lewis 1978 p. 248
+29b | Spine near aedeagus much longer than it. Pharynx with a series of posterior ridges and, antero-laterally, a number of teeth projecting medio-posteriorly | | Phlebotomus hoepplii | | Lewis 1978 p. 247
+30a | Paramere with three lobes (two in an Iranian species). Pharynx of ♀ as in Anaphlebotomus. Spermatheca with differentiated end-segment | 31 | | Subgenus Euphlebotomus | Lewis 1978 p. 240
+30b | Paramere without ventral process. Pharyngeal armature otherwise | 38 | | |
+31a | Female | 32 | | |
+31b | Male | 35 | | |
+32a | Spermatheca with faint transverse striations | | Phlebotomus kiangsuensis | | Lewis 1978 p. 244
+32b | Spermatheca distinctly segmented | 33 | | |
+33a | Spermathecal common duct with rather thin walls. Antenna 5 without papilla | | Phlebotomus argentipes | | Lewis 1978 p. 240
+33b | Spermathecal common duct with thick walls. Antenna 5 with papilla | 34 | | |
+34a | Antenna 3/labrum 1.0 | | Phlebotomus philippinensis philippinensis | | Lewis 1978 p. 245
+34b | Antenna 3/labrum 1.4 | | Phlebotomus philippinensis gouldi | | Lewis 1978 p. 245
+35a | Middle lobe of paramere thicker than main (upper) lobe | | Phlebotomus kiangsuensis | | Lewis 1978 p. 244
+35b | Middle lobe of paramere thinner than main lobe | 36 | | |
+36a | Main lobe of paramere much more than twice length of middle lobe, lower lobe narrow, depth of paramere about 0.29 of its length (measured to junction with coxite) | | Phlebotomus argentipes | | Lewis 1978 p. 240
+36b | Main lobe of paramere about twice or more length of middle lobe, lower lobe appearing narrow but extending mesally, depth of paramere about 0.35 of its length | 37 | | |
+37a | Antenna 3/labrum 1.7. Style 0.54 length of coxite, and 4.1 times as thick as long | | Phlebotomus philippinensis philippinensis | | Lewis 1978 p. 245
+37b | Antenna 3/labrum 2.0. Style 0.61 length of coxite, and 3.6 times as thick as long | | Phlebotomus philippinensis gouldi | | Lewis 1978 p. 245
+38a | Paramere truncated (not in subgenus) | | Phlebotomus newsteadi | | Lewis 1978 p. 250
+38b | Paramere not truncated | 39 | | |
+39a | Pharynx of ♀ and ♂ with punctiform teeth. Spermatheca segmented, with long finger-like process. Genital filaments 3-5 times as long as pump | 40 | | Subgenus Larroussius | Lewis 1978 p. 237
+39b | Pharynx of ♀ with triangular or rounded group of medium-size teeth. Spermatheca incompletely segmented. Genital filaments usually very long, 6.6-11.0 times length of pump | 46 | | Subgenus Adlerius | Lewis 1978 p. 239
+40a | Female | 41 | | |
+40b | Male | 44 | | |
+41a | Pharynx with scarcely visible spicules. Spermatheca with about 22 bead-like segments, a long neck and a very small head. West Malaysia | | Phlebotomus betisi | | Lewis 1978 p. 237
+41b | Pharynx with readily visible spicules | 42 | | |
+42a | Spermatheca with 30-35 segments, very long. Median pharyngeal teeth larger than laterals | | Phlebotomus kandelakii burneyi | | Lewis 1978 p. 238
+42b | Spermatheca with 8-21 segments | 43 | | |
+43a | Spermatheca nearly cylindrical, with 12-16 segments | | Phlebotomus major major | | Lewis 1978 p. 238
+43b | Spermatheca narrowing at one or both ends, with about 18-21 segments | | Phlebotomus keshishiani | | Lewis 1978 p. 238
+44a | Aedeagus with mid-ventral surface finely serrated. Aedeagus tapering gradually to a point through which genital filaments emerge | | Phlebotomus kandelakii burneyi | | Lewis 1978 p. 238
+44b | Aedeagus smooth | 45 | | |
+45a | Genital filaments 3-5 times length of pump | | Phlebotomus major major | | Lewis 1978 p. 238
+45b | Genital filaments 6-11 times length of pump | | Phlebotomus keshishiani | | Lewis 1978 p. 238
+46a | Female | | Phlebotomus chinensis chinensis; Phlebotomus longiductus | | Lewis 1978 pp. 239, 240. Females not separated in this key.
+46b | Male | 47 | | |
+47a | Subterminal barb of aedeagus 30-35 µm from tip. Ascoid on antenna 4 about 0.19 length of segment | | Phlebotomus chinensis chinensis | | Lewis 1978 p. 239
+47b | Subterminal barb of aedeagus 12-14 µm from tip. Ascoid on antenna 4 about 0.31 length of segment | | Phlebotomus longiductus | | Lewis 1978 p. 240
+48a | Abdominal tergites 2-6 with many erect hairs | | Sergentomyia musai | musai-group | Lewis 1978 p. 253
+48b | Abdominal tergites 2-6 with few or no erect hairs | 49 | | |
+49a | Abdominal tergites 2-6 with a few posterior erect hairs (very few in ♂ S. clydei). Spermatheca distinctly segmented | 50 | | Subgenus Sintonius | Lewis 1978 p. 307
+49b | Abdominal tergites 2-6 usually with no erect hairs. Spermatheca not segmented but sometimes striated or wrinkled | 63 | | |
+50a | Female | 51 | | |
+50b | Male | 57 | | |
+51a | Pharynx very heavily armed. Cibarium with about 27 teeth in pallisade-like convex curve. Two rows of fore teeth present | | Sergentomyia orissa | | Lewis 1978 p. 309
+51b | Pharynx lightly armed or unarmed | 52 | | |
+52a | Pharynx with distinct spicules | | Sergentomyia hospitii | | Lewis 1978 p. 309
+52b | Pharynx with minute spicules or none | 53 | | |
+53a | Cibarium with about 35 large pointed teeth in a row convex medially | | Sergentomyia eadithae | | Lewis 1978 p. 309
+53b | Cibarium with about 18 teeth or less | 54 | | |
+54a | Cibarium with about five widely spaced teeth | | Sergentomyia christophersi | | Lewis 1978 p. 308
+54b | Cibarium with about 10-18 teeth close together | 55 | | |
+55a | Cibarium without fore teeth | | Sergentomyia sirohi | | Lewis 1978 p. 310
+55b | Cibarium with fore teeth | 56 | | |
+56a | Cibarium with 12-15 long equal pointed teeth. Pharynx with thick walls and an abrupt constriction behind the bulge. One to four papillae on antenna 3, one or two on 4 | | Sergentomyia clydei | | Lewis 1978 p. 308
+56b | Cibarium with a comb-like row of about 16-18 teeth, their points directed upward and usually hidden, outer teeth sloping towards centre. Pharynx thin-walled, narrowing gradually behind bulge. One papilla on antenna 3 and 4 | | Sergentomyia tiberiadis pakistanica | | Lewis 1978 p. 311
+57a | Cibarial teeth minute and arranged in groups | | Sergentomyia clydei | | Lewis 1978 p. 308
+57b | Cibarial teeth otherwise | 58 | | |
+58a | Cibarium with about 28 teeth | | Sergentomyia hospitii | | Lewis 1978 p. 309
+58b | Cibarium with about 20 teeth or less | 59 | | |
+59a | Cibarium with two or three teeth | | Sergentomyia christophersi | | Lewis 1978 p. 308
+59b | Cibarium with ten or more teeth | 60 | | |
+60a | Cibarium with 20 teeth | | Sergentomyia eadithae | | Lewis 1978 p. 309
+60b | Cibarium with 14 teeth or less | 61 | | |
+61a | Antenna 3 = 0.06 length of wing | | Sergentomyia sirohi | | Lewis 1978 p. 310
+61b | Antenna 3 = 0.11 or 0.12 length of wing | 62 | | |
+62a | Cibarial teeth on concave arc | | Sergentomyia tiberiadis pakistanica | | Lewis 1978 p. 311
+62b | Cibarial teeth on arc convex in centre | | Sergentomyia orissa | | Lewis 1978 p. 309
+63a | Spermatheca a round finely spiculate capsule. Cibarium of ♀ with convex comb of pointed teeth. Pharynx of ♀ bulging near hind end. Antenna of ♀ with one ascoid on segments 4-15. Abdominal tergites 2-6 with some posterior erect hairs. Genital filaments with rounded expanded tips. Parameres blunt | | Sergentomyia indica | Subgenus Grassomyia | Lewis 1978 p. 268
+63b | Spermatheca elongate and usually without spicules | 64 | | |
+64a | Antenna 3 short, 0.08-0.19 mm, shorter than 4+5, usually shorter than labrum. Wing narrow and lanceolate; R2/R2+3 usually less than one (0.3-0.8). Spermatheca tubular with smooth sides and wide duct. Aedeagus thick. Style with four terminal spines, or two terminal and two subterminal | 65 | | Subgenus Sergentomyia | Lewis 1978 p. 253
+64b | Without this combination. Spermatheca usually not tubular | 69 | | |
+65a | Female | 66 | | |
+65b | Male | 68 | | |
+66a | Hind teeth of pharyngeal armature much smaller than fore teeth. Hind width of pharynx about 0.58-0.77 of length | | Sergentomyia punjabensis | | Lewis 1978 p. 255
+66b | Hind teeth of pharyngeal armature not much smaller than fore teeth. Hind width of pharynx about 0.37-0.59 of length | 67 | | |
+67a | Length of pharynx 2.25 or less times hind width | | Sergentomyia dentata | | Lewis 1978 p. 253
+67b | Length of pharynx 2.26 or more times hind width | | Sergentomyia theodori pashtunica | | Lewis 1978 p. 255
+68a | Parameres hooked | | Sergentomyia punjabensis | | Lewis 1978 p. 255
+68b | Parameres blunt | | Sergentomyia dentata; Sergentomyia theodori pashtunica | | Lewis 1978 pp. 253, 255. Males not separated in this key.
+69a | Cibarial armature usually a comb-like row of parallel teeth with short points. Pharynx often lamp-glass-shaped. R2/R2+3 often 0.3-1.0 (in some Palaearctic species). Spermatheca a smooth, round or elliptical, capsule. Aedeagus slender, triangular and narrowing gradually, usually to a sharp point. Paramere hooked. Style with all or two of four spines terminal | 70 | | Subgenus Parrotomyia | Lewis 1978 p. 256
+69b | Without this combination | 110 | | |
+70a | Female | 71 | | |
+70b | Male | 94 | | |
+71a | Pharynx with many distinct pointed teeth | 72 | | |
+71b | Pharynx with very fine spicules or none | 86 | | |
+72a | Cibarium with notch in hind end of ventral plate, and 10-50 teeth in concave row | 73 | | |
+72b | Cibarium without notch in hind end of ventral plate | 75 | | |
+73a | Cibarium with about 10-14 teeth, notch shallow | | Sergentomyia shorttii | | Lewis 1978 p. 265
+73b | Cibarium with about 24-50 teeth, notch deep | 74 | | |
+74a | Cibarium with 24-34 teeth | | Sergentomyia babu babu | | Lewis 1978 p. 257
+74b | Cibarium with 45-50 teeth. (Sri Lanka) | | Sergentomyia babu insularis | | Lewis 1978 p. 258
+75a | Spermatheca nearly spherical. Cibarium with 20-22 teeth in a straight line. (Pakistan) | | Sergentomyia palestinensis | | Lewis 1978 p. 264
+75b | Spermatheca not nearly spherical | 76 | | |
+76a | Pharynx broad, often with rather straight sides, with many long finely pointed teeth. Cibarium with 40-70 teeth and tip of pigment patch bifid, ragged or fenestrated | | Sergentomyia barraudi | | Lewis 1978 p. 259
+76b | Without this combination | 77 | | |
+77a | Cibarium with 50-60 short teeth in row concave in centre and straight or convex at sides; fore teeth in two rows | | Sergentomyia spinifaucis | | Lewis 1978 p. 265
+77b | Without this combination | 78 | | |
+78a | Cibarium with 64 teeth or more | 79 | | |
+78b | Cibarium with 60 teeth or less | 83 | | |
+79a | Pharyngeal teeth long, numerous and finely pointed. Cibarial teeth more than 65 | 80 | | |
+79b | Pharyngeal teeth not long | 82 | | |
+80a | Palpal segment 4 = 1.6 times length of 3. Cibarium with 65-70 hind teeth. Antenna 3 = 0.28-0.31 mm long. Cibarial fore teeth in two rows of about 22. (Philippines) | | Sergentomyia mangana | | Lewis 1978 p. 263
+80b | Palpal segment 4 = 1.1 times length of 3. Cibarium with 90 hind teeth | 81 | | |
+81a | Antenna 3 = 0.11-0.14 mm long. Cibarial fore teeth numbering 35, in two ill-defined rows. (Australia and Nusa Tenggara) | | Sergentomyia queenslandi meridionalis | | Lewis 1978 p. 264
+81b | Antenna 3 = 0.26-0.33 mm long. Cibarial fore teeth in two rows of about 22. (West Malaysia) | | Sergentomyia rudnicki | | Lewis 1978 p. 264
+82a | Hind margin of pigment patch concave | | Sergentomyia himalayensis | | Lewis 1978 p. 262
+82b | Hind margin of pigment patch convex. (South Vietnam) | | Sergentomyia brevicaulis | | Lewis 1978 p. 260
+83a | Cibarium with 10-12 teeth. (Philippines) | | Sergentomyia bigtii | | Lewis 1978 p. 259
+83b | Cibarium with 26 or more teeth | 84 | | |
+84a | Cibarium with 42-50 teeth | | Sergentomyia africana magna | | Lewis 1978 p. 256
+84b | Cibarium with 26-32 teeth | 85 | | |
+85a | Cibarial teeth on a distinct arc. (India) | | Sergentomyia kauli | | Lewis 1978 p. 263
+85b | Cibarial teeth on a nearly straight line. (Philippines) | | Sergentomyia torrechantei | | Lewis 1978 p. 267
+86a | Cibarium with deep notch in hind end of ventral plate. Cibarium with 16-20 teeth. Pharynx with transverse ridges and some hind spicules | | Sergentomyia baghdadis | | Lewis 1978 p. 258
+86b | Cibarium without such notch | 87 | | |
+87a | Pharynx with well-defined scales. (Pakistan) | | Sergentomyia grekovi | | Lewis 1978 p. 262
+87b | Pharynx without scales but sometimes with a few transverse wrinkles or minute spicules | 88 | | |
+88a | Cibarium with 60-90 teeth | 89 | | |
+88b | Cibarium with 34 teeth or less | 90 | | |
+89a | Cibarium with about 90 teeth, very narrow and almost invisible. Pharynx lamp-glass-shaped, without spicules. (Borneo) | | Sergentomyia denticulata | | Lewis 1978 p. 262
+89b | Cibarium with about 60 teeth, easily visible. Pharynx with nearly straight sides and a group of hind spicules. (Nusa Tenggara) | | Sergentomyia timorica | | Lewis 1978 p. 265
+90a | Cibarium with 24-32 hind teeth | 91 | | |
+90b | Cibarium with 14-18 hind teeth | 93 | | |
+91a | Cibarial teeth on convex arc | | Sergentomyia franciscana | | Lewis 1978 p. 262
+91b | Cibarial teeth in nearly straight line | 92 | | |
+92a | Cibarium with about 24 teeth | | Sergentomyia dayapensis | | Lewis 1978 p. 260
+92b | Cibarium with 30-34 teeth | | Sergentomyia bukidnonis | | Lewis 1978 p. 260
+93a | Cibarium with 17 hind teeth and a pigment patch | | Sergentomyia modii | | Lewis 1978 p. 263
+93b | Cibarium with 14-18 hind teeth and no pigment patch. Hind teeth in convex row. Spermatheca ovoid with protuberant knob. (Philippines) | | Sergentomyia yoshimotoi | | Lewis 1978 p. 267
+94a | Tip of aedeagus pointed | 95 | | |
+94b | Tip of aedeagus rounded | 100 | | |
+95a | Style with four apical spines | 96 | | |
+95b | Style with two of spines subapical | 98 | | |
+96a | Cibarium with an irregular row of 13 fore teeth | | Sergentomyia brevinervis | | Lewis 1978 p. 260
+96b | Cibarium with no fore teeth or with a straight row of a few at bases of hind teeth | 97 | | |
+97a | Cibarium with about 20-30 hind teeth | | Sergentomyia africana magna | | Lewis 1978 p. 256
+97b | Cibarium with about 60 hind teeth | | Sergentomyia queenslandi meridionalis | | Lewis 1978 p. 264
+98a | Cibarium with 16 or 17 teeth. Fore teeth absent, pigment patch faint. Pharynx with narrow hind end | | Sergentomyia franciscana | | Lewis 1978 p. 262
+98b | Cibarium with about 19 or 20 hind teeth | 99 | | |
+99a | Cibarium with two rows of fore teeth and a long narrow pigment patch | | Sergentomyia brevicaulis | | Lewis 1978 p. 260
+99b | Cibarium with no fore teeth and no visible pigment patch | | Sergentomyia denticulata | | Lewis 1978 p. 262
+100a | Style with three large and one small spines | | Sergentomyia himalayensis | | Lewis 1978 p. 262
+100b | Style with four equal spines | 101 | | |
+101a | Style about five or six times as long as thick | 102 | | |
+101b | Style about four times as long as thick | 106 | | |
+102a | Pharynx unarmed | 103 | | |
+102b | Pharynx armed | 104 | | |
+103a | Cibarium with 12-17 hind teeth and six fore teeth | | Sergentomyia bukidnonis | | Lewis 1978 p. 260
+103b | Cibarium with about 30 hind teeth, fore teeth faint or absent | | Sergentomyia timorica | | Lewis 1978 p. 265
+104a | Cibarial fore teeth well developed | | Sergentomyia grekovi | | Lewis 1978 p. 262
+104b | Cibarial fore teeth faint | 105 | | |
+105a | Antenna 3 = 0.29-0.38 mm long | | Sergentomyia rudnicki | | Lewis 1978 p. 264
+105b | Antenna 3 = about 0.16-0.18 mm long | | Sergentomyia babu babu; Sergentomyia babu insularis; Sergentomyia baghdadis; Sergentomyia shorttii | | Lewis 1978 pp. 257, 258, 265. Males not separated in this key.
+106a | Two of spines on style subapical | | Sergentomyia sp. A (Lewis) | | Lewis 1978 p. 256
+106b | All spines on style apical | 107 | | |
+107a | Cibarium with about 18 teeth | | Sergentomyia barraudi | | Lewis 1978 p. 259
+107b | Cibarium with about 10-13 teeth | 108 | | |
+108a | Pharynx unarmed | | Sergentomyia sp. B (Lewis) | | Lewis 1978 p. 257
+108b | Pharynx armed | 109 | | |
+109a | Pharynx with pointed teeth | | Sergentomyia mangana | | Lewis 1978 p. 263
+109b | Pharynx with scale-like ridges | | Sergentomyia palestinensis | | Lewis 1978 p. 264
+110a | Cibarial tooth-row usually comprising parallel teeth, often nearly equal but not very narrow. Pharynx slender, with teeth or scales, or nearly unarmed. Antenna 3 long, longer than 4+5, often 1.25-2.00 times length of labrum. Wing rather broad, R2 usually longer than R2+3. Spermatheca often a thin-walled capsule, sometimes with cross-striations; duct sometimes narrow and joining common duct. Aedeagus usually slender with blunt tip. Paramere hooked. Style with two terminal spines and two others more or less terminal or near the middle | 111 | | Subgenus Neophlebotomus | Lewis 1978 p. 269
+110b | Without this combination | 155 | | |
+111a | Female | 112 | | |
+111b | Male | 134 | | |
+112a | Cibarium with about eight rows of fore teeth | 113 | | |
+112b | Cibarium without eight rows of fore teeth | 114 | | |
+113a | Cibarium with fore process of pigment patch absent or faint. Labrum 0.18-0.21 length of wing | | Sergentomyia gombaki | | Lewis 1978 p. 275
+113b | Cibarium with fore process of pigment patch prominent. Labrum 0.13-0.15 length of wing | | Sergentomyia arboris | | Lewis 1978 p. 270
+114a | Cibarium with three rows of fore teeth | 115 | | |
+114b | Cibarium with less than three rows of fore teeth or none | 117 | | |
+115a | Fore teeth of hind row very large | | Sergentomyia gemmea | | Lewis 1978 p. 273
+115b | Fore teeth of hind row not very large | 116 | | |
+116a | Labrum very long, 0.18-0.20 length of wing. R2/R2+3 = 1.53-2.06 | | Sergentomyia malayae | | Lewis 1978 p. 282
+116b | Labrum not very long, 0.13-0.15 length of wing. R2/R2+3 = 2.10-2.85 | | Sergentomyia zeylanica | | Lewis 1978 p. 292
+117a | Cibarial central teeth markedly different from the rest | 118 | | |
+117b | Cibarial central teeth not markedly different from the rest | 123 | | |
+118a | Cibarial central teeth much larger than the rest | 119 | | |
+118b | Cibarial central teeth not much larger than the rest | 121 | | |
+119a | Antenna 3 = 1.34-1.42 length of labrum | | Sergentomyia silvatica | | Lewis 1978 p. 290
+119b | Antenna 3 = 2.19-2.36 length of labrum | 120 | | |
+120a | Wing length 2.15-2.23 mm. Spermatheca with simple duct | | Sergentomyia quatei | | Lewis 1978 p. 288
+120b | Wing length 1.79-1.90 mm. Spermatheca with modified duct | | Sergentomyia hamidi | | Lewis 1978 p. 275
+121a | Cibarium with 24 teeth | | Sergentomyia dhandai | | Lewis 1978 p. 271
+121b | Cibarium with 17 teeth or less | 122 | | |
+122a | Cibarium with 14-17 hind teeth, fore teeth absent or varying from one row of four to two rows of up to 20; pigment patch with anterior projection either thick, small or absent (leaving patch hemispherical) | | Sergentomyia iyengari | | Lewis 1978 p. 277
+122b | Cibarium with about 11 teeth, and one irregular row of fore teeth. Pigment patch with broad anterior projection | | Sergentomyia tambori | | Lewis 1978 p. 291
+123a | Cibarial pigment patch very narrow and linear | | Sergentomyia linearis | | Lewis 1978 p. 280
+123b | Cibarial pigment patch not very narrow | 124 | | |
+124a | Cibarium with 18 fold-like teeth longest in the centre. Antenna 3/labrum 2.0. Spermatheca an oval capsule with faint streaks | | Sergentomyia traubi | | Lewis 1978 p. 292
+124b | Cibarial teeth not fold-like | 125 | | |
+125a | Cibarium with 14 hind teeth, of which the lateral one on each side is separated from the rest, and about ten fore teeth in one row; pigment patch with marked anterior projection and posterior notch | | Sergentomyia nankingensis | | Lewis 1978 p. 282
+125b | Cibarial teeth and pigment patch not like this | 126 | | |
+126a | Cibarium with nine or ten groups of denticles | | Sergentomyia tonkinensis | | Lewis 1978 p. 291
+126b | Cibarial teeth not in such groups | 127 | | |
+127a | Cibarium with 50-60 teeth | | Sergentomyia hodgsoni hodgsoni | | Lewis 1978 p. 277
+127b | Cibarium with about 20 teeth or less | 128 | | |
+128a | Cibarium with about 20 teeth | 129 | | |
+128b | Cibarium with less than 20 teeth on average | 131 | | |
+129a | Cibarial teeth on a straight line | | Sergentomyia balica | | Lewis 1978 p. 270
+129b | Cibarial teeth on a curve | 130 | | |
+130a | Cibarial teeth contiguous, in row convex in centre | | Sergentomyia khawi | | Lewis 1978 p. 278
+130b | Cibarial teeth separated, in concave row. Pigment patch narrow and long | | Sergentomyia purii | | Lewis 1978 p. 288
+131a | Cibarium with eight or nine main hind teeth arising from refractive brown area with colour different from pigment patch | | Sergentomyia perturbans | | Lewis 1978 p. 283
+131b | Cibarium otherwise | 132 | | |
+132a | Cibarial teeth separated. Seven to 15 of them in a regular row | | Sergentomyia jefferyi | | Lewis 1978 p. 278
+132b | Cibarial teeth contiguous | 133 | | |
+133a | Cibarium with about 14 hind teeth in a line angular at the centre; seven round teeth present behind hind ones | | Sergentomyia chakravarti | | Lewis 1978 p. 271
+133b | Cibarium with about eight hind teeth in nearly straight row; no teeth behind hind ones | | Sergentomyia malabarica | | Lewis 1978 p. 280
+134a | Style with two of spines near middle | 135 | | |
+134b | Style with spines terminal or subterminal | 146 | | |
+135a | Brush on coxite with about 183 close hairs. Style not very swollen near middle | | Sergentomyia gombaki | | Lewis 1978 p. 275
+135b | Brush on coxite with about 95 hairs or less, or indefinite | 136 | | |
+136a | Brush on coxite with about 95 close hairs. Style very wide near middle | | Sergentomyia sp. (Besout) | | Lewis 1978 p. 271
+136b | Brush on coxite with 60 hairs or less, or absent | 137 | | |
+137a | Cibarial teeth fold-shaped | | Sergentomyia traubi | | Lewis 1978 p. 292
+137b | Cibarial teeth not fold-shaped | 138 | | |
+138a | Style with seta at about 0.8 | 139 | | |
+138b | Style with seta at 0.7 or more proximal | 140 | | |
+139a | Coxite with long brush of about 60 hairs | | Sergentomyia purii | | Lewis 1978 p. 288
+139b | Coxite with a short brush of about 31 hairs | | Sergentomyia quatei | | Lewis 1978 p. 288
+140a | Coxite long and narrow and slightly curved | | Sergentomyia perturbans | | Lewis 1978 p. 283
+140b | Coxite not long and narrow and slightly curved | 141 | | |
+141a | Aedeagus thick, mid width of shaft about 0.19 of extreme length of aedeagus | 142 | | |
+141b | Aedeagus slender, mid width of shaft about 0.11 of extreme length of aedeagus | 144 | | |
+142a | R2/R2+3 about 1.2. Coxite with seta distinctly proximal to middle spines | | Sergentomyia khawi | | Lewis 1978 p. 278
+142b | R2/R2+3 about 1.5-2.7. Coxite with seta near middle spines | 143 | | |
+143a | Coxite with some of outer hairs concentrated | | Sergentomyia zeylanica | | Lewis 1978 p. 292
+143b | Coxite with outer hairs evenly spaced | | Sergentomyia malayae | | Lewis 1978 p. 282
+144a | Cibarial fore teeth about four deep in broad band | | Sergentomyia sp. (Rabok) | | Lewis 1978 p. 290
+144b | Cibarial fore teeth not in broad band | 145 | | |
+145a | Brush starting at 0.21 of coxite | | Sergentomyia arboris | | Lewis 1978 p. 270
+145b | Brush starting at 0.23 of coxite | | Sergentomyia gemmea | | Lewis 1978 p. 273
+146a | Style with spines of unequal thickness, three terminal. Coxite without definite brush | | Sergentomyia tambori | | Lewis 1978 p. 291
+146b | Style with spines of equal thickness, two or four terminal | 147 | | |
+147a | All spines of style terminal | 148 | | |
+147b | Two spines of style at 0.76-0.85 | 151 | | |
+148a | Paramere with spinose process at base of neck | | Sergentomyia hodgsoni hodgsoni | | Lewis 1978 p. 277
+148b | Paramere without such process | 149 | | |
+149a | Cibarium with long narrow pigment patch | | Sergentomyia linearis | | Lewis 1978 p. 280
+149b | Cibarial pigment patch not long and narrow | 150 | | |
+150a | Cibarium with conspicuous fore teeth | | Sergentomyia iyengari | | Lewis 1978 p. 277
+150b | Cibarium without fore teeth | | Sergentomyia dhandai | | Lewis 1978 p. 271
+151a | Cibarial hind teeth comprising four central large ones and a row of about five small ones on each side | | Sergentomyia silvatica | | Lewis 1978 p. 290
+151b | Cibarial teeth not like this | 152 | | |
+152a | Cibarium with about eight teeth, some with several points, and a few vestigial fore teeth | | Sergentomyia balica | | Lewis 1978 p. 270
+152b | Cibarium otherwise | 153 | | |
+153a | Cibarium with about six hind and about six fore teeth | | Sergentomyia sp. (Sepilok) | | Lewis 1978 p. 290
+153b | Cibarium otherwise | 154 | | |
+154a | Cibarium with ten scattered hind teeth and no fore teeth | | Sergentomyia malabarica | | Lewis 1978 p. 280
+154b | Cibarium with about seven ill-defined hind teeth, not widely scattered, and about 15 small fore teeth | | Sergentomyia jefferyi | | Lewis 1978 p. 278
+155a | Cibarium of ♀ with one or more rows of small, sometimes scarcely visible, hind teeth. Spermatheca smooth, an elliptical or cylindrical capsule. Aedeagus pointed and paramere hooked. Style with all spines terminal or two of them subterminal | 156 | | nicnic-group | Lewis 1978 p. 294
+155b | Without this combination | 161 | | Sergentomyia, ungrouped species | Lewis 1978 p. 295
+156a | Female | 157 | | |
+156b | Male | 158 | | |
+157a | Hind end of pharynx with a group of small but conspicuous dark spicules | | Sergentomyia nicnic | | Lewis 1978 p. 295
+157b | Hind end of pharynx without such spicules. Cornua divergent | | Sergentomyia bailyi | | Lewis 1978 p. 294
+158a | Cibarium with multiple row of teeth | | Sergentomyia bailyi | | Lewis 1978 p. 294
+158b | Cibarium with single row of main teeth | 159 | | |
+159a | Cibarial hind teeth diamond-shaped | | Sergentomyia kachekensis | | Lewis 1978 p. 295
+159b | Cibarial hind teeth not diamond-shaped | 160 | | |
+160a | Pigment patch present. Antenna 3 about as long as 4+5 | | Sergentomyia nicnic | | Lewis 1978 p. 295
+160b | Pigment patch absent. Antenna 3 longer than 4+5 | | Sergentomyia displicata | | Lewis 1978 p. 294
+161a | Female | 162 | | |
+161b | Male | 185 | | |
+162a | Cibarium without row of teeth | | Sergentomyia jamesi | | Lewis 1978 p. 300
+162b | Cibarium with row of teeth | 163 | | |
+163a | Cibarial teeth (in the usual ventral view) broad and often diamond-shaped or pear-shaped | 164 | | |
+163b | Cibarial teeth not broad except at bases | 169 | | |
+164a | Cibarium with cluster of small teeth behind main teeth | | Sergentomyia reidi | | Lewis 1978 p. 305
+164b | Cibarium without such cluster | 165 | | |
+165a | Cibarium with eight wedge-shaped teeth. Pigment patch absent. Pharynx rather slender with compact group of teeth | | Sergentomyia tracheola | | Lewis 1978 p. 305
+165b | Cibarium with pear-shaped teeth | 166 | | |
+166a | Cibarium with about 25 teeth rather like fish hooks | | Sergentomyia maai | | Lewis 1978 p. 301
+166b | Cibarium with 18 teeth or less | 167 | | |
+167a | Cibarium with 12-18 hind teeth | | Sergentomyia heiseri | | Lewis 1978 p. 299
+167b | Cibarium with eight to ten hind teeth | 168 | | |
+168a | Cibarial arch about 4.9 tooth lengths from teeth, intervening area dark | | Sergentomyia losarcus | | Lewis 1978 p. 301
+168b | Cibarial arch about 1.6 tooth lengths from teeth, intervening area not dark | | Sergentomyia cheongi | | Lewis 1978 p. 296
+169a | Cibarium with long median projection | | Sergentomyia anodontis | | Lewis 1978 p. 295
+169b | Cibarium without such projection | 170 | | |
+170a | Cibarium with 38 very long teeth in convex row and 65 fore teeth in seven or eight rows | | Sergentomyia dentacea | | Lewis 1978 p. 297
+170b | Cibarium without this pattern | 171 | | |
+171a | Cibarium with 70 teeth. Pharynx with ten short spicules. R2/R2+3 = 4.8. Spermatheca subovoid | | Sergentomyia sp. (Okinawa) | | Lewis 1978 p. 304
+171b | Without this combination | 172 | | |
+172a | Cibarium with several rows of lateral teeth. Pigment patch with broad process and narrow hind part. Pharynx narrow with many teeth | | Sergentomyia montana | | Lewis 1978 p. 303
+172b | Cibarium without several rows of lateral teeth | 173 | | |
+173a | Cibarium with 14 inwardly sloping teeth, and no fore teeth or pigment patch. (Philippines) | | Sergentomyia exastis | | Lewis 1978 p. 297
+173b | Without this combination | 174 | | |
+174a | Cibarium with 30 short linear teeth in compact row and about 80 fore teeth in five or six rows. Pharynx with dense patch of teeth. Antenna 3 about twice length of labrum. (Philippines) | | Sergentomyia dapsilidentes | | Lewis 1978 p. 296
+174b | Without this combination | 175 | | |
+175a | Cibarium with 10-14 teeth looking like barbed fish hooks; fore teeth absent; pigment patch rectangular. Pharynx unarmed. (Philippines) | | Sergentomyia delfinadoae | | Lewis 1978 p. 296
+175b | Without this combination | 176 | | |
+176a | Cibarium with many small triangular teeth of different sizes tending to form three rows centrally. Pharynx with finely spiculate ridges. (China) | | Sergentomyia fanglianensis | | Lewis 1978 p. 297
+176b | Without this combination | 177 | | |
+177a | Pharynx distinctly armed | 178 | | |
+177b | Pharynx unarmed or with minute spicules | 179 | | |
+178a | Cibarium with 26 teeth | | Sergentomyia lagunensis | | Lewis 1978 p. 301
+178b | Cibarium with 50 teeth | | Sergentomyia mahadevani | | Lewis 1978 p. 301
+179a | Antenna 3 = 0.12 mm long | | Sergentomyia neras | | Lewis 1978 p. 303
+179b | Antenna 3 = 0.19-0.54 mm long | 180 | | |
+180a | Cibarium with about eight small blunt teeth in a nearly straight line | | Sergentomyia hassani | | Lewis 1978 p. 297
+180b | Cibarium with 9-29 pointed teeth on a distinct arc | 181 | | |
+181a | Cibarium with many fore teeth | 182 | | |
+181b | Cibarium with very few or no fore teeth | 183 | | |
+182a | Cibarium with 10-12 teeth | | Sergentomyia imitor | | Lewis 1978 p. 299
+182b | Cibarium with 20-29 teeth. Interarcal area sclerotized and wrinkled. Antenna 3 about 1.3 length of labrum, ascoids with spur. Tergite 8 with patch of hairs on each side | | Sergentomyia pachystoma | | Lewis 1978 p. 304
+183a | Cibarium with nine teeth | | Sergentomyia kelantani | | Lewis 1978 p. 300
+183b | Cibarium with 12-27 teeth | 184 | | |
+184a | Cibarium with 12-15 teeth | | Sergentomyia hitchensi | | Lewis 1978 p. 299
+184b | Cibarium with 24-27 teeth | | Sergentomyia knudseni | | Lewis 1978 p. 300
+185a | Cibarium with patch of teeth behind main teeth | | Sergentomyia reidi | | Lewis 1978 p. 305
+185b | Cibarium without such patch | 186 | | |
+186a | Style with two of spines subterminal and seta near base, and cibarial teeth small | | Sergentomyia hitchensi | | Lewis 1978 p. 299
+186b | Without this combination | 187 | | |
+187a | Cibarium with faint median hind process and no definite teeth | | Sergentomyia anodontis | | Lewis 1978 p. 295
+187b | Cibarium otherwise | 188 | | |
+188a | Palpal segment 4 nearly twice length of 3. Cibarium with 12 short linear teeth and ten fore teeth in two rows | | Sergentomyia dapsilidentes | | Lewis 1978 p. 296
+188b | Palpal segment 4 not so long | 189 | | |
+189a | Cibarium with six to ten barb-like teeth, six fore teeth and a long antenna 3, 0.31 mm | | Sergentomyia delfinadoae | | Lewis 1978 p. 296
+189b | Without this combination | 190 | | |
+190a | Cibarium with many small triangular teeth of different sizes tending to form two rows in the centre | | Sergentomyia fanglianensis | | Lewis 1978 p. 297
+190b | Cibarial teeth not like this | 191 | | |
+191a | Cibarium with eight prominent diamond-shaped hind teeth and eight fore teeth in two rows. Inter-arcal area pigmented | | Sergentomyia heiseri | | Lewis 1978 p. 299
+191b | Cibarium not like this | 192 | | |
+192a | Cibarium with about eight sharp spike-like teeth, and 10-20 fore teeth, usually in one main row | | Sergentomyia imitor | | Lewis 1978 p. 299
+192b | Cibarium otherwise | 193 | | |
+193a | Cibarium with about eight distinct separated teeth on convex arc, a strong bulge, and pigment patch about two-thirds width of cibarium | | Sergentomyia knudseni | | Lewis 1978 p. 300
+193b | Cibarium otherwise | 194 | | |
+194a | Cibarium with seven to nine pear-shaped teeth, no fore teeth and pigmented inter-arcal area | | Sergentomyia losarcus | | Lewis 1978 p. 301
+194b | Cibarium otherwise | 195 | | |
+195a | Cibarium with 12-15 small teeth and eight fore teeth | | Sergentomyia maai | | Lewis 1978 p. 301
+195b | Cibarium otherwise | 196 | | |
+196a | Cibarium with about 18 teeth in one row, about three rows in front of them on each side, and a distinct pigment patch | | Sergentomyia montana | | Lewis 1978 p. 303
+196b | Cibarium otherwise | 197 | | |
+197a | Cibarium with six or seven groups of small fine teeth, and some fore teeth, and no pigment patch | | Sergentomyia morini | | Lewis 1978 p. 303
+197b | Cibarium otherwise | 198 | | |
+198a | Cibarium with six small but distinct teeth, five fore teeth in one row, and no pigment patch. Antenna 3 short, 0.11 mm, style with three apical and one subapical spines, and seta at 0.7 | | Sergentomyia neras | | Lewis 1978 p. 303
+198b | Without this combination | 199 | | |
+199a | Cibarium with about six long teeth and about 18 irregular fore teeth | | Sergentomyia pachystoma | | Lewis 1978 p. 304
+199b | Cibarial hind teeth numbering 23-29; fore teeth numbering 10-15, those at centre less pointed than side ones | | Sergentomyia pooi | | Lewis 1978 p. 305

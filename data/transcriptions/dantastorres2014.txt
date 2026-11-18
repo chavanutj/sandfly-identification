@@ -1,0 +1,33 @@
+# key_id: italy
+# Dantas-Torres, F., Tarallo, V.D. & Otranto, D. (2014) Morphological keys for the identification of Italian
+# phlebotomine sand flies (Diptera: Psychodidae: Phlebotominae). Parasites & Vectors 7: 479. (CC BY 4.0)
+# Tables 1-3. Not an Oriental key; included as a clearly illustrated model key for Mediterranean species.
+# G = genus key (Table 1); M = males of Phlebotomus (Table 2); F = females of Phlebotomus (Table 3).
+G1a | Cibarial teeth in a transverse row and pigment patch usually present (Fig. 1A). Hind end of abdominal tergites 2-6 with all or most setae recumbent, which arise from small sockets as compared with those on tergite 1 (Fig. 1B). Male style with 3 apical and 1 sub-apical long spines developed and 1 more basal setiform spine (accessory seta) (Fig. 2A). Female spermathecae smooth (Fig. 3A) | | Sergentomyia minuta | Genus Sergentomyia | The only Sergentomyia species reported in Italy.
+G1b | Cibarial teeth and pigment patch usually absent (Fig. 1C). Hind end of abdominal tergites 2-6 with many erect setae, which arise from large sockets of the same size as those on tergite 1 (Fig. 1D). Male style with 2 long apical spines (Fig. 2B, D-H) or 3 short apical spines (Fig. 2C) and setiform spine absent. Female spermathecae with superficial striation (Fig. 3B) or annulated (Fig. 3C-H) | G2 | | Genus Phlebotomus |
+G2a | Male | M1 | | |
+G2b | Female | F1 | | |
+M1a | Coxite (= basistyle) with bristles in the basal region | M2 | | |
+M1b | Coxite without bristles in the basal region | M3 | | |
+M2a | Style (= dististyle) short with 4 long spines: 2 apical and the internal more basal than the external spine. Paramere without dorsal ramification. Surstyle (= lateral lobe) without short distal spines (Fig. 2B) | | Phlebotomus sergenti | Subgenus Paraphlebotomus |
+M2b | Style with 5 short spines: 3 apical and 2 external spines in its apical third. Paramere with 2 dorsal ramifications. Surstyle with 2 short distal spines (Fig. 2C) | | Phlebotomus papatasi | Subgenus Phlebotomus |
+M3a | Aedeagus with the distal region tapered and cup-like expansion at the anterior end of genital pump thin-walled and colourless (Fig. 2D) | | Phlebotomus mascittii | Subgenus Transphlebotomus |
+M3b | Aedeagus with the distal region bifid or rounded | M4 | | Subgenus Larroussius |
+M4a | Aedeagus with colourless plate (transparent process) on terminal portion (Fig. 2E) | | Phlebotomus perfiliewi | |
+M4b | Aedeagus without colourless plate on terminal portion | M5 | | |
+M5a | Aedeagus bifid at the end (Fig. 2F) | | Phlebotomus perniciosus | |
+M5b | Aedeagus not bifid at the end | M6 | | |
+M6a | Aedeagus clapper-like, with moderate subapical expansion (Fig. 2G) | | Phlebotomus ariasi | |
+M6b | Aedeagus with drumstick-like tip (Fig. 2H) | | Phlebotomus neglectus | |
+F1a | Spermathecae not ringed, with transverse striations often in distal part. Pharynx with large irregular teeth (Figs 3B, 4B) | | Phlebotomus mascittii | Subgenus Transphlebotomus |
+F1b | Spermathecae ringed. Pharynx not as above | F2 | | |
+F2a | Spermathecae without neck | F3 | | |
+F2b | Spermathecae with long finger-like neck | F4 | | Subgenus Larroussius |
+F3a | Spermathecae with 8-12 rings (apical segment short). Pharyngeal armature not extending beyond its posterior third, with scaly teeth arranged into a wide-meshed network (Figs 3C, 4C) | | Phlebotomus papatasi | Subgenus Phlebotomus |
+F3b | Spermathecae with 4-5 rings. Pharyngeal armature occupying about a quarter length of pharynx, with few large teeth directed backward (Figs 3D, 4D) | | Phlebotomus sergenti | Subgenus Paraphlebotomus |
+F4a | Spermathecae with lateral structures at the base of the ducts | F5 | | |
+F4b | Spermathecae without lateral structures at the base of the ducts | F6 | | |
+F5a | Spermathecae with 8-12 rings, with thin neck and small, rounded head. Pharyngeal armature occupying more than a quarter length of pharynx, with teeth arranged disorderly (Figs 3E, 4E) | | Phlebotomus perniciosus | |
+F5b | Spermathecae with 12-16 rings, small neck that narrows before the small, oval head. Pharyngeal armature about a quarter (or less) length of pharynx with teeth ending anteriorly in a clear line of demarcation (Figs 3F, 4F) | | Phlebotomus perfiliewi | |
+F6a | Spermathecae with 8-16 rings, with spermathecal ducts sac-like. Pharyngeal armature occupying less than a third of pharynx (Figs 3G, 4G) | | Phlebotomus ariasi | |
+F6b | Spermathecae with 12-16 rings, with neck surrounded by a sleeve. Pharyngeal armature occupying more than a third of pharynx (Figs 3H, 4H) | | Phlebotomus neglectus | |

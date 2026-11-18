@@ -1,0 +1,32 @@
+# Update notes: later literature that affects the result of a lead.
+# These are NOT part of the printed keys. They are appended to the note column as "UPDATE: ...".
+# Format: key_id lead_id | note
+lewis1978 2a | Idiophlebotomus is now treated as a genus (e.g. Renaux Torres et al. 2023). I. longiforceps, recorded from Thai caves, is not in this key; use the Lewis 1982 Idiophlebotomus key.
+lewis1978 27a | P. stantoni s.l.: Renaux Torres et al. (2023) described P. shadenae (Thailand, Laos) and reinstated P. maynei (India). ♀ P. shadenae: spermathecal common duct about 508 µm (P. stantoni 178-261 µm). Check before naming P. stantoni.
+lewis1978 29a | P. stantoni s.l.: ♂ aedeagal ducts (genital filaments) about 640-671 µm in P. shadenae, 280-336 µm in P. stantoni, about 448 µm in P. maynei (Renaux Torres et al. 2023). P. shadenae also has more gonocoxal setae (median tuft of about 56).
+lewis1978 27b | P. hoepplii was later treated as a junior synonym of P. stantoni (attributed to Lewis by Renaux Torres et al. 2023), but Renaux Torres et al. (2023) consider it valid (very short individual spermathecal ducts, about 20 µm).
+lewis1978 30a | Euphlebotomus species described after 1978 and not in this key: P. barguesae and P. mascomai (Thai caves), P. seowpohi (Singapore, 2025). P. argentipes s.l. may comprise P. argentipes s.s., P. annandalei and P. glaucus (see Sri Lanka key).
+lewis1978 33a | P. argentipes s.l.: compare P. seowpohi (Ding et al. 2025): longer ascoid on f2 (asc/f2 0.71 ♀, 0.61 ♂ versus < 0.5 in P. argentipes s.s.), no sensilla on f3, pigment-free pharyngeal armature.
+lewis1978 36a | P. argentipes s.l.: compare P. seowpohi (Ding et al. 2025): asc/f2 0.61 in ♂, f3/labrum about 1.0.
+lewis1978 63a | Grassomyia is now usually treated as a genus (Lewis 1987; Renaux Torres et al. 2023). Lewis 1987 separates G. indica and G. dreyfussi turkestanica (see the lewis1987_grassomyia key).
+lewis1978 73a | See the Lewis 1987 key to the S. babu series (with notch). S. leechingae (Singapore, Ding et al. 2025) also has a babu-type notch and differs in notch shape and tooth number.
+lewis1978 74a | See the Lewis 1987 key to the S. babu series. S. leechingae (Singapore, 2025) has a babu-type notch.
+lewis1978 76a | S. barraudi group: Renaux Torres et al. (2023) refer Thai specimens with 44-54 cibarial teeth to S. siamensis Causey, and describe S. maiae (57-69 teeth plus two rows of vertical teeth, the lower row set very low in the sclerotized area). S. barraudi s.s. (India) has about 40 teeth.
+lewis1978 107a | S. barraudi group; see update note on couplet 76a.
+lewis1978 115a | S. gemmea: Depaquit et al. (2019) state that the decisive character is anterior spurs on the ascoids. S. raynali (Thailand, Laos) also has spurred ascoids but differs by a pigmented ring in the cibarium. Specimens without ascoidal spurs are not S. gemmea (often S. khawi or S. hivernus). S. retrocalcarae (Singapore 2025) has backward-oriented ascoidal spurs.
+lewis1978 145b | S. gemmea: see update note on couplet 115a.
+lewis1978 122a | S. iyengari group: S. hivernus has been reinstated (Phumee et al. 2016, cited by Depaquit et al. 2019): tubular spermathecae and few vertical cibarial teeth. Thai specimens with many vertical teeth in 2-3 rows may be S. khawi (Renaux Torres et al. 2023).
+lewis1978 150a | S. iyengari group: see update note on couplet 122a.
+lewis1978 130a | S. khawi: Thai specimens have 13-17 cibarial teeth with 2-3 rows of vertical teeth (Renaux Torres et al. 2023), fewer than the 20 in Lewis's lead.
+lewis1978 140a | S. perturbans: Lewis 1978 synonymised S. whartoni with it; Ding et al. (2025) use the name S. whartoni for Singapore material because the identity of S. perturbans remains doubtful.
+lewis1978 131a | S. perturbans: see update note on couplet 140a.
+lewis1978 110a | Depaquit et al. (2019) doubt the validity of subgenus Neophlebotomus as defined here, and treat newly described related species as ungrouped Sergentomyia.
+lewis1978 1b | Genera described or raised after this key and recorded in Thailand: Chinius (C. barbazani, Thai caves), Grassomyia and Idiophlebotomus as genera.
+lewis1982_anaphlebotomus M3a | P. stantoni s.l.: see P. shadenae (♂ aedeagal ducts about 655 µm versus about 304 µm in P. stantoni; Renaux Torres et al. 2023).
+lewis1982_anaphlebotomus F3b | P. hoepplii was later treated as a synonym of P. stantoni; Renaux Torres et al. (2023) consider it valid.
+srilanka_female P1a | P. stantoni s.l.: see P. shadenae (Renaux Torres et al. 2023), separated by spermathecal duct length.
+srilanka_male P2a | P. stantoni s.l.: see P. shadenae (Renaux Torres et al. 2023), separated by aedeagal duct length.
+quate1962 2b | P. stantoni s.l.: see P. shadenae (Renaux Torres et al. 2023).
+quate1962 3a | P. argentipes s.l.: see P. seowpohi (Ding et al. 2025) and the Sri Lanka key (P. argentipes s.s., P. annandalei, P. glaucus).
+quate1962 14b | S. barraudi group: see update note on lewis1978 couplet 76a (S. siamensis, S. maiae).
+quate1962 20a | S. iyengari group: see update note on lewis1978 couplet 122a (S. hivernus, S. khawi).

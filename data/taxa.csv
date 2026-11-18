@@ -1,0 +1,162 @@
+taxon,author,genus,subgenus,key_names,status,distribution,focus_record,medical_note,diagnostic_note,figure_ids,sources
+Chinius barbazani,,Chinius,,,valid,Thai caves only,"Pha Tong cave, Chiang Rai (Renaux Torres et al. 2023)",,Genus Chinius is distinct from other Old World genera (Rispail & Léger 1998). Not in any printed key in this collection.,,renauxtorres2023;rispail1998
+Grassomyia dreyfussi,"(Parrot, 1933)",Grassomyia,,Sergentomyia dreyfussi,Sri Lankan records refer to G. dreyfussi turkestanica (Gajapathy & Surendran 2012),,,,,srilanka:Fig4,wijerathna2020;lewis1987;gajapathy2012
+Grassomyia dreyfussi dreyfussi,,Grassomyia,,,valid,,,,,,lewis1987
+Grassomyia dreyfussi turkestanica,,Grassomyia,,,valid,,,,,,lewis1987
+Grassomyia ghesquierei,,Grassomyia,,,valid,,,,,,lewis1987
+Grassomyia indica,(Theodor),Grassomyia,,Sergentomyia indica,valid,,"Chiang Mai, Loei, Nong Khai, as 'squamipleuris' (Quate 1962); Grassomyia sp. at Pha Tong (Renaux Torres et al. 2023)",,"♀ convex cibarial tooth row and round, finely spiculate spermatheca; ♂ genital filaments with dilated tips (Lewis 1978). Dark part of pigment belt straight anteriorly (Lewis 1987).",srilanka:Fig4,lewis1978;lewis1987;quate1962;wijerathna2020
+Grassomyia inermis,,Grassomyia,,,valid,,,,,,lewis1987
+Grassomyia madagascarensis,,Grassomyia,,,valid,,,,,,lewis1987
+Grassomyia squamipleuris,,Grassomyia,,,valid,,,,,,lewis1987
+Idiophlebotomus asperulus,Quate & Fairchild,Idiophlebotomus,,Phlebotomus asperulus,valid,,,,,,lewis1978;lewis1982
+Idiophlebotomus erebicolus,Quate,Idiophlebotomus,,Phlebotomus erebicolus,valid,,,,,,lewis1978;lewis1982
+Idiophlebotomus frondifer,Lewis & Lane,Idiophlebotomus,,Phlebotomus frondifer,valid,,,,,,lewis1978;lewis1982
+Idiophlebotomus longiforceps,"(Wang, Ku & Yuan, 1974)",Idiophlebotomus,,,valid,"Caves in southern China, Thailand and Vietnam","Pha Tong cave, Chiang Rai (Renaux Torres et al. 2023)",,"Strictly cavernicolous. ♀ cibarium with more than 60 small triangular teeth, no pigment patch; pharynx with many wedge-shaped teeth. ♂ style with three spines (Lewis 1982).",,lewis1982;renauxtorres2023
+Idiophlebotomus pholetor,Quate & Fairchild,Idiophlebotomus,,Phlebotomus pholetor,valid,,,,,,lewis1978;lewis1982
+Idiophlebotomus sejunctus,Quate,Idiophlebotomus,,Phlebotomus sejunctus,valid,,,,,,lewis1978;lewis1982
+Idiophlebotomus stellae,Quate,Idiophlebotomus,,Phlebotomus stellae,valid,,,,,,lewis1978;lewis1982
+Idiophlebotomus teshi,Lewis,Idiophlebotomus,,Phlebotomus teshi,valid,,,,,,lewis1978;lewis1982
+Idiophlebotomus tubifer,Lewis & Lane,Idiophlebotomus,,Phlebotomus tubifer,valid,,,,,,lewis1978;lewis1982
+Phlebotomus alexandri,Sinton,Phlebotomus,Paraphlebotomus,,valid,,,,,,lewis1978
+Phlebotomus annandalei,"Sinton, 1923",Phlebotomus,Euphlebotomus,,Treated as a species by Wijerathna & Gunathilaka 2020; synonym of P. argentipes in Lewis 1982,,,,,,wijerathna2020;lewis1982
+Phlebotomus argentipes,Annandale & Brunetti,Phlebotomus,Euphlebotomus,,valid,,Chiang Mai (Quate 1962),Important vector of visceral leishmaniasis (L. donovani) in India (Lewis 1982).,"P. argentipes s.l. may be a complex: P. argentipes s.s., P. annandalei and P. glaucus (Wijerathna & Gunathilaka 2020; Ding et al. 2025). Asc/f2 < 0.5 in P. argentipes s.s.",srilanka:Fig1;srilanka:Fig2,lewis1978;lewis1982;quate1962;wijerathna2020;ding2025
+Phlebotomus ariasi,Tonnoir,Phlebotomus,Larroussius,,valid,,,,,,dantastorres2014
+Phlebotomus barguesae,,Phlebotomus,Euphlebotomus,,valid,,"Thai caves, incl. Pha Tong (Renaux Torres et al. 2023)",,Cavernicolous Euphlebotomus described from Thailand. ♀ pharyngeal armature pigmented; ♂ parameral sheath apex blunt-ended (Ding et al. 2025). Not in any printed key in this collection.,,renauxtorres2023;ding2025
+Phlebotomus betisi,Lewis & Wharton,Phlebotomus,Larroussius,,valid,,,,,,lewis1978
+Phlebotomus caudatus,Artemiev,Phlebotomus,Euphlebotomus,,valid,,,,,,lewis1982
+Phlebotomus chinensis,Newstead,Phlebotomus,Adlerius,,valid,,,,,,quate1962
+Phlebotomus chinensis chinensis,Newstead,Phlebotomus,Adlerius,,valid,,,,,,lewis1978
+Phlebotomus colabaensis,Young & Chalam,Phlebotomus,Anaphlebotomus,,valid,,,,,,lewis1978;lewis1982
+Phlebotomus eleanorae,Sinton,Phlebotomus,Synphlebotomus,,valid,,,,,,lewis1978
+Phlebotomus glaucus,"Mitra & Roy, 1953",Phlebotomus,Euphlebotomus,,Treated as a species within P. argentipes s.l. (Wijerathna & Gunathilaka 2020),,,,Long ascoids (asc/f2 0.50-0.60).,,wijerathna2020;ding2025
+Phlebotomus hoepplii,Tang & Maa,Phlebotomus,Anaphlebotomus,,Valid according to Renaux Torres et al. 2023 (earlier treated as a synonym of P. stantoni),China,,,Very short individual spermathecal ducts (about 20 µm).,,lewis1978;lewis1982;renauxtorres2023
+Phlebotomus kandelakii burneyi,Lewis,Phlebotomus,Larroussius,,valid,,,,,,lewis1978
+Phlebotomus keshishiani,Shchurenkova,Phlebotomus,Larroussius,,valid,,,,,,lewis1978
+Phlebotomus kiangsuensis,Yao & Wu,Phlebotomus,Euphlebotomus,,valid,,,,,,lewis1978;lewis1982
+Phlebotomus longiductus,Parrot,Phlebotomus,Adlerius,,valid,,,,,,lewis1978
+Phlebotomus major major,Annandale,Phlebotomus,Larroussius,,valid,,,,,,lewis1978
+Phlebotomus marginatus,"Annandale, 1910",Phlebotomus,Euphlebotomus,,Debated; type lost; often treated as a variety or synonym of P. argentipes,,,,,,wijerathna2020;lewis1982
+Phlebotomus mascittii,,Phlebotomus,Transphlebotomus,,valid,,,,,,dantastorres2014
+Phlebotomus mascomai,,Phlebotomus,Euphlebotomus,,valid,Caves in Thailand and Vietnam,"Thai caves, incl. Pha Tong (Renaux Torres et al. 2023)",,Cavernicolous Euphlebotomus. ♀ pharyngeal armature pigmented; no accessory spine reported between parameral sheath and paramere (Ding et al. 2025). Not in any printed key in this collection.,,renauxtorres2023;ding2025
+Phlebotomus maynei,"Sinton, 1930",Phlebotomus,Anaphlebotomus,,Reinstated as valid (Renaux Torres et al. 2023); previously a synonym of P. stantoni,India (Saharanpur),,,♂ aedeagal ducts of intermediate length (about 448 µm in holotype) between P. stantoni and P. shadenae.,renauxtorres2023:Fig5,renauxtorres2023
+Phlebotomus mesghalii,Rashti & Nadim,Phlebotomus,Euphlebotomus,,valid,,,,,,lewis1982
+Phlebotomus neglectus,,Phlebotomus,Larroussius,,valid,,,,,,dantastorres2014
+Phlebotomus newsteadi,Sinton,Phlebotomus,Kasaulius,,valid,,,,,,lewis1978
+Phlebotomus nuri,Lewis,Phlebotomus,Paraphlebotomus,,valid,,,,,,lewis1978
+Phlebotomus papatasi,(Scopoli),Phlebotomus,Phlebotomus,,valid,,,,,italy:Fig2;italy:Fig3;italy:Fig4,lewis1978;dantastorres2014
+Phlebotomus perfiliewi,,Phlebotomus,Larroussius,,valid,,,,,,dantastorres2014
+Phlebotomus perniciosus,Newstead,Phlebotomus,Larroussius,,valid,,,,,,dantastorres2014
+Phlebotomus philippinensis gouldi,Lewis,Phlebotomus,Euphlebotomus,,valid,,Holotype female from Thailand (Lewis 1982),,,,lewis1978;lewis1982
+Phlebotomus philippinensis philippinensis,Manalang,Phlebotomus,Euphlebotomus,,valid,,,,,,lewis1978;lewis1982
+Phlebotomus rodhaini,Parrot,Phlebotomus,Anaphlebotomus,,valid,,,,,,lewis1982
+Phlebotomus salehi,Mesghali,Phlebotomus,Phlebotomus,,valid,,,Known secondary vector of Leishmania major in India and Iran (cited in Wijerathna & Gunathilaka 2020).,,srilanka:Fig4,lewis1978;wijerathna2020
+Phlebotomus seowpohi,"Depaquit et al., 2025",Phlebotomus,Euphlebotomus,,valid,Singapore (coastal NE),,,"Close to P. argentipes. Longer ascoids (asc/f2 0.71 ♀, 0.61 ♂), no sensilla on f3, one post-alar seta, ♀ pharyngeal armature colourless, f3/labrum about 1.0. Not in any printed key in this collection.",ding2025:Fig5;ding2025:Fig6,ding2025
+Phlebotomus sergenti,Parrot,Phlebotomus,Paraphlebotomus,,valid,,,,,italy:Fig2;italy:Fig3;italy:Fig4,lewis1978;dantastorres2014
+Phlebotomus shadenae,"Depaquit, Pellot & Siriyasatien, 2023",Phlebotomus,Anaphlebotomus,,valid,Northern and southern Thailand; Laos,"Pha Tong cave, Chiang Rai (Renaux Torres et al. 2023)",,"Close to P. stantoni. ♂ aedeagal ducts very long (640-671 µm), gonocoxite with median tuft of about 56 setae, accessory spine between paramere and parameral sheath. ♀ spermathecal common duct about 508 µm, individual ducts about 69 µm. Not in any printed key in this collection.",renauxtorres2023:Fig2;renauxtorres2023:Fig3,renauxtorres2023
+Phlebotomus stantoni,Newstead,Phlebotomus,Anaphlebotomus,,valid,,"Pha Tong cave, Chiang Rai (Renaux Torres et al. 2023)",DNA of Trypanosoma sp. and of the Leishmania donovani complex detected in specimens from Thailand (cited in Renaux Torres et al. 2023).,"♂ aedeagal ducts 280-336 µm; ♀ spermathecal common duct 178-261 µm, individual ducts 43-63 µm (Renaux Torres et al. 2023). Compare P. shadenae and P. maynei.",srilanka:Fig1;srilanka:Fig2,lewis1978;lewis1982;quate1962;wijerathna2020;renauxtorres2023;ding2025
+Phlebotomus tumenensis,Wang & Chang,Phlebotomus,Euphlebotomus,,valid,,,,,,lewis1982
+Sergentomyia africana magna,,Sergentomyia,Parrotomyia,,valid,,,,,,lewis1978
+Sergentomyia anodontis,,Sergentomyia,ungrouped,,valid,,"Pha Tong cave, Chiang Rai (Renaux Torres et al. 2023) - most abundant species there",,,,lewis1978;renauxtorres2023
+Sergentomyia arboris,(Sinton),Sergentomyia,Neophlebotomus,,valid,,,,,srilanka:Fig2;srilanka:Fig3,lewis1978;wijerathna2020
+Sergentomyia babu babu,(Annandale),Sergentomyia,Parrotomyia,,valid,,,,,,lewis1978;lewis1987
+Sergentomyia babu insularis,(Theodor),Sergentomyia,Parrotomyia,,valid,,,,,srilanka:Fig3;srilanka:Fig1,lewis1978;lewis1987;wijerathna2020
+Sergentomyia baghdadis,(Adler & Theodor),Sergentomyia,Parrotomyia,,valid,,,,,,lewis1978;lewis1987;wijerathna2020
+Sergentomyia bailyi,"(Sinton, 1931)",Sergentomyia,Parrotomyia,,valid,,Phetchaburi (Quate 1962),Suspected vector of Chandipura virus (cited in Wijerathna & Gunathilaka 2020).,,srilanka:Fig5,lewis1978;quate1962;wijerathna2020
+Sergentomyia balica,Lewis & Dyce,Sergentomyia,Neophlebotomus,,valid,,,,,,lewis1978
+Sergentomyia barraudi,(Sinton),Sergentomyia,Parrotomyia,,valid,,"Chiang Mai, Saraburi (Quate 1962) - as S. barraudi s.l.",Suspected vector of Leishmania martiniquensis in Thailand (cited in Wijerathna & Gunathilaka 2020).,S. barraudi s.s. (India) about 40 cibarial teeth. Thai material with 44-54 teeth referred to S. siamensis; S. maiae has 57-69 teeth (Renaux Torres et al. 2023).,srilanka:Fig5,lewis1978;quate1962;wijerathna2020;renauxtorres2023
+Sergentomyia bigtii,(Manalang),Sergentomyia,Parrotomyia,,valid,,,,,,lewis1978
+Sergentomyia brevicaulis,(Quate),Sergentomyia,Parrotomyia,,valid,,,,,,lewis1978;quate1962
+Sergentomyia brevinervis,(Quate & Fairchild),Sergentomyia,Parrotomyia,,valid,,,,,,lewis1978
+Sergentomyia bukidnonis,(Quate),Sergentomyia,Parrotomyia,,valid,,,,,,lewis1978
+Sergentomyia chakravarti,,Sergentomyia,Neophlebotomus,,valid,,,,,,lewis1978
+Sergentomyia cheongi,,Sergentomyia,ungrouped,,valid,,,,,,lewis1978
+Sergentomyia christophersi,(Sinton),Sergentomyia,Sintonius,,valid,,,,,,lewis1978
+Sergentomyia clydei,(Sinton),Sergentomyia,Sintonius,,valid,,,,,,lewis1978
+Sergentomyia dapsilidentes,,Sergentomyia,ungrouped,,valid,,,,,,lewis1978
+Sergentomyia dayapensis,(Manalang),Sergentomyia,Parrotomyia,,valid,,,,,,lewis1978
+Sergentomyia delfinadoae,,Sergentomyia,ungrouped,,valid,,,,,,lewis1978
+Sergentomyia dentacea,,Sergentomyia,ungrouped,,valid,,,,,,lewis1978
+Sergentomyia dentata,(Sinton),Sergentomyia,Sergentomyia,,valid,,,,,,lewis1978;wijerathna2020
+Sergentomyia denticulata,(Quate & Fairchild),Sergentomyia,Parrotomyia,,valid,,,,,,lewis1978
+Sergentomyia dhandai,Lewis,Sergentomyia,Neophlebotomus,,valid,,,,,,lewis1978
+Sergentomyia displicata,,Sergentomyia,ungrouped,,valid,,,,,,lewis1978
+Sergentomyia eadithae,(Sinton),Sergentomyia,Sintonius,,valid,,,,,,lewis1978
+Sergentomyia exastis,,Sergentomyia,ungrouped,,valid,,,,,,lewis1978
+Sergentomyia fanglianensis,,Sergentomyia,ungrouped,,valid,,,,,,lewis1978
+Sergentomyia franciscana,(Quate),Sergentomyia,Parrotomyia,,valid,,,,,,lewis1978
+Sergentomyia gemmea,Lewis & Jeffery,Sergentomyia,Neophlebotomus,,valid,,Rare: 1/261 females in Thai samples (Depaquit et al. 2019),Repeatedly suspected as a vector of L. martiniquensis in Thailand; role 'very questionable' (Depaquit et al. 2019).,Decisive character: ascoids with anterior spurs (Depaquit et al. 2019). Many GenBank 'S. gemmea' sequences are probably S. khawi or S. hivernus.,,lewis1978;depaquit2019
+Sergentomyia gombaki,,Sergentomyia,Neophlebotomus,,valid,,,,,,lewis1978
+Sergentomyia grekovi,(Khodukin),Sergentomyia,Parrotomyia,,valid,,,,,,lewis1978;wijerathna2020
+Sergentomyia gubleri,"Depaquit et al., 2025",Sergentomyia,ungrouped,,valid,Singapore,,,Many comb-like cibarial teeth; separated from S. rudnicki and S. brevicaulis by length of f1 and number of cibarial teeth. Male unknown.,ding2025:Fig7,ding2025
+Sergentomyia hamidi,Lewis & Jeffery,Sergentomyia,Neophlebotomus,,valid,,,,,,lewis1978
+Sergentomyia hassani,,Sergentomyia,ungrouped,,valid,,,,,,lewis1978
+Sergentomyia heiseri,,Sergentomyia,ungrouped,,valid,,,,,,lewis1978
+Sergentomyia himalayensis,(Annandale),Sergentomyia,Parrotomyia,,valid,,,,,,lewis1978
+Sergentomyia hitchensi,,Sergentomyia,ungrouped,,valid,,,,,,lewis1978
+Sergentomyia hivernus,Raynal & Gaschen,Sergentomyia,ungrouped,,"Reinstated (Phumee et al. 2016, cited in Depaquit et al. 2019); formerly in S. iyengari",,"Pha Tong cave, Chiang Rai (Renaux Torres et al. 2023)",,Tubular spermathecae and few vertical cibarial teeth. Not in any printed key in this collection.,,depaquit2019;renauxtorres2023
+Sergentomyia hodgsoni hodgsoni,(Sinton),Sergentomyia,Neophlebotomus,,valid,,,,,,lewis1978
+Sergentomyia hospitii,(Sinton),Sergentomyia,Sintonius,,valid,,,,,,lewis1978
+Sergentomyia imitor,,Sergentomyia,ungrouped,,valid,,,,,,lewis1978
+Sergentomyia iyengari,,Sergentomyia,Neophlebotomus,,valid,,"Khon Kaen, Udon Thani, Nong Khai (Quate 1962) - as S. iyengari s.l.",,S. iyengari s.s. (S India) lacks vertical teeth under the cibarial teeth; Thai material may be S. khawi or S. hivernus (Renaux Torres et al. 2023; Depaquit et al. 2019).,renauxtorres2023:Fig6,lewis1978;quate1962;renauxtorres2023
+Sergentomyia jamesi,"Lewis, 1978",Sergentomyia,Neophlebotomus,,valid,,,,,,lewis1978;wijerathna2020
+Sergentomyia jefferyi,Lewis,Sergentomyia,Neophlebotomus,,valid,,,,,,lewis1978
+Sergentomyia kachekensis,,Sergentomyia,ungrouped,,valid,,,,,,lewis1978
+Sergentomyia kauli,Lewis,Sergentomyia,Parrotomyia,,valid,,,,,,lewis1978
+Sergentomyia kelantani,,Sergentomyia,ungrouped,,valid,,,,,,lewis1978
+Sergentomyia khawi,(Raynal),Sergentomyia,Neophlebotomus,,valid,,"Pha Tong cave, Chiang Rai (Renaux Torres et al. 2023)",,Thai specimens: 13-17 cibarial teeth with many vertical teeth in 2-3 rows (Renaux Torres et al. 2023). No ascoidal spurs.,renauxtorres2023:Fig6,lewis1978;quate1962;depaquit2019;renauxtorres2023
+Sergentomyia knudseni,,Sergentomyia,ungrouped,,valid,,,,,,lewis1978
+Sergentomyia lagunensis,,Sergentomyia,ungrouped,,valid,,,,,,lewis1978
+Sergentomyia leechingae,"Depaquit et al., 2025",Sergentomyia,ungrouped,,valid,Singapore,,,Cibarial notch typical of the S. babu group; differs by notch shape and number of cibarial teeth. f1 shorter than f2+f3.,ding2025:Fig8;ding2025:Fig9,ding2025
+Sergentomyia linearis,Lewis,Sergentomyia,Neophlebotomus,,valid,,,,,,lewis1978
+Sergentomyia losarcus,,Sergentomyia,ungrouped,,valid,,,,,,lewis1978
+Sergentomyia maai,,Sergentomyia,ungrouped,,valid,,,,,,lewis1978
+Sergentomyia mahadevani,,Sergentomyia,ungrouped,,valid,,,,,,lewis1978
+Sergentomyia maiae,"Depaquit, Renaux Torres & Siriyasatien, 2023",Sergentomyia,ungrouped,,valid,Thailand,"Pha Tong cave, Chiang Rai (Renaux Torres et al. 2023)",,"S. barraudi group. ♀ cibarium with 57-69 palisade-like teeth plus two rows of vertical teeth (8-13 and 6-9), the lower row set very low in the pigmented sclerotized area. Male unknown.",renauxtorres2023:Fig4,renauxtorres2023
+Sergentomyia malabarica,,Sergentomyia,Neophlebotomus,,valid,,,,,,lewis1978
+Sergentomyia malayae,"(Lewis, 1957)",Sergentomyia,Neophlebotomus,,valid,,,,,,lewis1978;wijerathna2020
+Sergentomyia mangana,(Manalang),Sergentomyia,Parrotomyia,,valid,,,,,,lewis1978
+Sergentomyia minuta,,Sergentomyia,ungrouped,,valid,Mediterranean (only Sergentomyia in Italy),,,,italy:Fig1;italy:Fig2;italy:Fig3;italy:Fig4,dantastorres2014
+Sergentomyia modii,Lewis,Sergentomyia,Parrotomyia,,valid,,,,,,lewis1978;wijerathna2020
+Sergentomyia montana,,Sergentomyia,ungrouped,,valid,,,,,,lewis1978
+Sergentomyia morini,,Sergentomyia,ungrouped,,valid,,,,,,lewis1978;quate1962
+Sergentomyia musai,,Sergentomyia,ungrouped,,valid,,,,,,lewis1978
+Sergentomyia nankingensis,,Sergentomyia,Neophlebotomus,,valid,,,,,,lewis1978
+Sergentomyia neras,,Sergentomyia,ungrouped,,valid,,,,,,lewis1978
+Sergentomyia nicnic,,Sergentomyia,ungrouped,,valid,,,,,,lewis1978
+Sergentomyia orissa,Kaul & Lewis,Sergentomyia,Sintonius,,valid,,,,,,lewis1978
+Sergentomyia pachystoma,,Sergentomyia,ungrouped,,valid,,,,,,lewis1978
+Sergentomyia palestinensis,(Adler & Theodor),Sergentomyia,Parrotomyia,,valid,,,,,,lewis1978
+Sergentomyia perturbans,,Sergentomyia,Neophlebotomus,,Identity doubtful (Ding et al. 2025); sylvestris Sinton and whartoni Lewis synonymised by Lewis 1978,,,,,,lewis1978;quate1962;ding2025
+Sergentomyia phadangensis,"Polseela, Depaquit & Apiwathnasorn",Sergentomyia,ungrouped,,valid,,"Described from Thailand (Polseela et al., cited in Renaux Torres et al. 2023)",,Not in any printed key in this collection; see original description.,,renauxtorres2023
+Sergentomyia pondicherriensis,"Srinivasan & Jambulingam, 2010",Sergentomyia,Sergentomyia,,valid,,,,,,wijerathna2020
+Sergentomyia pooi,,Sergentomyia,ungrouped,,valid,,,,,,lewis1978
+Sergentomyia punjabensis,(Sinton),Sergentomyia,Sergentomyia,,valid,,,Suspected vector of Chandipura virus (cited in Wijerathna & Gunathilaka 2020).,,srilanka:Fig1;srilanka:Fig2;srilanka:Fig5,lewis1978;wijerathna2020
+Sergentomyia purii,(Sinton),Sergentomyia,Neophlebotomus,,valid,,,,,,lewis1978
+Sergentomyia quatei,Lewis,Sergentomyia,Neophlebotomus,,valid,,,,,,lewis1978
+Sergentomyia queenslandi meridionalis,(Tonnoir),Sergentomyia,Parrotomyia,,valid,,,,,,lewis1978
+Sergentomyia raynali,"Depaquit et al., 2019",Sergentomyia,ungrouped,,valid,"Thailand, Laos",Depaquit et al. 2019,,"Ascoids with spurs as in S. gemmea, but cibarium with a pigmented ring (Depaquit et al. 2019). Not in any printed key in this collection.",,depaquit2019
+Sergentomyia reidi,,Sergentomyia,ungrouped,,valid,,,,,,lewis1978
+Sergentomyia retrocalcarae,"Depaquit et al., 2025",Sergentomyia,ungrouped,,valid,Singapore,,,Ascoids with backward-oriented spurs; cibarium differs from S. raynali; fewer cibarial teeth than S. gombaki and S. arboris. Male unknown.,ding2025:Fig10,ding2025
+Sergentomyia rudnicki,Lewis,Sergentomyia,Parrotomyia,,valid,,,,,,lewis1978;wijerathna2020
+Sergentomyia shorttii,(Adler & Theodor),Sergentomyia,Parrotomyia,,valid,,,,,,lewis1978;lewis1987
+Sergentomyia siamensis,Causey,Sergentomyia,ungrouped,,valid,Thailand,"Pha Tong cave, Chiang Rai (Renaux Torres et al. 2023)",,S. barraudi group; 44-54 cibarial teeth (mean 47.3) in Pha Tong material; original description 44 teeth (Renaux Torres et al. 2023). Not in any printed key in this collection; keys out as S. barraudi in Lewis 1978.,renauxtorres2023:Fig6,renauxtorres2023
+Sergentomyia silvatica,(Raynal & Gaschen),Sergentomyia,Neophlebotomus,,valid,,"Pha Tong cave, Chiang Rai (Renaux Torres et al. 2023) (as S. sylvatica)",,,,lewis1978;quate1962;renauxtorres2023
+Sergentomyia sirohi,,Sergentomyia,Sintonius,,valid,,,,,,lewis1978
+Sergentomyia sp. (Besout),,Sergentomyia,Neophlebotomus,,valid,,,,,,lewis1978
+Sergentomyia sp. (Okinawa),,Sergentomyia,ungrouped,,valid,,,,,,lewis1978
+Sergentomyia sp. (Rabok),,Sergentomyia,Neophlebotomus,,valid,,,,,,lewis1978
+Sergentomyia sp. (Sepilok),,Sergentomyia,Neophlebotomus,,valid,,,,,,lewis1978
+Sergentomyia sp. A (Lewis),,Sergentomyia,Parrotomyia,,valid,,,,,,lewis1978
+Sergentomyia sp. B (Lewis),,Sergentomyia,Parrotomyia,,valid,,,,,,lewis1978
+Sergentomyia spinifaucis,(Quate),Sergentomyia,Parrotomyia,,valid,,,,,,lewis1978
+Sergentomyia tambori,Lewis & Jeffery,Sergentomyia,Neophlebotomus,,valid,,,,,,lewis1978
+Sergentomyia theodori pashtunica,Artemiev,Sergentomyia,Sergentomyia,,valid,,,,,,lewis1978
+Sergentomyia tiberiadis pakistanica,Artemiev & Saf'yanova,Sergentomyia,Sintonius,,valid,,,,,,lewis1978
+Sergentomyia timorica,Lewis & Dyce,Sergentomyia,Parrotomyia,,valid,,,,,,lewis1978
+Sergentomyia tonkinensis,(Raynal & Gaschen),Sergentomyia,Neophlebotomus,,valid,,,,,,lewis1978;quate1962
+Sergentomyia torrechantei,(Manalang),Sergentomyia,Parrotomyia,,valid,,,,,,lewis1978
+Sergentomyia tracheola,,Sergentomyia,ungrouped,,valid,,,,,,lewis1978
+Sergentomyia traubi,,Sergentomyia,Neophlebotomus,,valid,,,,,,lewis1978
+Sergentomyia whartoni,"(Lewis, 1957)",Sergentomyia,ungrouped,,Synonym of S. perturbans in Lewis 1978; used as valid by Ding et al. 2025,"Peninsular Malaysia, Singapore",,,,ding2025:Fig11,lewis1978;ding2025
+Sergentomyia yoshimotoi,(Quate),Sergentomyia,Parrotomyia,,valid,,,,,,lewis1978
+Sergentomyia zeylanica,(Annandale),Sergentomyia,Neophlebotomus,,valid,,,,,srilanka:Fig1;srilanka:Fig2;srilanka:Fig3,lewis1978;wijerathna2020

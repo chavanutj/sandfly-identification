@@ -1,0 +1,46 @@
+# key_id: quate1962
+# Quate, L.W. (1962) A review of the Indo-Chinese Phlebotominae (Diptera: Psychodidae).
+# Pacific Insects 4(2): 251-267. "Key to Indo-Chinese species of Phlebotomus" (pp. 254-256).
+# Covers Thailand, Laos, Cambodia, Viet Nam, southernmost China and Hainan.
+# Quate treated Sergentomyia as a subgenus of Phlebotomus. Taxon names below are CURRENT names;
+# Quate's printed name is given in the note where it differs.
+1a | Abdominal hairs erect, sockets on tergites 2 to 6 as large as on 1; palpal segment 4 often only 1/2 length of 3; ♂ dististyle with 2 or 3 spines in center; pharynx armed apically; cibarium at most with weak and irregularly developed teeth | 2 | | Genus Phlebotomus | Quate: "subgenus Phlebotomus"
+1b | Abdominal hairs on tergites 2 to 6 recumbent, sockets much smaller than on tergite 1; palpal segment 4 longer than 1/2 length of 3; ♂ dististyle with all spines distad of center (except sylvestris and khawi); pharynx armed or unarmed; cibarium of ♀ usually with well developed teeth | 4 | | Genus Sergentomyia | Quate: "subgenus Sergentomyia"
+2a | Male dististyle with 5 spines; ♀ with antennal segment 3 ending well before tip of proboscis | 3 | | |
+2b | Male dististyle with 4 spines; ♀ with antennal segment 3 extending to tip of proboscis and cibarium with 2 teeth considerably larger than others | | Phlebotomus stantoni | |
+3a | Male genitalia with 2 small lobes below larger, main lobe on paramere, and long, slender spine on each side of aedeagus; ♀ spermatheca with distal part as broad as basal; ♀ cibarium with several central teeth larger than others | | Phlebotomus argentipes | |
+3b | Male paramere simple, without ventral lobes; ♀ spermatheca with distal part reduced to slender neck; ♀ cibarium with all teeth of about same size | | Phlebotomus chinensis | |
+4a | R2+3 (beta) subequal to or longer than R2 (alpha); delta 1/2 or less length of R2 | 5 | | |
+4b | R2+3 much shorter, less than 1/2 length of R2; delta at least 3/4 length of R2; ♀ pharynx armed, ♂ unarmed; ♀ cibarium with row of fine, numerous teeth, pigment patch well sclerotized and top-shaped; ♂ cibarium with fewer and smaller teeth and pigment patch slender, carrot-shaped | | Sergentomyia brevicaulis | |
+5a | Males | 6 | | |
+5b | Females | 13 | | |
+6a | Dististyle with 2 apical spines and 2 clearly basad of apex; antennal segment 3 very long, extending well beyond proboscis | 7 | | |
+6b | Dististyle with all spines apical or subapical, coxite not elongate; antennal segment 3 shorter than or not greatly exceeding proboscis | 8 | | |
+7a | Dististyle with 2 spines near center; palpal formula 1-4-2-3-5 or 1-2-4-3-5 | | Sergentomyia perturbans | | Quate: "sylvestris" (Sinton), synonymised with S. perturbans by Lewis 1978
+7b | Dististyle with 2 spines at apical 1/4; palpal formula 1-2-3-4-5 | | Sergentomyia khawi | |
+8a | Antennal segment 3 ends before proboscis tip | 9 | | |
+8b | Antennal segment 3 extends beyond proboscis tip | 11 | | |
+9a | Paramere ends in down-curved, pointed apex; pharynx slender and sides nearly straight, unarmed; Newstead scales on palpal segment 3 only; ridge bearing cibarial teeth concave (curvature opposite that of pigment patch) | 10 | | |
+9b | Paramere ends in bluntly rounded apex; pharynx expanded distally and armed with few spines apically; Newstead scales on palpal segments 2 and 3; ridge bearing cibarial teeth straight or convex; pleuron with scales | | Sergentomyia indica | | Quate: "squamipleuris" (Oriental Grassomyia = S. indica according to Lewis 1978)
+10a | Accessory spine of dististyle on about same level as subapical spine; basistyle with many (more than 20) non-deciduous hairs; sides of cibarium suddenly expanded posteriorly to nearly form a right angle | | Sergentomyia bailyi | |
+10b | Accessory spine of dististyle clearly basad of subapical spine; basistyle with few (less than 15) non-deciduous hairs; sides of cibarium expanded but not strongly enough to form right angle | | Sergentomyia barraudi | |
+11a | Genital filaments 3-4x length of pump | 12 | | |
+11b | Genital filaments very long, 5-6x length of pump; basistyle with patch of non-deciduous hairs; cibarium with 7-9 well defined teeth and few, smaller lateral ones on either side | | Sergentomyia morini | |
+12a | Palpal formula 1-2-4-3-5 or 1-(2-4)-3-5; 8 cibarial teeth weak and granular | | Sergentomyia silvatica | | Quate: "sylvaticus"
+12b | Palpal formula 1-2-3-4-5; cibarium with about 14 teeth, central 4 about 1/2 size of lateral ones | | Sergentomyia iyengari | |
+13a | Pharynx armed with thick cluster of spines apically | 14 | | |
+13b | Pharynx unarmed | 15 | | |
+14a | Pigment patch terminating anteriorly as single point; Newstead scales on palpal segments 2 and 3; spermatheca spherical with many setose annulations and thick apical knob | | Sergentomyia indica | | Quate: "squamipleuris"
+14b | Pigment patch terminating anteriorly as 2 points; Newstead scales only on palpal segment 3; spermatheca ovoid, smooth, without setae | | Sergentomyia barraudi | |
+15a | Antennal segment 3 ending well before proboscis tip | 16 | | |
+15b | Antennal segment 3 extending nearly to or beyond proboscis tip | 17 | | |
+16a | Palpal formula 1-2-3-4-5, rarely 1-2-(3-4)-5; antennal segment 3 very short, extending only to about center of proboscis; cibarium with irregular double row of small, faint teeth | | Sergentomyia bailyi | |
+16b | Palpal formula 1-2-4-3-5; antennal segment 3 extending to about distal 1/4 of proboscis; cibarium with 4-6 teeth in center and patch of 8-10 smaller ones on each side | | Sergentomyia silvatica | | Quate: "sylvaticus, pars" (part)
+17a | Palpal formula 1-2-3-4-5 or 1-2-4-3-5 | 18 | | |
+17b | Palpal formula 1-4-2-3-5; cibarium with about 16 large teeth; pigment patch dark, ovoid with anterior extension and with about 10 large, dark rectangles below teeth | | Sergentomyia perturbans | | Quate: "sylvestris"
+18a | Cibarium with weak, rectangular or no pigment patch and less than 10 distinct teeth | 19 | | |
+18b | Cibarium with large, distinct pigment patch and 14 or more teeth | 20 | | |
+19a | Palpal formula 1-2-4-3-5; antennal segment 3 extends to about proboscis tip; cibarium with 4-6 teeth in center larger than patch of 8-10 on each side; pigment patch small, rectangular; pharynx slender, little expanded apically | | Sergentomyia silvatica | | Quate: "sylvaticus"
+19b | Palpal formula 1-2-3-4-5; antennal segment 3 extends well beyond proboscis tip; cibarium with number of small, indefinite teeth; pigment patch absent; pharynx broadly expanded apically | | Sergentomyia tonkinensis | |
+20a | Cibarium with 14 to 17 vertical teeth, 4 central ones of which reduced; erect teeth absent or variably to 2 rows of 20 in each row; pigment patch hemispherical or top-shaped with anterior projection reaching arch | | Sergentomyia iyengari | |
+20b | Cibarium with 20, equal-sized teeth; erect teeth in 2 rows of 20 in each row and a third, incomplete row with 4 teeth on either side; pigment patch beet-shaped and anterior projection not reaching arch | | Sergentomyia khawi | |

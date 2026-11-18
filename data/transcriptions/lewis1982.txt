@@ -1,0 +1,95 @@
+# key_id: lewis1982_subgenera
+# Lewis, D.J. (1982) A taxonomic review of the genus Phlebotomus (Diptera: Psychodidae).
+# Bull. Br. Mus. nat. Hist. (Ent.) 45(2): 121-209. "Key to the subgenera of Phlebotomus" (pp. 130-131).
+1a | Distance between bases of R4 and R5 relatively short, not more than a quarter of width of wing. A pair of rods present next to genital pump. Palpal sensilla not spatulate. Antenna 3 very long and much longer than palp. Palp short, with segment 5 shorter than or equal to 3. Style very long. Spermathecal ducts usually short and wide | 2 | | |
+1b | Distance between bases of R4 and R5 relatively long, at least a third of width of wing. Genital pump without adjacent rods. Palpal sensilla spatulate | 3 | | |
+2a | Vein M1+2 forking at level of radio-median cross-vein, before base of R4. Cibarium of female unarmed. Antenna 3 = 2.3 to 2.5 times length of labrum. Palp segment 3 not enlarged at base, with sensilla scattered on flat surface. Style with four spines and a long hair. Afrotropical Region | | Subgenus Spelaeophlebotomus | | Lewis 1982 p. 131
+2b | Vein M1+2 forking beyond level of radio-median cross-vein, beyond base of R4. Cibarium of female with teeth covering a large area. Antenna 3 about three or more times length of labrum. Palp segment 3 enlarged at base, with sunken patch of sensilla. Style with three to five thick spines and sometimes several thick hairs. Oriental, Palaearctic and Australian Regions | | Subgenus Idiophlebotomus | | Lewis 1982 p. 133. Now usually ranked as a genus.
+3a | Style with three spines. Female with row of about five to ten cibarial teeth, few or no hypopharyngeal teeth, and thin-walled spermathecae. Male with genital filaments short or very short, paramere simple and beak-like, and coxite with simple hair pattern | | Subgenus Australophlebotomus | | Lewis 1982 p. 135
+3b | Style with four or more spines | 4 | | |
+4a | Coxite with hairy process near base. Genital filaments short, 1.3 to 2.3 times length of pump | 5 | | |
+4b | Coxite without such process. Genital filaments 3 to 11 times length of pump | 7 | | |
+5a | Coxite 0.37 to 0.74 mm long, its process very small. Style long and cylindrical with three distal spatulate spines and two other spines. Paramere with two upward processes. Surstyle with distal spines. Pharyngeal armature of female comprising either a network of lines or scales. Spermatheca with nearly equal segments and a refractive membrane near the distal one | | Subgenus Phlebotomus | | Lewis 1982 p. 137
+5b | Coxite 0.20 to 0.33 mm long, its process usually large, and having a brush of long hairs. Style not long, with four or five spines. Paramere simple, distal upper surface flat and elliptical with short hairs. Surstyle without distal spines. Pharynx of female with teeth or scales. Spermatheca sometimes with differentiated rounded end-segment | 6 | | |
+6a | Style with four long spines, two near the tip and two near the base. Pharynx of female with large backwardly directed teeth | | Subgenus Paraphlebotomus | | Lewis 1982 p. 142
+6b | Style with five long spines, two at the tip and three near the middle. Pharynx of female with irregular scales or punctiform teeth | | Subgenus Synphlebotomus | | Lewis 1982 p. 148
+7a | Style with four long spines, one distal, one subterminal, and two near middle. Paramere with one or two extra lobes, with or without accessory spine. Aedeagus sometimes conical. Pharynx of female with a small group of teeth in middle, and behind it some concentric lines. Spermatheca segmented, end-segment not enlarged | | Subgenus Anaphlebotomus | | Lewis 1982 p. 170
+7b | Style with five long spines | 8 | | |
+8a | Paramere with one or two extra lobes, with or without accessory spine. Pharynx of female as in Anaphlebotomus. Spermatheca with differentiated end-segment | | Subgenus Euphlebotomus | | Lewis 1982 p. 168
+8b | Paramere without extra lobes. Pharyngeal armature otherwise | 9 | | |
+9a | Paramere truncated. Antenna 3 and legs long, and wings narrow. Spermatheca moniliform. Haltere of male with broad stalk. Paramere with adjacent rod | | Subgenus Kasaulius | | Lewis 1982 p. 172. Type species P. newsteadi.
+9b | Paramere not truncated | 10 | | |
+10a | Pharynx of female and male with punctiform teeth (large in wenyoni), except in mascittii which has large irregular teeth. Spermatheca segmented, with long finger-like neck except in somaliensis, which has a rather long end-segment, and mascittii, which has a spermatheca with transverse striations often in distal part, a small head, little or no narrowing, and a wide duct. Genital filaments three to five times as long as pump | | Subgenus Larroussius | | Lewis 1982 p. 150
+10b | Pharynx of female with triangular or rounded group of medium-size teeth. Spermatheca incompletely segmented. Genital filaments usually very long, 6.6 to 11.0 length of pump | | Subgenus Adlerius | | Lewis 1982 p. 163
+# key_id: lewis1982_idiophlebotomus
+# "Key to the species of subgenus Idiophlebotomus" (Lewis 1982: 133-134). Couplet 0 = choose sex.
+0a | Female | F1 | | |
+0b | Male | M1 | | |
+F1a | Cibarial armature with median rod or big tooth | F2 | | |
+F1b | Cibarial armature without median rod or big tooth | F7 | | |
+F2a | Cibarial median rod with large serrations | | Idiophlebotomus asperulus | |
+F2b | Cibarial median rod with minute serrations or none | F3 | | |
+F3a | Cibarium without patch of teeth except a few granulose spicules | | Idiophlebotomus erebicolus | |
+F3b | Cibarium with patch of teeth | F4 | | |
+F4a | Median cibarial projection short and tooth-shaped | | Idiophlebotomus teshi | |
+F4b | Median cibarial projection long and rod-shaped | F5 | | |
+F5a | Cibarial teeth in radiating lines | | Idiophlebotomus tubifer | |
+F5b | Cibarial teeth not in radiating lines | F6 | | |
+F6a | Cibarial teeth very long and parallel | | Idiophlebotomus frondifer | |
+F6b | Cibarial teeth not very long and parallel | | Idiophlebotomus pholetor | |
+F7a | Pharynx with scale-like teeth | | Idiophlebotomus longiforceps | |
+F7b | Pharynx unarmed | F8 | | |
+F8a | Cibarial teeth all small | | Idiophlebotomus stellae | |
+F8b | Anterior cibarial teeth very long | | Idiophlebotomus sejunctus | |
+M1a | Apical spine of style with marked basal expansion | | Idiophlebotomus asperulus | |
+M1b | Apical spine of style without such expansion | M2 | | |
+M2a | Style with three spines | M3 | | |
+M2b | Style with more than three spines | M4 | | |
+M3a | Coxite with the two non-distal spines at 0.39. Paramere nearly straight with bulbous apex | | Idiophlebotomus erebicolus | |
+M3b | Coxite with the two non-distal spines at 0.5 or 0.6, and 0.7. Paramere curved upward and pointed | | Idiophlebotomus longiforceps | |
+M4a | Style with four spines | | Idiophlebotomus frondifer | |
+M4b | Style with five spines | M5 | | |
+M5a | Aedeagus prominent and capitate. Paramere slender and without dorsal appendage | | Idiophlebotomus pholetor | |
+M5b | Aedeagus small and triangular. Paramere with basal dorsal curved appendage | | Idiophlebotomus stellae | |
+# key_id: lewis1982_euphlebotomus
+# "Key to the species and subspecies of subgenus Euphlebotomus" (Lewis 1982: 168-169).
+0a | Female | F1 | | |
+0b | Male | M1 | | |
+F1a | Spermatheca bulbous with faint striations near duct, with head on a distinct narrow neck. Pharyngeal armature comprising five or six anterior rows of grouped spicules and many minutely spiculate transverse ridges | | Phlebotomus tumenensis | |
+F1b | Spermatheca not bulbous, without narrow neck. Pharyngeal armature comprising distinct teeth or ridges | F2 | | |
+F2a | Spermatheca with faint transverse striations or indistinct segments | F3 | | |
+F2b | Spermatheca distinctly segmented | F4 | | |
+F3a | Spermatheca with large apical segment and about 15 indistinct segments. Pharynx with many uniform teeth | | Phlebotomus mesghalii | | Iran; not Oriental
+F3b | Spermatheca with small apical segment and about 30 transverse striations. Pharynx with a median group of small teeth and, behind them, some close-set concentric lines | | Phlebotomus kiangsuensis | |
+F4a | Spermathecal common duct with rather thin walls. Antenna 5 without papilla | | Phlebotomus argentipes | |
+F4b | Spermathecal common duct with thick walls. Antenna 5 with papilla | F5 | | |
+F5a | Antenna 3/labrum 1.0 | | Phlebotomus philippinensis philippinensis | |
+F5b | Antenna 3/labrum 1.4 | | Phlebotomus philippinensis gouldi | | Holotype from Thailand
+M1a | Paramere with two lobes | | Phlebotomus mesghalii | |
+M1b | Paramere with three lobes | M2 | | |
+M2a | Middle lobe of paramere nearly rectangular | | Phlebotomus caudatus | | Afghanistan; not Oriental
+M2b | Middle lobe of paramere with rounded end | M3 | | |
+M3a | Middle lobe of paramere thicker than main (upper) lobe | | Phlebotomus kiangsuensis | |
+M3b | Middle lobe of paramere thinner than main lobe | M4 | | |
+M4a | Main lobe of paramere much more than twice length of middle lobe, lower lobe narrow, depth of paramere about 0.29 of its length (measured to junction with coxite) | | Phlebotomus argentipes | |
+M4b | Main lobe of paramere about twice length of middle lobe | M5 | | |
+M5a | Aedeagus without accessory spines | | Phlebotomus tumenensis | |
+M5b | Aedeagus with accessory spines. Lower lobe of paramere appearing narrow but extending mesally, depth of paramere about 0.35 of its length | M6 | | |
+M6a | Antenna 3/labrum 1.7. Style 0.54 length of coxite, and more than four times as long as thick | | Phlebotomus philippinensis philippinensis | |
+M6b | Antenna 3/labrum 2.0. Style 0.61 length of coxite, and about three times as long as thick | | Phlebotomus philippinensis gouldi | |
+# key_id: lewis1982_anaphlebotomus
+# "Key to the species of subgenus Anaphlebotomus" (Lewis 1982: 170-171).
+0a | Female | F1 | | |
+0b | Male | M1 | | |
+F1a | Spermatheca long (about eight times as long as wide) and tubular with very long duct. Afrotropical | | Phlebotomus rodhaini | |
+F1b | Spermatheca not long and tubular. Oriental | F2 | | |
+F2a | Spermatheca slightly carrot-shaped with small end-segment, individual duct about four (possibly more) times length of spermatheca. Sternal tubercle broad | | Phlebotomus colabaensis | |
+F2b | Spermatheca spindle-shaped with very narrow cylindrical apical segment, duct short but common duct very long. Ascoids long. Palp 3 with peg sensilla grouped around middle | F3 | | |
+F3a | Pharyngeal armature with antero-median numerous long pointed teeth which blend laterally with ridges. Individual ducts longer than spermathecae | | Phlebotomus stantoni | | See Renaux Torres et al. 2023 on P. stantoni as a species complex
+F3b | Pharyngeal armature with several antero-median rows of small short teeth, and antero-laterally a number of backward-pointing teeth. Individual ducts shorter than spermathecae | | Phlebotomus hoepplii | |
+M1a | Paramere bilobed | | Phlebotomus colabaensis | |
+M1b | Paramere trilobed | M2 | | |
+M2a | Plunger of sperm pump much wider than body of barrel. Afrotropical | | Phlebotomus rodhaini | |
+M2b | Plunger of sperm pump narrower than body of barrel. Oriental | M3 | | |
+M3a | Spine near aedeagus not longer than it. Pharynx with a series of oblique ridges radiating from mid-line and ending in loops laterally | | Phlebotomus stantoni | |
+M3b | Spine near aedeagus much longer than it. Pharynx with a series of posterior ridges and, antero-laterally, a number of teeth projecting medio-posteriorly | | Phlebotomus hoepplii | |

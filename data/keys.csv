@@ -1,0 +1,645 @@
+key_id,couplet,lead,lead_id,text,goto,taxon,group,figures,note,page_ref,update_note,source_file
+italy,G1,a,G1a,"Cibarial teeth in a transverse row and pigment patch usually present (Fig. 1A). Hind end of abdominal tergites 2-6 with all or most setae recumbent, which arise from small sockets as compared with those on tergite 1 (Fig. 1B). Male style with 3 apical and 1 sub-apical long spines developed and 1 more basal setiform spine (accessory seta) (Fig. 2A). Female spermathecae smooth (Fig. 3A)",,Sergentomyia minuta,Genus Sergentomyia,Fig. 1A; Fig. 1B; Fig. 2A; Fig. 3A,The only Sergentomyia species reported in Italy.,,,dantastorres2014.txt
+italy,G1,b,G1b,"Cibarial teeth and pigment patch usually absent (Fig. 1C). Hind end of abdominal tergites 2-6 with many erect setae, which arise from large sockets of the same size as those on tergite 1 (Fig. 1D). Male style with 2 long apical spines (Fig. 2B, D-H) or 3 short apical spines (Fig. 2C) and setiform spine absent. Female spermathecae with superficial striation (Fig. 3B) or annulated (Fig. 3C-H)",G2,,Genus Phlebotomus,"Fig. 1C; Fig. 1D; Fig. 2B, D-H; Fig. 2C; Fig. 3B; Fig. 3C-H",,,,dantastorres2014.txt
+italy,G2,a,G2a,Male,M1,,,,,,,dantastorres2014.txt
+italy,G2,b,G2b,Female,F1,,,,,,,dantastorres2014.txt
+italy,M1,a,M1a,Coxite (= basistyle) with bristles in the basal region,M2,,,,,,,dantastorres2014.txt
+italy,M1,b,M1b,Coxite without bristles in the basal region,M3,,,,,,,dantastorres2014.txt
+italy,M2,a,M2a,Style (= dististyle) short with 4 long spines: 2 apical and the internal more basal than the external spine. Paramere without dorsal ramification. Surstyle (= lateral lobe) without short distal spines (Fig. 2B),,Phlebotomus sergenti,Subgenus Paraphlebotomus,Fig. 2B,,,,dantastorres2014.txt
+italy,M2,b,M2b,Style with 5 short spines: 3 apical and 2 external spines in its apical third. Paramere with 2 dorsal ramifications. Surstyle with 2 short distal spines (Fig. 2C),,Phlebotomus papatasi,Subgenus Phlebotomus,Fig. 2C,,,,dantastorres2014.txt
+italy,M3,a,M3a,Aedeagus with the distal region tapered and cup-like expansion at the anterior end of genital pump thin-walled and colourless (Fig. 2D),,Phlebotomus mascittii,Subgenus Transphlebotomus,Fig. 2D,,,,dantastorres2014.txt
+italy,M3,b,M3b,Aedeagus with the distal region bifid or rounded,M4,,Subgenus Larroussius,,,,,dantastorres2014.txt
+italy,M4,a,M4a,Aedeagus with colourless plate (transparent process) on terminal portion (Fig. 2E),,Phlebotomus perfiliewi,,Fig. 2E,,,,dantastorres2014.txt
+italy,M4,b,M4b,Aedeagus without colourless plate on terminal portion,M5,,,,,,,dantastorres2014.txt
+italy,M5,a,M5a,Aedeagus bifid at the end (Fig. 2F),,Phlebotomus perniciosus,,Fig. 2F,,,,dantastorres2014.txt
+italy,M5,b,M5b,Aedeagus not bifid at the end,M6,,,,,,,dantastorres2014.txt
+italy,M6,a,M6a,"Aedeagus clapper-like, with moderate subapical expansion (Fig. 2G)",,Phlebotomus ariasi,,Fig. 2G,,,,dantastorres2014.txt
+italy,M6,b,M6b,Aedeagus with drumstick-like tip (Fig. 2H),,Phlebotomus neglectus,,Fig. 2H,,,,dantastorres2014.txt
+italy,F1,a,F1a,"Spermathecae not ringed, with transverse striations often in distal part. Pharynx with large irregular teeth (Figs 3B, 4B)",,Phlebotomus mascittii,Subgenus Transphlebotomus,"Figs 3B, 4B",,,,dantastorres2014.txt
+italy,F1,b,F1b,Spermathecae ringed. Pharynx not as above,F2,,,,,,,dantastorres2014.txt
+italy,F2,a,F2a,Spermathecae without neck,F3,,,,,,,dantastorres2014.txt
+italy,F2,b,F2b,Spermathecae with long finger-like neck,F4,,Subgenus Larroussius,,,,,dantastorres2014.txt
+italy,F3,a,F3a,"Spermathecae with 8-12 rings (apical segment short). Pharyngeal armature not extending beyond its posterior third, with scaly teeth arranged into a wide-meshed network (Figs 3C, 4C)",,Phlebotomus papatasi,Subgenus Phlebotomus,"Figs 3C, 4C",,,,dantastorres2014.txt
+italy,F3,b,F3b,"Spermathecae with 4-5 rings. Pharyngeal armature occupying about a quarter length of pharynx, with few large teeth directed backward (Figs 3D, 4D)",,Phlebotomus sergenti,Subgenus Paraphlebotomus,"Figs 3D, 4D",,,,dantastorres2014.txt
+italy,F4,a,F4a,Spermathecae with lateral structures at the base of the ducts,F5,,,,,,,dantastorres2014.txt
+italy,F4,b,F4b,Spermathecae without lateral structures at the base of the ducts,F6,,,,,,,dantastorres2014.txt
+italy,F5,a,F5a,"Spermathecae with 8-12 rings, with thin neck and small, rounded head. Pharyngeal armature occupying more than a quarter length of pharynx, with teeth arranged disorderly (Figs 3E, 4E)",,Phlebotomus perniciosus,,"Figs 3E, 4E",,,,dantastorres2014.txt
+italy,F5,b,F5b,"Spermathecae with 12-16 rings, small neck that narrows before the small, oval head. Pharyngeal armature about a quarter (or less) length of pharynx with teeth ending anteriorly in a clear line of demarcation (Figs 3F, 4F)",,Phlebotomus perfiliewi,,"Figs 3F, 4F",,,,dantastorres2014.txt
+italy,F6,a,F6a,"Spermathecae with 8-16 rings, with spermathecal ducts sac-like. Pharyngeal armature occupying less than a third of pharynx (Figs 3G, 4G)",,Phlebotomus ariasi,,"Figs 3G, 4G",,,,dantastorres2014.txt
+italy,F6,b,F6b,"Spermathecae with 12-16 rings, with neck surrounded by a sleeve. Pharyngeal armature occupying more than a third of pharynx (Figs 3H, 4H)",,Phlebotomus neglectus,,"Figs 3H, 4H",,,,dantastorres2014.txt
+lewis1978,1,a,1a,"Cibarial teeth absent or, if present, usually in the form of spicules and not in a definite row (Fig. 27). Pigment patch nearly always absent. Hind ends of abdominal tergites 2-6 with many erect hairs (Fig. 1), sockets as large as on 1. Style of ♂ with three to five spines (Figs 19, 25) and sometimes (some species of subgenus Idiophlebotomus) with two hairs as well",2,,Genus Phlebotomus,"Fig. 27; Fig. 1; Figs 19, 25",,Lewis 1978 p. 233,,lewis1978.txt
+lewis1978,1,b,1b,"Cibarial teeth in a transverse row (Fig. 65), fore teeth sometimes present (Figs 136, 245) and usually pointing upward. Pigment patch (Figs 66, 136) usually present. Hind ends of abdominal tergites 2-6 usually with all or most hairs recumbent, most sockets much smaller than on 1 except in S. musai. Style of ♂ with four major spines and an accessory seta (Fig. 80)",48,,Genus Sergentomyia,"Fig. 65; Figs 136, 245; Figs 66, 136; Fig. 80","CORRECTION: printed as ""43"" in the original; the Sergentomyia section of the key begins at couplet 48.",Lewis 1978 p. 252,"Genera described or raised after this key and recorded in Thailand: Chinius (C. barbazani, Thai caves), Grassomyia and Idiophlebotomus as genera.",lewis1978.txt
+lewis1978,2,a,2a,"Cibarium with teeth. Pharynx unarmed. Palp not extending further than antenna 3. Style of ♂ with three to five spines, and a pair of intra-abdominal rods",3,,Subgenus Idiophlebotomus,,Idiophlebotomus is now usually treated as a separate genus.,Lewis 1978 p. 250,"Idiophlebotomus is now treated as a genus (e.g. Renaux Torres et al. 2023). I. longiforceps, recorded from Thai caves, is not in this key; use the Lewis 1982 Idiophlebotomus key.",lewis1978.txt
+lewis1978,2,b,2b,Cibarium with spicules or unarmed. Pharynx usually armed. Palp extending further than antenna 3,15,,,,,,,lewis1978.txt
+lewis1978,3,a,3a,Female,4,,,,,,,lewis1978.txt
+lewis1978,3,b,3b,Male,11,,,,,,,lewis1978.txt
+lewis1978,4,a,4a,Cibarial armature with median rod,5,,,,,,,lewis1978.txt
+lewis1978,4,b,4b,Cibarial armature without median rod,9,,,,,,,lewis1978.txt
+lewis1978,5,a,5a,Cibarial median rod with large serrations,,Phlebotomus asperulus,,,,Lewis 1978 p. 250,,lewis1978.txt
+lewis1978,5,b,5b,Cibarial median rod with minute serrations or none,6,,,,,,,lewis1978.txt
+lewis1978,6,a,6a,Cibarium without teeth except a few granulose spicules,,Phlebotomus erebicolus,,,,Lewis 1978 p. 251,,lewis1978.txt
+lewis1978,6,b,6b,Cibarium with teeth,7,,,,,,,lewis1978.txt
+lewis1978,7,a,7a,Cibarial teeth all short,,Phlebotomus pholetor,,,,Lewis 1978 p. 251,,lewis1978.txt
+lewis1978,7,b,7b,Some or all cibarial teeth long,8,,,,,,,lewis1978.txt
+lewis1978,8,a,8a,Cibarial teeth in radiating lines,,Phlebotomus tubifer,,,,Lewis 1978 p. 252,,lewis1978.txt
+lewis1978,8,b,8b,"Cibarial teeth not in lines, very long, and parallel",,Phlebotomus frondifer,,,,Lewis 1978 p. 251,,lewis1978.txt
+lewis1978,9,a,9a,Cibarial teeth all small,,Phlebotomus stellae,,,,Lewis 1978 p. 251,,lewis1978.txt
+lewis1978,9,b,9b,Cibarial teeth not all small,10,,,,,,,lewis1978.txt
+lewis1978,10,a,10a,Median tooth the longest,,Phlebotomus teshi,,,,Lewis 1978 p. 252,,lewis1978.txt
+lewis1978,10,b,10b,Anterior teeth the longest,,Phlebotomus sejunctus,,,,Lewis 1978 p. 251,,lewis1978.txt
+lewis1978,11,a,11a,Apical spine of style with marked basal expansion,,Phlebotomus asperulus,,,,Lewis 1978 p. 250,,lewis1978.txt
+lewis1978,11,b,11b,Apical spine of style without marked basal expansion,12,,,,,,,lewis1978.txt
+lewis1978,12,a,12a,Style with three spines,,Phlebotomus erebicolus,,,,Lewis 1978 p. 251,,lewis1978.txt
+lewis1978,12,b,12b,Style with more than three spines,13,,,,,,,lewis1978.txt
+lewis1978,13,a,13a,Style with four spines,,Phlebotomus frondifer,,,,Lewis 1978 p. 251,,lewis1978.txt
+lewis1978,13,b,13b,Style with five spines,14,,,,,,,lewis1978.txt
+lewis1978,14,a,14a,Aedeagus prominent and capitate; paramere slender and without dorsal appendage,,Phlebotomus pholetor,,,,Lewis 1978 p. 251,,lewis1978.txt
+lewis1978,14,b,14b,Aedeagus small and triangular; paramere with basal dorsal curved appendage,,Phlebotomus stellae,,,,Lewis 1978 p. 251,,lewis1978.txt
+lewis1978,15,a,15a,Coxite of ♂ with sub-basal hairy process. Genital filaments 1.3-2.3 times as long as pump,16,,,,,,,lewis1978.txt
+lewis1978,15,b,15b,Coxite of ♂ without such process. Genital filaments 3-11 times as long as pump,24,,,,,,,lewis1978.txt
+lewis1978,16,a,16a,"Coxite 0.37-0.74 mm long, its process very small. Style long and cylindrical with three terminal spatulate spines and two other spines. Paramere with two dorsal processes. Surstyle with terminal spines. Pharyngeal armature comprising either a network of lines or scales. Spermatheca with nearly equal segments and a refractive membrane (Figs 2, 3) near bases of ductules",17,,Subgenus Phlebotomus,"Figs 2, 3",,Lewis 1978 p. 233,,lewis1978.txt
+lewis1978,16,b,16b,"Coxite 0.20-0.33 mm long, its process usually large and having a brush of long hairs. Style not long, with four or five spines. Paramere simple, distal upper surface flat and elliptical with short hairs. Surstyle without terminal spines. Pharynx of ♀ with teeth or scales. Spermatheca sometimes with differentiated rounded end-segment",19,,,,,,,lewis1978.txt
+lewis1978,17,a,17a,Female,,Phlebotomus papatasi; Phlebotomus salehi,,,Females not separated in this key.,"Lewis 1978 pp. 233, 235",,lewis1978.txt
+lewis1978,17,b,17b,Male,18,,,,,,,lewis1978.txt
+lewis1978,18,a,18a,"Upper parameral lobe much longer than paramere. Surstyle with two, or sometimes three, similar spines",,Phlebotomus papatasi,,,,Lewis 1978 p. 233,,lewis1978.txt
+lewis1978,18,b,18b,"Upper parameral lobe same length as paramere. Surstyle with seven spines, large to very small",,Phlebotomus salehi,,,,Lewis 1978 p. 235,,lewis1978.txt
+lewis1978,19,a,19a,"Style with five long spines, two at the tip and two near the middle. Pharynx of ♀ with irregular scales or punctiform teeth",,Phlebotomus eleanorae,Subgenus Synphlebotomus,,,Lewis 1978 pp. 236-237,,lewis1978.txt
+lewis1978,19,b,19b,"Style with four long spines, two near the tip and two near the base. Pharynx of ♀ with large backwardly directed teeth",20,,Subgenus Paraphlebotomus,,,Lewis 1978 p. 235,,lewis1978.txt
+lewis1978,20,a,20a,Female,21,,,,,,,lewis1978.txt
+lewis1978,20,b,20b,Male,22,,,,,,,lewis1978.txt
+lewis1978,21,a,21a,"Antenna 3 short (0.12-0.16 mm), 0.5-0.6 length of labrum",,Phlebotomus alexandri,,,,Lewis 1978 p. 235,,lewis1978.txt
+lewis1978,21,b,21b,"Antenna 3 long (0.23-0.33 mm), 0.7-1.0 length of labrum",,Phlebotomus sergenti,,,,Lewis 1978 p. 236,,lewis1978.txt
+lewis1978,22,a,22a,Basal process of coxite very large and thick with many hairs on its distal third,,Phlebotomus nuri,,,,Lewis 1978 p. 236,,lewis1978.txt
+lewis1978,22,b,22b,Basal process of coxite small and thin with hairs only at its end,23,,,,,,,lewis1978.txt
+lewis1978,23,a,23a,"Antenna 3 short (0.12-0.16 mm), 0.7-0.9 length of labrum. Genital pump short (0.12 mm) with small basal plate or funnel",,Phlebotomus alexandri,,,,Lewis 1978 p. 235,,lewis1978.txt
+lewis1978,23,b,23b,"Antenna 3 long (0.25-0.34 mm), 1.0-1.4 length of labrum. Genital pump long (0.17-0.2 mm) with broad basal plate",,Phlebotomus sergenti,,,,Lewis 1978 p. 236,,lewis1978.txt
+lewis1978,24,a,24a,"Style with four long spines of which one is terminal, one subterminal, and two near the middle. Paramere with two or three lobes, with or without accessory spine. Aedeagus short and conical. Pharynx with a small group of teeth in the middle and behind it some concentric lines. Spermatheca segmented, apical segment not enlarged",25,,Subgenus Anaphlebotomus,,,Lewis 1978 p. 247,,lewis1978.txt
+lewis1978,24,b,24b,Style with five long spines,30,,,,,,,lewis1978.txt
+lewis1978,25,a,25a,Female,26,,,,,,,lewis1978.txt
+lewis1978,25,b,25b,Male,28,,,,,,,lewis1978.txt
+lewis1978,26,a,26a,"Spermatheca slightly carrot-shaped with small end-segment, individual duct about four (possibly more) times length of spermatheca. Sternal tubercle broad",,Phlebotomus colabaensis,,,,Lewis 1978 p. 247,,lewis1978.txt
+lewis1978,26,b,26b,"Spermatheca spindle-shaped with very narrow cylindrical apical segment, duct short but common duct very long. Ascoids long. Palpal segment 3 with peg sensilla grouped around middle",27,,,,,,,lewis1978.txt
+lewis1978,27,a,27a,Pharyngeal armature with antero-median numerous long pointed teeth which blend laterally with ridges. Individual ducts longer than spermathecae,,Phlebotomus stantoni,,,,Lewis 1978 p. 248,"P. stantoni s.l.: Renaux Torres et al. (2023) described P. shadenae (Thailand, Laos) and reinstated P. maynei (India). ♀ P. shadenae: spermathecal common duct about 508 µm (P. stantoni 178-261 µm). Check before naming P. stantoni.",lewis1978.txt
+lewis1978,27,b,27b,"Pharyngeal armature with several antero-median rows of small short teeth, and antero-laterally a number of backward-pointing teeth. Individual ducts shorter than spermathecae",,Phlebotomus hoepplii,,,,Lewis 1978 p. 247,"P. hoepplii was later treated as a junior synonym of P. stantoni (attributed to Lewis by Renaux Torres et al. 2023), but Renaux Torres et al. (2023) consider it valid (very short individual spermathecal ducts, about 20 µm).",lewis1978.txt
+lewis1978,28,a,28a,Paramere bilobed,,Phlebotomus colabaensis,,,,Lewis 1978 p. 247,,lewis1978.txt
+lewis1978,28,b,28b,Paramere trilobed,29,,,,,,,lewis1978.txt
+lewis1978,29,a,29a,Spine near aedeagus not longer than it. Pharynx with a series of oblique ridges radiating from mid-line and ending in loops laterally,,Phlebotomus stantoni,,,,Lewis 1978 p. 248,"P. stantoni s.l.: ♂ aedeagal ducts (genital filaments) about 640-671 µm in P. shadenae, 280-336 µm in P. stantoni, about 448 µm in P. maynei (Renaux Torres et al. 2023). P. shadenae also has more gonocoxal setae (median tuft of about 56).",lewis1978.txt
+lewis1978,29,b,29b,"Spine near aedeagus much longer than it. Pharynx with a series of posterior ridges and, antero-laterally, a number of teeth projecting medio-posteriorly",,Phlebotomus hoepplii,,,,Lewis 1978 p. 247,,lewis1978.txt
+lewis1978,30,a,30a,Paramere with three lobes (two in an Iranian species). Pharynx of ♀ as in Anaphlebotomus. Spermatheca with differentiated end-segment,31,,Subgenus Euphlebotomus,,,Lewis 1978 p. 240,"Euphlebotomus species described after 1978 and not in this key: P. barguesae and P. mascomai (Thai caves), P. seowpohi (Singapore, 2025). P. argentipes s.l. may comprise P. argentipes s.s., P. annandalei and P. glaucus (see Sri Lanka key).",lewis1978.txt
+lewis1978,30,b,30b,Paramere without ventral process. Pharyngeal armature otherwise,38,,,,,,,lewis1978.txt
+lewis1978,31,a,31a,Female,32,,,,,,,lewis1978.txt
+lewis1978,31,b,31b,Male,35,,,,,,,lewis1978.txt
+lewis1978,32,a,32a,Spermatheca with faint transverse striations,,Phlebotomus kiangsuensis,,,,Lewis 1978 p. 244,,lewis1978.txt
+lewis1978,32,b,32b,Spermatheca distinctly segmented,33,,,,,,,lewis1978.txt
+lewis1978,33,a,33a,Spermathecal common duct with rather thin walls. Antenna 5 without papilla,,Phlebotomus argentipes,,,,Lewis 1978 p. 240,"P. argentipes s.l.: compare P. seowpohi (Ding et al. 2025): longer ascoid on f2 (asc/f2 0.71 ♀, 0.61 ♂ versus < 0.5 in P. argentipes s.s.), no sensilla on f3, pigment-free pharyngeal armature.",lewis1978.txt
+lewis1978,33,b,33b,Spermathecal common duct with thick walls. Antenna 5 with papilla,34,,,,,,,lewis1978.txt
+lewis1978,34,a,34a,Antenna 3/labrum 1.0,,Phlebotomus philippinensis philippinensis,,,,Lewis 1978 p. 245,,lewis1978.txt
+lewis1978,34,b,34b,Antenna 3/labrum 1.4,,Phlebotomus philippinensis gouldi,,,,Lewis 1978 p. 245,,lewis1978.txt
+lewis1978,35,a,35a,Middle lobe of paramere thicker than main (upper) lobe,,Phlebotomus kiangsuensis,,,,Lewis 1978 p. 244,,lewis1978.txt
+lewis1978,35,b,35b,Middle lobe of paramere thinner than main lobe,36,,,,,,,lewis1978.txt
+lewis1978,36,a,36a,"Main lobe of paramere much more than twice length of middle lobe, lower lobe narrow, depth of paramere about 0.29 of its length (measured to junction with coxite)",,Phlebotomus argentipes,,,,Lewis 1978 p. 240,"P. argentipes s.l.: compare P. seowpohi (Ding et al. 2025): asc/f2 0.61 in ♂, f3/labrum about 1.0.",lewis1978.txt
+lewis1978,36,b,36b,"Main lobe of paramere about twice or more length of middle lobe, lower lobe appearing narrow but extending mesally, depth of paramere about 0.35 of its length",37,,,,,,,lewis1978.txt
+lewis1978,37,a,37a,"Antenna 3/labrum 1.7. Style 0.54 length of coxite, and 4.1 times as thick as long",,Phlebotomus philippinensis philippinensis,,,,Lewis 1978 p. 245,,lewis1978.txt
+lewis1978,37,b,37b,"Antenna 3/labrum 2.0. Style 0.61 length of coxite, and 3.6 times as thick as long",,Phlebotomus philippinensis gouldi,,,,Lewis 1978 p. 245,,lewis1978.txt
+lewis1978,38,a,38a,Paramere truncated (not in subgenus),,Phlebotomus newsteadi,,,,Lewis 1978 p. 250,,lewis1978.txt
+lewis1978,38,b,38b,Paramere not truncated,39,,,,,,,lewis1978.txt
+lewis1978,39,a,39a,"Pharynx of ♀ and ♂ with punctiform teeth. Spermatheca segmented, with long finger-like process. Genital filaments 3-5 times as long as pump",40,,Subgenus Larroussius,,,Lewis 1978 p. 237,,lewis1978.txt
+lewis1978,39,b,39b,"Pharynx of ♀ with triangular or rounded group of medium-size teeth. Spermatheca incompletely segmented. Genital filaments usually very long, 6.6-11.0 times length of pump",46,,Subgenus Adlerius,,,Lewis 1978 p. 239,,lewis1978.txt
+lewis1978,40,a,40a,Female,41,,,,,,,lewis1978.txt
+lewis1978,40,b,40b,Male,44,,,,,,,lewis1978.txt
+lewis1978,41,a,41a,"Pharynx with scarcely visible spicules. Spermatheca with about 22 bead-like segments, a long neck and a very small head. West Malaysia",,Phlebotomus betisi,,,,Lewis 1978 p. 237,,lewis1978.txt
+lewis1978,41,b,41b,Pharynx with readily visible spicules,42,,,,,,,lewis1978.txt
+lewis1978,42,a,42a,"Spermatheca with 30-35 segments, very long. Median pharyngeal teeth larger than laterals",,Phlebotomus kandelakii burneyi,,,,Lewis 1978 p. 238,,lewis1978.txt
+lewis1978,42,b,42b,Spermatheca with 8-21 segments,43,,,,,,,lewis1978.txt
+lewis1978,43,a,43a,"Spermatheca nearly cylindrical, with 12-16 segments",,Phlebotomus major major,,,,Lewis 1978 p. 238,,lewis1978.txt
+lewis1978,43,b,43b,"Spermatheca narrowing at one or both ends, with about 18-21 segments",,Phlebotomus keshishiani,,,,Lewis 1978 p. 238,,lewis1978.txt
+lewis1978,44,a,44a,Aedeagus with mid-ventral surface finely serrated. Aedeagus tapering gradually to a point through which genital filaments emerge,,Phlebotomus kandelakii burneyi,,,,Lewis 1978 p. 238,,lewis1978.txt
+lewis1978,44,b,44b,Aedeagus smooth,45,,,,,,,lewis1978.txt
+lewis1978,45,a,45a,Genital filaments 3-5 times length of pump,,Phlebotomus major major,,,,Lewis 1978 p. 238,,lewis1978.txt
+lewis1978,45,b,45b,Genital filaments 6-11 times length of pump,,Phlebotomus keshishiani,,,,Lewis 1978 p. 238,,lewis1978.txt
+lewis1978,46,a,46a,Female,,Phlebotomus chinensis chinensis; Phlebotomus longiductus,,,Females not separated in this key.,"Lewis 1978 pp. 239, 240",,lewis1978.txt
+lewis1978,46,b,46b,Male,47,,,,,,,lewis1978.txt
+lewis1978,47,a,47a,Subterminal barb of aedeagus 30-35 µm from tip. Ascoid on antenna 4 about 0.19 length of segment,,Phlebotomus chinensis chinensis,,,,Lewis 1978 p. 239,,lewis1978.txt
+lewis1978,47,b,47b,Subterminal barb of aedeagus 12-14 µm from tip. Ascoid on antenna 4 about 0.31 length of segment,,Phlebotomus longiductus,,,,Lewis 1978 p. 240,,lewis1978.txt
+lewis1978,48,a,48a,Abdominal tergites 2-6 with many erect hairs,,Sergentomyia musai,musai-group,,,Lewis 1978 p. 253,,lewis1978.txt
+lewis1978,48,b,48b,Abdominal tergites 2-6 with few or no erect hairs,49,,,,,,,lewis1978.txt
+lewis1978,49,a,49a,Abdominal tergites 2-6 with a few posterior erect hairs (very few in ♂ S. clydei). Spermatheca distinctly segmented,50,,Subgenus Sintonius,,,Lewis 1978 p. 307,,lewis1978.txt
+lewis1978,49,b,49b,Abdominal tergites 2-6 usually with no erect hairs. Spermatheca not segmented but sometimes striated or wrinkled,63,,,,,,,lewis1978.txt
+lewis1978,50,a,50a,Female,51,,,,,,,lewis1978.txt
+lewis1978,50,b,50b,Male,57,,,,,,,lewis1978.txt
+lewis1978,51,a,51a,Pharynx very heavily armed. Cibarium with about 27 teeth in pallisade-like convex curve. Two rows of fore teeth present,,Sergentomyia orissa,,,,Lewis 1978 p. 309,,lewis1978.txt
+lewis1978,51,b,51b,Pharynx lightly armed or unarmed,52,,,,,,,lewis1978.txt
+lewis1978,52,a,52a,Pharynx with distinct spicules,,Sergentomyia hospitii,,,,Lewis 1978 p. 309,,lewis1978.txt
+lewis1978,52,b,52b,Pharynx with minute spicules or none,53,,,,,,,lewis1978.txt
+lewis1978,53,a,53a,Cibarium with about 35 large pointed teeth in a row convex medially,,Sergentomyia eadithae,,,,Lewis 1978 p. 309,,lewis1978.txt
+lewis1978,53,b,53b,Cibarium with about 18 teeth or less,54,,,,,,,lewis1978.txt
+lewis1978,54,a,54a,Cibarium with about five widely spaced teeth,,Sergentomyia christophersi,,,,Lewis 1978 p. 308,,lewis1978.txt
+lewis1978,54,b,54b,Cibarium with about 10-18 teeth close together,55,,,,,,,lewis1978.txt
+lewis1978,55,a,55a,Cibarium without fore teeth,,Sergentomyia sirohi,,,,Lewis 1978 p. 310,,lewis1978.txt
+lewis1978,55,b,55b,Cibarium with fore teeth,56,,,,,,,lewis1978.txt
+lewis1978,56,a,56a,"Cibarium with 12-15 long equal pointed teeth. Pharynx with thick walls and an abrupt constriction behind the bulge. One to four papillae on antenna 3, one or two on 4",,Sergentomyia clydei,,,,Lewis 1978 p. 308,,lewis1978.txt
+lewis1978,56,b,56b,"Cibarium with a comb-like row of about 16-18 teeth, their points directed upward and usually hidden, outer teeth sloping towards centre. Pharynx thin-walled, narrowing gradually behind bulge. One papilla on antenna 3 and 4",,Sergentomyia tiberiadis pakistanica,,,,Lewis 1978 p. 311,,lewis1978.txt
+lewis1978,57,a,57a,Cibarial teeth minute and arranged in groups,,Sergentomyia clydei,,,,Lewis 1978 p. 308,,lewis1978.txt
+lewis1978,57,b,57b,Cibarial teeth otherwise,58,,,,,,,lewis1978.txt
+lewis1978,58,a,58a,Cibarium with about 28 teeth,,Sergentomyia hospitii,,,,Lewis 1978 p. 309,,lewis1978.txt
+lewis1978,58,b,58b,Cibarium with about 20 teeth or less,59,,,,,,,lewis1978.txt
+lewis1978,59,a,59a,Cibarium with two or three teeth,,Sergentomyia christophersi,,,,Lewis 1978 p. 308,,lewis1978.txt
+lewis1978,59,b,59b,Cibarium with ten or more teeth,60,,,,,,,lewis1978.txt
+lewis1978,60,a,60a,Cibarium with 20 teeth,,Sergentomyia eadithae,,,,Lewis 1978 p. 309,,lewis1978.txt
+lewis1978,60,b,60b,Cibarium with 14 teeth or less,61,,,,,,,lewis1978.txt
+lewis1978,61,a,61a,Antenna 3 = 0.06 length of wing,,Sergentomyia sirohi,,,,Lewis 1978 p. 310,,lewis1978.txt
+lewis1978,61,b,61b,Antenna 3 = 0.11 or 0.12 length of wing,62,,,,,,,lewis1978.txt
+lewis1978,62,a,62a,Cibarial teeth on concave arc,,Sergentomyia tiberiadis pakistanica,,,,Lewis 1978 p. 311,,lewis1978.txt
+lewis1978,62,b,62b,Cibarial teeth on arc convex in centre,,Sergentomyia orissa,,,,Lewis 1978 p. 309,,lewis1978.txt
+lewis1978,63,a,63a,Spermatheca a round finely spiculate capsule. Cibarium of ♀ with convex comb of pointed teeth. Pharynx of ♀ bulging near hind end. Antenna of ♀ with one ascoid on segments 4-15. Abdominal tergites 2-6 with some posterior erect hairs. Genital filaments with rounded expanded tips. Parameres blunt,,Sergentomyia indica,Subgenus Grassomyia,,,Lewis 1978 p. 268,Grassomyia is now usually treated as a genus (Lewis 1987; Renaux Torres et al. 2023). Lewis 1987 separates G. indica and G. dreyfussi turkestanica (see the lewis1987_grassomyia key).,lewis1978.txt
+lewis1978,63,b,63b,Spermatheca elongate and usually without spicules,64,,,,,,,lewis1978.txt
+lewis1978,64,a,64a,"Antenna 3 short, 0.08-0.19 mm, shorter than 4+5, usually shorter than labrum. Wing narrow and lanceolate; R2/R2+3 usually less than one (0.3-0.8). Spermatheca tubular with smooth sides and wide duct. Aedeagus thick. Style with four terminal spines, or two terminal and two subterminal",65,,Subgenus Sergentomyia,,,Lewis 1978 p. 253,,lewis1978.txt
+lewis1978,64,b,64b,Without this combination. Spermatheca usually not tubular,69,,,,,,,lewis1978.txt
+lewis1978,65,a,65a,Female,66,,,,,,,lewis1978.txt
+lewis1978,65,b,65b,Male,68,,,,,,,lewis1978.txt
+lewis1978,66,a,66a,Hind teeth of pharyngeal armature much smaller than fore teeth. Hind width of pharynx about 0.58-0.77 of length,,Sergentomyia punjabensis,,,,Lewis 1978 p. 255,,lewis1978.txt
+lewis1978,66,b,66b,Hind teeth of pharyngeal armature not much smaller than fore teeth. Hind width of pharynx about 0.37-0.59 of length,67,,,,,,,lewis1978.txt
+lewis1978,67,a,67a,Length of pharynx 2.25 or less times hind width,,Sergentomyia dentata,,,,Lewis 1978 p. 253,,lewis1978.txt
+lewis1978,67,b,67b,Length of pharynx 2.26 or more times hind width,,Sergentomyia theodori pashtunica,,,,Lewis 1978 p. 255,,lewis1978.txt
+lewis1978,68,a,68a,Parameres hooked,,Sergentomyia punjabensis,,,,Lewis 1978 p. 255,,lewis1978.txt
+lewis1978,68,b,68b,Parameres blunt,,Sergentomyia dentata; Sergentomyia theodori pashtunica,,,Males not separated in this key.,"Lewis 1978 pp. 253, 255",,lewis1978.txt
+lewis1978,69,a,69a,"Cibarial armature usually a comb-like row of parallel teeth with short points. Pharynx often lamp-glass-shaped. R2/R2+3 often 0.3-1.0 (in some Palaearctic species). Spermatheca a smooth, round or elliptical, capsule. Aedeagus slender, triangular and narrowing gradually, usually to a sharp point. Paramere hooked. Style with all or two of four spines terminal",70,,Subgenus Parrotomyia,,,Lewis 1978 p. 256,,lewis1978.txt
+lewis1978,69,b,69b,Without this combination,110,,,,,,,lewis1978.txt
+lewis1978,70,a,70a,Female,71,,,,,,,lewis1978.txt
+lewis1978,70,b,70b,Male,94,,,,,,,lewis1978.txt
+lewis1978,71,a,71a,Pharynx with many distinct pointed teeth,72,,,,,,,lewis1978.txt
+lewis1978,71,b,71b,Pharynx with very fine spicules or none,86,,,,,,,lewis1978.txt
+lewis1978,72,a,72a,"Cibarium with notch in hind end of ventral plate, and 10-50 teeth in concave row",73,,,,,,,lewis1978.txt
+lewis1978,72,b,72b,Cibarium without notch in hind end of ventral plate,75,,,,,,,lewis1978.txt
+lewis1978,73,a,73a,"Cibarium with about 10-14 teeth, notch shallow",,Sergentomyia shorttii,,,,Lewis 1978 p. 265,"See the Lewis 1987 key to the S. babu series (with notch). S. leechingae (Singapore, Ding et al. 2025) also has a babu-type notch and differs in notch shape and tooth number.",lewis1978.txt
+lewis1978,73,b,73b,"Cibarium with about 24-50 teeth, notch deep",74,,,,,,,lewis1978.txt
+lewis1978,74,a,74a,Cibarium with 24-34 teeth,,Sergentomyia babu babu,,,,Lewis 1978 p. 257,"See the Lewis 1987 key to the S. babu series. S. leechingae (Singapore, 2025) has a babu-type notch.",lewis1978.txt
+lewis1978,74,b,74b,Cibarium with 45-50 teeth. (Sri Lanka),,Sergentomyia babu insularis,,,,Lewis 1978 p. 258,,lewis1978.txt
+lewis1978,75,a,75a,Spermatheca nearly spherical. Cibarium with 20-22 teeth in a straight line. (Pakistan),,Sergentomyia palestinensis,,,,Lewis 1978 p. 264,,lewis1978.txt
+lewis1978,75,b,75b,Spermatheca not nearly spherical,76,,,,,,,lewis1978.txt
+lewis1978,76,a,76a,"Pharynx broad, often with rather straight sides, with many long finely pointed teeth. Cibarium with 40-70 teeth and tip of pigment patch bifid, ragged or fenestrated",,Sergentomyia barraudi,,,,Lewis 1978 p. 259,"S. barraudi group: Renaux Torres et al. (2023) refer Thai specimens with 44-54 cibarial teeth to S. siamensis Causey, and describe S. maiae (57-69 teeth plus two rows of vertical teeth, the lower row set very low in the sclerotized area). S. barraudi s.s. (India) has about 40 teeth.",lewis1978.txt
+lewis1978,76,b,76b,Without this combination,77,,,,,,,lewis1978.txt
+lewis1978,77,a,77a,Cibarium with 50-60 short teeth in row concave in centre and straight or convex at sides; fore teeth in two rows,,Sergentomyia spinifaucis,,,,Lewis 1978 p. 265,,lewis1978.txt
+lewis1978,77,b,77b,Without this combination,78,,,,,,,lewis1978.txt
+lewis1978,78,a,78a,Cibarium with 64 teeth or more,79,,,,,,,lewis1978.txt
+lewis1978,78,b,78b,Cibarium with 60 teeth or less,83,,,,,,,lewis1978.txt
+lewis1978,79,a,79a,"Pharyngeal teeth long, numerous and finely pointed. Cibarial teeth more than 65",80,,,,,,,lewis1978.txt
+lewis1978,79,b,79b,Pharyngeal teeth not long,82,,,,,,,lewis1978.txt
+lewis1978,80,a,80a,Palpal segment 4 = 1.6 times length of 3. Cibarium with 65-70 hind teeth. Antenna 3 = 0.28-0.31 mm long. Cibarial fore teeth in two rows of about 22. (Philippines),,Sergentomyia mangana,,,,Lewis 1978 p. 263,,lewis1978.txt
+lewis1978,80,b,80b,Palpal segment 4 = 1.1 times length of 3. Cibarium with 90 hind teeth,81,,,,,,,lewis1978.txt
+lewis1978,81,a,81a,"Antenna 3 = 0.11-0.14 mm long. Cibarial fore teeth numbering 35, in two ill-defined rows. (Australia and Nusa Tenggara)",,Sergentomyia queenslandi meridionalis,,,,Lewis 1978 p. 264,,lewis1978.txt
+lewis1978,81,b,81b,Antenna 3 = 0.26-0.33 mm long. Cibarial fore teeth in two rows of about 22. (West Malaysia),,Sergentomyia rudnicki,,,,Lewis 1978 p. 264,,lewis1978.txt
+lewis1978,82,a,82a,Hind margin of pigment patch concave,,Sergentomyia himalayensis,,,,Lewis 1978 p. 262,,lewis1978.txt
+lewis1978,82,b,82b,Hind margin of pigment patch convex. (South Vietnam),,Sergentomyia brevicaulis,,,,Lewis 1978 p. 260,,lewis1978.txt
+lewis1978,83,a,83a,Cibarium with 10-12 teeth. (Philippines),,Sergentomyia bigtii,,,,Lewis 1978 p. 259,,lewis1978.txt
+lewis1978,83,b,83b,Cibarium with 26 or more teeth,84,,,,,,,lewis1978.txt
+lewis1978,84,a,84a,Cibarium with 42-50 teeth,,Sergentomyia africana magna,,,,Lewis 1978 p. 256,,lewis1978.txt
+lewis1978,84,b,84b,Cibarium with 26-32 teeth,85,,,,,,,lewis1978.txt
+lewis1978,85,a,85a,Cibarial teeth on a distinct arc. (India),,Sergentomyia kauli,,,,Lewis 1978 p. 263,,lewis1978.txt
+lewis1978,85,b,85b,Cibarial teeth on a nearly straight line. (Philippines),,Sergentomyia torrechantei,,,,Lewis 1978 p. 267,,lewis1978.txt
+lewis1978,86,a,86a,Cibarium with deep notch in hind end of ventral plate. Cibarium with 16-20 teeth. Pharynx with transverse ridges and some hind spicules,,Sergentomyia baghdadis,,,,Lewis 1978 p. 258,,lewis1978.txt
+lewis1978,86,b,86b,Cibarium without such notch,87,,,,,,,lewis1978.txt
+lewis1978,87,a,87a,Pharynx with well-defined scales. (Pakistan),,Sergentomyia grekovi,,,,Lewis 1978 p. 262,,lewis1978.txt
+lewis1978,87,b,87b,Pharynx without scales but sometimes with a few transverse wrinkles or minute spicules,88,,,,,,,lewis1978.txt
+lewis1978,88,a,88a,Cibarium with 60-90 teeth,89,,,,,,,lewis1978.txt
+lewis1978,88,b,88b,Cibarium with 34 teeth or less,90,,,,,,,lewis1978.txt
+lewis1978,89,a,89a,"Cibarium with about 90 teeth, very narrow and almost invisible. Pharynx lamp-glass-shaped, without spicules. (Borneo)",,Sergentomyia denticulata,,,,Lewis 1978 p. 262,,lewis1978.txt
+lewis1978,89,b,89b,"Cibarium with about 60 teeth, easily visible. Pharynx with nearly straight sides and a group of hind spicules. (Nusa Tenggara)",,Sergentomyia timorica,,,,Lewis 1978 p. 265,,lewis1978.txt
+lewis1978,90,a,90a,Cibarium with 24-32 hind teeth,91,,,,,,,lewis1978.txt
+lewis1978,90,b,90b,Cibarium with 14-18 hind teeth,93,,,,,,,lewis1978.txt
+lewis1978,91,a,91a,Cibarial teeth on convex arc,,Sergentomyia franciscana,,,,Lewis 1978 p. 262,,lewis1978.txt
+lewis1978,91,b,91b,Cibarial teeth in nearly straight line,92,,,,,,,lewis1978.txt
+lewis1978,92,a,92a,Cibarium with about 24 teeth,,Sergentomyia dayapensis,,,,Lewis 1978 p. 260,,lewis1978.txt
+lewis1978,92,b,92b,Cibarium with 30-34 teeth,,Sergentomyia bukidnonis,,,,Lewis 1978 p. 260,,lewis1978.txt
+lewis1978,93,a,93a,Cibarium with 17 hind teeth and a pigment patch,,Sergentomyia modii,,,,Lewis 1978 p. 263,,lewis1978.txt
+lewis1978,93,b,93b,Cibarium with 14-18 hind teeth and no pigment patch. Hind teeth in convex row. Spermatheca ovoid with protuberant knob. (Philippines),,Sergentomyia yoshimotoi,,,,Lewis 1978 p. 267,,lewis1978.txt
+lewis1978,94,a,94a,Tip of aedeagus pointed,95,,,,,,,lewis1978.txt
+lewis1978,94,b,94b,Tip of aedeagus rounded,100,,,,,,,lewis1978.txt
+lewis1978,95,a,95a,Style with four apical spines,96,,,,,,,lewis1978.txt
+lewis1978,95,b,95b,Style with two of spines subapical,98,,,,,,,lewis1978.txt
+lewis1978,96,a,96a,Cibarium with an irregular row of 13 fore teeth,,Sergentomyia brevinervis,,,,Lewis 1978 p. 260,,lewis1978.txt
+lewis1978,96,b,96b,Cibarium with no fore teeth or with a straight row of a few at bases of hind teeth,97,,,,,,,lewis1978.txt
+lewis1978,97,a,97a,Cibarium with about 20-30 hind teeth,,Sergentomyia africana magna,,,,Lewis 1978 p. 256,,lewis1978.txt
+lewis1978,97,b,97b,Cibarium with about 60 hind teeth,,Sergentomyia queenslandi meridionalis,,,,Lewis 1978 p. 264,,lewis1978.txt
+lewis1978,98,a,98a,"Cibarium with 16 or 17 teeth. Fore teeth absent, pigment patch faint. Pharynx with narrow hind end",,Sergentomyia franciscana,,,,Lewis 1978 p. 262,,lewis1978.txt
+lewis1978,98,b,98b,Cibarium with about 19 or 20 hind teeth,99,,,,,,,lewis1978.txt
+lewis1978,99,a,99a,Cibarium with two rows of fore teeth and a long narrow pigment patch,,Sergentomyia brevicaulis,,,,Lewis 1978 p. 260,,lewis1978.txt
+lewis1978,99,b,99b,Cibarium with no fore teeth and no visible pigment patch,,Sergentomyia denticulata,,,,Lewis 1978 p. 262,,lewis1978.txt
+lewis1978,100,a,100a,Style with three large and one small spines,,Sergentomyia himalayensis,,,,Lewis 1978 p. 262,,lewis1978.txt
+lewis1978,100,b,100b,Style with four equal spines,101,,,,,,,lewis1978.txt
+lewis1978,101,a,101a,Style about five or six times as long as thick,102,,,,,,,lewis1978.txt
+lewis1978,101,b,101b,Style about four times as long as thick,106,,,,,,,lewis1978.txt
+lewis1978,102,a,102a,Pharynx unarmed,103,,,,,,,lewis1978.txt
+lewis1978,102,b,102b,Pharynx armed,104,,,,,,,lewis1978.txt
+lewis1978,103,a,103a,Cibarium with 12-17 hind teeth and six fore teeth,,Sergentomyia bukidnonis,,,,Lewis 1978 p. 260,,lewis1978.txt
+lewis1978,103,b,103b,"Cibarium with about 30 hind teeth, fore teeth faint or absent",,Sergentomyia timorica,,,,Lewis 1978 p. 265,,lewis1978.txt
+lewis1978,104,a,104a,Cibarial fore teeth well developed,,Sergentomyia grekovi,,,,Lewis 1978 p. 262,,lewis1978.txt
+lewis1978,104,b,104b,Cibarial fore teeth faint,105,,,,,,,lewis1978.txt
+lewis1978,105,a,105a,Antenna 3 = 0.29-0.38 mm long,,Sergentomyia rudnicki,,,,Lewis 1978 p. 264,,lewis1978.txt
+lewis1978,105,b,105b,Antenna 3 = about 0.16-0.18 mm long,,Sergentomyia babu babu; Sergentomyia babu insularis; Sergentomyia baghdadis; Sergentomyia shorttii,,,Males not separated in this key.,"Lewis 1978 pp. 257, 258, 265",,lewis1978.txt
+lewis1978,106,a,106a,Two of spines on style subapical,,Sergentomyia sp. A (Lewis),,,,Lewis 1978 p. 256,,lewis1978.txt
+lewis1978,106,b,106b,All spines on style apical,107,,,,,,,lewis1978.txt
+lewis1978,107,a,107a,Cibarium with about 18 teeth,,Sergentomyia barraudi,,,,Lewis 1978 p. 259,S. barraudi group; see update note on couplet 76a.,lewis1978.txt
+lewis1978,107,b,107b,Cibarium with about 10-13 teeth,108,,,,,,,lewis1978.txt
+lewis1978,108,a,108a,Pharynx unarmed,,Sergentomyia sp. B (Lewis),,,,Lewis 1978 p. 257,,lewis1978.txt
+lewis1978,108,b,108b,Pharynx armed,109,,,,,,,lewis1978.txt
+lewis1978,109,a,109a,Pharynx with pointed teeth,,Sergentomyia mangana,,,,Lewis 1978 p. 263,,lewis1978.txt
+lewis1978,109,b,109b,Pharynx with scale-like ridges,,Sergentomyia palestinensis,,,,Lewis 1978 p. 264,,lewis1978.txt
+lewis1978,110,a,110a,"Cibarial tooth-row usually comprising parallel teeth, often nearly equal but not very narrow. Pharynx slender, with teeth or scales, or nearly unarmed. Antenna 3 long, longer than 4+5, often 1.25-2.00 times length of labrum. Wing rather broad, R2 usually longer than R2+3. Spermatheca often a thin-walled capsule, sometimes with cross-striations; duct sometimes narrow and joining common duct. Aedeagus usually slender with blunt tip. Paramere hooked. Style with two terminal spines and two others more or less terminal or near the middle",111,,Subgenus Neophlebotomus,,,Lewis 1978 p. 269,"Depaquit et al. (2019) doubt the validity of subgenus Neophlebotomus as defined here, and treat newly described related species as ungrouped Sergentomyia.",lewis1978.txt
+lewis1978,110,b,110b,Without this combination,155,,,,,,,lewis1978.txt
+lewis1978,111,a,111a,Female,112,,,,,,,lewis1978.txt
+lewis1978,111,b,111b,Male,134,,,,,,,lewis1978.txt
+lewis1978,112,a,112a,Cibarium with about eight rows of fore teeth,113,,,,,,,lewis1978.txt
+lewis1978,112,b,112b,Cibarium without eight rows of fore teeth,114,,,,,,,lewis1978.txt
+lewis1978,113,a,113a,Cibarium with fore process of pigment patch absent or faint. Labrum 0.18-0.21 length of wing,,Sergentomyia gombaki,,,,Lewis 1978 p. 275,,lewis1978.txt
+lewis1978,113,b,113b,Cibarium with fore process of pigment patch prominent. Labrum 0.13-0.15 length of wing,,Sergentomyia arboris,,,,Lewis 1978 p. 270,,lewis1978.txt
+lewis1978,114,a,114a,Cibarium with three rows of fore teeth,115,,,,,,,lewis1978.txt
+lewis1978,114,b,114b,Cibarium with less than three rows of fore teeth or none,117,,,,,,,lewis1978.txt
+lewis1978,115,a,115a,Fore teeth of hind row very large,,Sergentomyia gemmea,,,,Lewis 1978 p. 273,"S. gemmea: Depaquit et al. (2019) state that the decisive character is anterior spurs on the ascoids. S. raynali (Thailand, Laos) also has spurred ascoids but differs by a pigmented ring in the cibarium. Specimens without ascoidal spurs are not S. gemmea (often S. khawi or S. hivernus). S. retrocalcarae (Singapore 2025) has backward-oriented ascoidal spurs.",lewis1978.txt
+lewis1978,115,b,115b,Fore teeth of hind row not very large,116,,,,,,,lewis1978.txt
+lewis1978,116,a,116a,"Labrum very long, 0.18-0.20 length of wing. R2/R2+3 = 1.53-2.06",,Sergentomyia malayae,,,,Lewis 1978 p. 282,,lewis1978.txt
+lewis1978,116,b,116b,"Labrum not very long, 0.13-0.15 length of wing. R2/R2+3 = 2.10-2.85",,Sergentomyia zeylanica,,,,Lewis 1978 p. 292,,lewis1978.txt
+lewis1978,117,a,117a,Cibarial central teeth markedly different from the rest,118,,,,,,,lewis1978.txt
+lewis1978,117,b,117b,Cibarial central teeth not markedly different from the rest,123,,,,,,,lewis1978.txt
+lewis1978,118,a,118a,Cibarial central teeth much larger than the rest,119,,,,,,,lewis1978.txt
+lewis1978,118,b,118b,Cibarial central teeth not much larger than the rest,121,,,,,,,lewis1978.txt
+lewis1978,119,a,119a,Antenna 3 = 1.34-1.42 length of labrum,,Sergentomyia silvatica,,,,Lewis 1978 p. 290,,lewis1978.txt
+lewis1978,119,b,119b,Antenna 3 = 2.19-2.36 length of labrum,120,,,,,,,lewis1978.txt
+lewis1978,120,a,120a,Wing length 2.15-2.23 mm. Spermatheca with simple duct,,Sergentomyia quatei,,,,Lewis 1978 p. 288,,lewis1978.txt
+lewis1978,120,b,120b,Wing length 1.79-1.90 mm. Spermatheca with modified duct,,Sergentomyia hamidi,,,,Lewis 1978 p. 275,,lewis1978.txt
+lewis1978,121,a,121a,Cibarium with 24 teeth,,Sergentomyia dhandai,,,,Lewis 1978 p. 271,,lewis1978.txt
+lewis1978,121,b,121b,Cibarium with 17 teeth or less,122,,,,,,,lewis1978.txt
+lewis1978,122,a,122a,"Cibarium with 14-17 hind teeth, fore teeth absent or varying from one row of four to two rows of up to 20; pigment patch with anterior projection either thick, small or absent (leaving patch hemispherical)",,Sergentomyia iyengari,,,,Lewis 1978 p. 277,"S. iyengari group: S. hivernus has been reinstated (Phumee et al. 2016, cited by Depaquit et al. 2019): tubular spermathecae and few vertical cibarial teeth. Thai specimens with many vertical teeth in 2-3 rows may be S. khawi (Renaux Torres et al. 2023).",lewis1978.txt
+lewis1978,122,b,122b,"Cibarium with about 11 teeth, and one irregular row of fore teeth. Pigment patch with broad anterior projection",,Sergentomyia tambori,,,,Lewis 1978 p. 291,,lewis1978.txt
+lewis1978,123,a,123a,Cibarial pigment patch very narrow and linear,,Sergentomyia linearis,,,,Lewis 1978 p. 280,,lewis1978.txt
+lewis1978,123,b,123b,Cibarial pigment patch not very narrow,124,,,,,,,lewis1978.txt
+lewis1978,124,a,124a,Cibarium with 18 fold-like teeth longest in the centre. Antenna 3/labrum 2.0. Spermatheca an oval capsule with faint streaks,,Sergentomyia traubi,,,,Lewis 1978 p. 292,,lewis1978.txt
+lewis1978,124,b,124b,Cibarial teeth not fold-like,125,,,,,,,lewis1978.txt
+lewis1978,125,a,125a,"Cibarium with 14 hind teeth, of which the lateral one on each side is separated from the rest, and about ten fore teeth in one row; pigment patch with marked anterior projection and posterior notch",,Sergentomyia nankingensis,,,,Lewis 1978 p. 282,,lewis1978.txt
+lewis1978,125,b,125b,Cibarial teeth and pigment patch not like this,126,,,,,,,lewis1978.txt
+lewis1978,126,a,126a,Cibarium with nine or ten groups of denticles,,Sergentomyia tonkinensis,,,,Lewis 1978 p. 291,,lewis1978.txt
+lewis1978,126,b,126b,Cibarial teeth not in such groups,127,,,,,,,lewis1978.txt
+lewis1978,127,a,127a,Cibarium with 50-60 teeth,,Sergentomyia hodgsoni hodgsoni,,,,Lewis 1978 p. 277,,lewis1978.txt
+lewis1978,127,b,127b,Cibarium with about 20 teeth or less,128,,,,,,,lewis1978.txt
+lewis1978,128,a,128a,Cibarium with about 20 teeth,129,,,,,,,lewis1978.txt
+lewis1978,128,b,128b,Cibarium with less than 20 teeth on average,131,,,,,,,lewis1978.txt
+lewis1978,129,a,129a,Cibarial teeth on a straight line,,Sergentomyia balica,,,,Lewis 1978 p. 270,,lewis1978.txt
+lewis1978,129,b,129b,Cibarial teeth on a curve,130,,,,,,,lewis1978.txt
+lewis1978,130,a,130a,"Cibarial teeth contiguous, in row convex in centre",,Sergentomyia khawi,,,,Lewis 1978 p. 278,"S. khawi: Thai specimens have 13-17 cibarial teeth with 2-3 rows of vertical teeth (Renaux Torres et al. 2023), fewer than the 20 in Lewis's lead.",lewis1978.txt
+lewis1978,130,b,130b,"Cibarial teeth separated, in concave row. Pigment patch narrow and long",,Sergentomyia purii,,,,Lewis 1978 p. 288,,lewis1978.txt
+lewis1978,131,a,131a,Cibarium with eight or nine main hind teeth arising from refractive brown area with colour different from pigment patch,,Sergentomyia perturbans,,,,Lewis 1978 p. 283,S. perturbans: see update note on couplet 140a.,lewis1978.txt
+lewis1978,131,b,131b,Cibarium otherwise,132,,,,,,,lewis1978.txt
+lewis1978,132,a,132a,Cibarial teeth separated. Seven to 15 of them in a regular row,,Sergentomyia jefferyi,,,,Lewis 1978 p. 278,,lewis1978.txt
+lewis1978,132,b,132b,Cibarial teeth contiguous,133,,,,,,,lewis1978.txt
+lewis1978,133,a,133a,Cibarium with about 14 hind teeth in a line angular at the centre; seven round teeth present behind hind ones,,Sergentomyia chakravarti,,,,Lewis 1978 p. 271,,lewis1978.txt
+lewis1978,133,b,133b,Cibarium with about eight hind teeth in nearly straight row; no teeth behind hind ones,,Sergentomyia malabarica,,,,Lewis 1978 p. 280,,lewis1978.txt
+lewis1978,134,a,134a,Style with two of spines near middle,135,,,,,,,lewis1978.txt
+lewis1978,134,b,134b,Style with spines terminal or subterminal,146,,,,,,,lewis1978.txt
+lewis1978,135,a,135a,Brush on coxite with about 183 close hairs. Style not very swollen near middle,,Sergentomyia gombaki,,,,Lewis 1978 p. 275,,lewis1978.txt
+lewis1978,135,b,135b,"Brush on coxite with about 95 hairs or less, or indefinite",136,,,,,,,lewis1978.txt
+lewis1978,136,a,136a,Brush on coxite with about 95 close hairs. Style very wide near middle,,Sergentomyia sp. (Besout),,,,Lewis 1978 p. 271,,lewis1978.txt
+lewis1978,136,b,136b,"Brush on coxite with 60 hairs or less, or absent",137,,,,,,,lewis1978.txt
+lewis1978,137,a,137a,Cibarial teeth fold-shaped,,Sergentomyia traubi,,,,Lewis 1978 p. 292,,lewis1978.txt
+lewis1978,137,b,137b,Cibarial teeth not fold-shaped,138,,,,,,,lewis1978.txt
+lewis1978,138,a,138a,Style with seta at about 0.8,139,,,,,,,lewis1978.txt
+lewis1978,138,b,138b,Style with seta at 0.7 or more proximal,140,,,,,,,lewis1978.txt
+lewis1978,139,a,139a,Coxite with long brush of about 60 hairs,,Sergentomyia purii,,,,Lewis 1978 p. 288,,lewis1978.txt
+lewis1978,139,b,139b,Coxite with a short brush of about 31 hairs,,Sergentomyia quatei,,,,Lewis 1978 p. 288,,lewis1978.txt
+lewis1978,140,a,140a,Coxite long and narrow and slightly curved,,Sergentomyia perturbans,,,,Lewis 1978 p. 283,S. perturbans: Lewis 1978 synonymised S. whartoni with it; Ding et al. (2025) use the name S. whartoni for Singapore material because the identity of S. perturbans remains doubtful.,lewis1978.txt
+lewis1978,140,b,140b,Coxite not long and narrow and slightly curved,141,,,,,,,lewis1978.txt
+lewis1978,141,a,141a,"Aedeagus thick, mid width of shaft about 0.19 of extreme length of aedeagus",142,,,,,,,lewis1978.txt
+lewis1978,141,b,141b,"Aedeagus slender, mid width of shaft about 0.11 of extreme length of aedeagus",144,,,,,,,lewis1978.txt
+lewis1978,142,a,142a,R2/R2+3 about 1.2. Coxite with seta distinctly proximal to middle spines,,Sergentomyia khawi,,,,Lewis 1978 p. 278,,lewis1978.txt
+lewis1978,142,b,142b,R2/R2+3 about 1.5-2.7. Coxite with seta near middle spines,143,,,,,,,lewis1978.txt
+lewis1978,143,a,143a,Coxite with some of outer hairs concentrated,,Sergentomyia zeylanica,,,,Lewis 1978 p. 292,,lewis1978.txt
+lewis1978,143,b,143b,Coxite with outer hairs evenly spaced,,Sergentomyia malayae,,,,Lewis 1978 p. 282,,lewis1978.txt
+lewis1978,144,a,144a,Cibarial fore teeth about four deep in broad band,,Sergentomyia sp. (Rabok),,,,Lewis 1978 p. 290,,lewis1978.txt
+lewis1978,144,b,144b,Cibarial fore teeth not in broad band,145,,,,,,,lewis1978.txt
+lewis1978,145,a,145a,Brush starting at 0.21 of coxite,,Sergentomyia arboris,,,,Lewis 1978 p. 270,,lewis1978.txt
+lewis1978,145,b,145b,Brush starting at 0.23 of coxite,,Sergentomyia gemmea,,,,Lewis 1978 p. 273,S. gemmea: see update note on couplet 115a.,lewis1978.txt
+lewis1978,146,a,146a,"Style with spines of unequal thickness, three terminal. Coxite without definite brush",,Sergentomyia tambori,,,,Lewis 1978 p. 291,,lewis1978.txt
+lewis1978,146,b,146b,"Style with spines of equal thickness, two or four terminal",147,,,,,,,lewis1978.txt
+lewis1978,147,a,147a,All spines of style terminal,148,,,,,,,lewis1978.txt
+lewis1978,147,b,147b,Two spines of style at 0.76-0.85,151,,,,,,,lewis1978.txt
+lewis1978,148,a,148a,Paramere with spinose process at base of neck,,Sergentomyia hodgsoni hodgsoni,,,,Lewis 1978 p. 277,,lewis1978.txt
+lewis1978,148,b,148b,Paramere without such process,149,,,,,,,lewis1978.txt
+lewis1978,149,a,149a,Cibarium with long narrow pigment patch,,Sergentomyia linearis,,,,Lewis 1978 p. 280,,lewis1978.txt
+lewis1978,149,b,149b,Cibarial pigment patch not long and narrow,150,,,,,,,lewis1978.txt
+lewis1978,150,a,150a,Cibarium with conspicuous fore teeth,,Sergentomyia iyengari,,,,Lewis 1978 p. 277,S. iyengari group: see update note on couplet 122a.,lewis1978.txt
+lewis1978,150,b,150b,Cibarium without fore teeth,,Sergentomyia dhandai,,,,Lewis 1978 p. 271,,lewis1978.txt
+lewis1978,151,a,151a,Cibarial hind teeth comprising four central large ones and a row of about five small ones on each side,,Sergentomyia silvatica,,,,Lewis 1978 p. 290,,lewis1978.txt
+lewis1978,151,b,151b,Cibarial teeth not like this,152,,,,,,,lewis1978.txt
+lewis1978,152,a,152a,"Cibarium with about eight teeth, some with several points, and a few vestigial fore teeth",,Sergentomyia balica,,,,Lewis 1978 p. 270,,lewis1978.txt
+lewis1978,152,b,152b,Cibarium otherwise,153,,,,,,,lewis1978.txt
+lewis1978,153,a,153a,Cibarium with about six hind and about six fore teeth,,Sergentomyia sp. (Sepilok),,,,Lewis 1978 p. 290,,lewis1978.txt
+lewis1978,153,b,153b,Cibarium otherwise,154,,,,,,,lewis1978.txt
+lewis1978,154,a,154a,Cibarium with ten scattered hind teeth and no fore teeth,,Sergentomyia malabarica,,,,Lewis 1978 p. 280,,lewis1978.txt
+lewis1978,154,b,154b,"Cibarium with about seven ill-defined hind teeth, not widely scattered, and about 15 small fore teeth",,Sergentomyia jefferyi,,,,Lewis 1978 p. 278,,lewis1978.txt
+lewis1978,155,a,155a,"Cibarium of ♀ with one or more rows of small, sometimes scarcely visible, hind teeth. Spermatheca smooth, an elliptical or cylindrical capsule. Aedeagus pointed and paramere hooked. Style with all spines terminal or two of them subterminal",156,,nicnic-group,,,Lewis 1978 p. 294,,lewis1978.txt
+lewis1978,155,b,155b,Without this combination,161,,"Sergentomyia, ungrouped species",,,Lewis 1978 p. 295,,lewis1978.txt
+lewis1978,156,a,156a,Female,157,,,,,,,lewis1978.txt
+lewis1978,156,b,156b,Male,158,,,,,,,lewis1978.txt
+lewis1978,157,a,157a,Hind end of pharynx with a group of small but conspicuous dark spicules,,Sergentomyia nicnic,,,,Lewis 1978 p. 295,,lewis1978.txt
+lewis1978,157,b,157b,Hind end of pharynx without such spicules. Cornua divergent,,Sergentomyia bailyi,,,,Lewis 1978 p. 294,,lewis1978.txt
+lewis1978,158,a,158a,Cibarium with multiple row of teeth,,Sergentomyia bailyi,,,,Lewis 1978 p. 294,,lewis1978.txt
+lewis1978,158,b,158b,Cibarium with single row of main teeth,159,,,,,,,lewis1978.txt
+lewis1978,159,a,159a,Cibarial hind teeth diamond-shaped,,Sergentomyia kachekensis,,,,Lewis 1978 p. 295,,lewis1978.txt
+lewis1978,159,b,159b,Cibarial hind teeth not diamond-shaped,160,,,,,,,lewis1978.txt
+lewis1978,160,a,160a,Pigment patch present. Antenna 3 about as long as 4+5,,Sergentomyia nicnic,,,,Lewis 1978 p. 295,,lewis1978.txt
+lewis1978,160,b,160b,Pigment patch absent. Antenna 3 longer than 4+5,,Sergentomyia displicata,,,,Lewis 1978 p. 294,,lewis1978.txt
+lewis1978,161,a,161a,Female,162,,,,,,,lewis1978.txt
+lewis1978,161,b,161b,Male,185,,,,,,,lewis1978.txt
+lewis1978,162,a,162a,Cibarium without row of teeth,,Sergentomyia jamesi,,,,Lewis 1978 p. 300,,lewis1978.txt
+lewis1978,162,b,162b,Cibarium with row of teeth,163,,,,,,,lewis1978.txt
+lewis1978,163,a,163a,Cibarial teeth (in the usual ventral view) broad and often diamond-shaped or pear-shaped,164,,,,,,,lewis1978.txt
+lewis1978,163,b,163b,Cibarial teeth not broad except at bases,169,,,,,,,lewis1978.txt
+lewis1978,164,a,164a,Cibarium with cluster of small teeth behind main teeth,,Sergentomyia reidi,,,,Lewis 1978 p. 305,,lewis1978.txt
+lewis1978,164,b,164b,Cibarium without such cluster,165,,,,,,,lewis1978.txt
+lewis1978,165,a,165a,Cibarium with eight wedge-shaped teeth. Pigment patch absent. Pharynx rather slender with compact group of teeth,,Sergentomyia tracheola,,,,Lewis 1978 p. 305,,lewis1978.txt
+lewis1978,165,b,165b,Cibarium with pear-shaped teeth,166,,,,,,,lewis1978.txt
+lewis1978,166,a,166a,Cibarium with about 25 teeth rather like fish hooks,,Sergentomyia maai,,,,Lewis 1978 p. 301,,lewis1978.txt
+lewis1978,166,b,166b,Cibarium with 18 teeth or less,167,,,,,,,lewis1978.txt
+lewis1978,167,a,167a,Cibarium with 12-18 hind teeth,,Sergentomyia heiseri,,,,Lewis 1978 p. 299,,lewis1978.txt
+lewis1978,167,b,167b,Cibarium with eight to ten hind teeth,168,,,,,,,lewis1978.txt
+lewis1978,168,a,168a,"Cibarial arch about 4.9 tooth lengths from teeth, intervening area dark",,Sergentomyia losarcus,,,,Lewis 1978 p. 301,,lewis1978.txt
+lewis1978,168,b,168b,"Cibarial arch about 1.6 tooth lengths from teeth, intervening area not dark",,Sergentomyia cheongi,,,,Lewis 1978 p. 296,,lewis1978.txt
+lewis1978,169,a,169a,Cibarium with long median projection,,Sergentomyia anodontis,,,,Lewis 1978 p. 295,,lewis1978.txt
+lewis1978,169,b,169b,Cibarium without such projection,170,,,,,,,lewis1978.txt
+lewis1978,170,a,170a,Cibarium with 38 very long teeth in convex row and 65 fore teeth in seven or eight rows,,Sergentomyia dentacea,,,,Lewis 1978 p. 297,,lewis1978.txt
+lewis1978,170,b,170b,Cibarium without this pattern,171,,,,,,,lewis1978.txt
+lewis1978,171,a,171a,Cibarium with 70 teeth. Pharynx with ten short spicules. R2/R2+3 = 4.8. Spermatheca subovoid,,Sergentomyia sp. (Okinawa),,,,Lewis 1978 p. 304,,lewis1978.txt
+lewis1978,171,b,171b,Without this combination,172,,,,,,,lewis1978.txt
+lewis1978,172,a,172a,Cibarium with several rows of lateral teeth. Pigment patch with broad process and narrow hind part. Pharynx narrow with many teeth,,Sergentomyia montana,,,,Lewis 1978 p. 303,,lewis1978.txt
+lewis1978,172,b,172b,Cibarium without several rows of lateral teeth,173,,,,,,,lewis1978.txt
+lewis1978,173,a,173a,"Cibarium with 14 inwardly sloping teeth, and no fore teeth or pigment patch. (Philippines)",,Sergentomyia exastis,,,,Lewis 1978 p. 297,,lewis1978.txt
+lewis1978,173,b,173b,Without this combination,174,,,,,,,lewis1978.txt
+lewis1978,174,a,174a,Cibarium with 30 short linear teeth in compact row and about 80 fore teeth in five or six rows. Pharynx with dense patch of teeth. Antenna 3 about twice length of labrum. (Philippines),,Sergentomyia dapsilidentes,,,,Lewis 1978 p. 296,,lewis1978.txt
+lewis1978,174,b,174b,Without this combination,175,,,,,,,lewis1978.txt
+lewis1978,175,a,175a,Cibarium with 10-14 teeth looking like barbed fish hooks; fore teeth absent; pigment patch rectangular. Pharynx unarmed. (Philippines),,Sergentomyia delfinadoae,,,,Lewis 1978 p. 296,,lewis1978.txt
+lewis1978,175,b,175b,Without this combination,176,,,,,,,lewis1978.txt
+lewis1978,176,a,176a,Cibarium with many small triangular teeth of different sizes tending to form three rows centrally. Pharynx with finely spiculate ridges. (China),,Sergentomyia fanglianensis,,,,Lewis 1978 p. 297,,lewis1978.txt
+lewis1978,176,b,176b,Without this combination,177,,,,,,,lewis1978.txt
+lewis1978,177,a,177a,Pharynx distinctly armed,178,,,,,,,lewis1978.txt
+lewis1978,177,b,177b,Pharynx unarmed or with minute spicules,179,,,,,,,lewis1978.txt
+lewis1978,178,a,178a,Cibarium with 26 teeth,,Sergentomyia lagunensis,,,,Lewis 1978 p. 301,,lewis1978.txt
+lewis1978,178,b,178b,Cibarium with 50 teeth,,Sergentomyia mahadevani,,,,Lewis 1978 p. 301,,lewis1978.txt
+lewis1978,179,a,179a,Antenna 3 = 0.12 mm long,,Sergentomyia neras,,,,Lewis 1978 p. 303,,lewis1978.txt
+lewis1978,179,b,179b,Antenna 3 = 0.19-0.54 mm long,180,,,,,,,lewis1978.txt
+lewis1978,180,a,180a,Cibarium with about eight small blunt teeth in a nearly straight line,,Sergentomyia hassani,,,,Lewis 1978 p. 297,,lewis1978.txt
+lewis1978,180,b,180b,Cibarium with 9-29 pointed teeth on a distinct arc,181,,,,,,,lewis1978.txt
+lewis1978,181,a,181a,Cibarium with many fore teeth,182,,,,,,,lewis1978.txt
+lewis1978,181,b,181b,Cibarium with very few or no fore teeth,183,,,,,,,lewis1978.txt
+lewis1978,182,a,182a,Cibarium with 10-12 teeth,,Sergentomyia imitor,,,,Lewis 1978 p. 299,,lewis1978.txt
+lewis1978,182,b,182b,"Cibarium with 20-29 teeth. Interarcal area sclerotized and wrinkled. Antenna 3 about 1.3 length of labrum, ascoids with spur. Tergite 8 with patch of hairs on each side",,Sergentomyia pachystoma,,,,Lewis 1978 p. 304,,lewis1978.txt
+lewis1978,183,a,183a,Cibarium with nine teeth,,Sergentomyia kelantani,,,,Lewis 1978 p. 300,,lewis1978.txt
+lewis1978,183,b,183b,Cibarium with 12-27 teeth,184,,,,,,,lewis1978.txt
+lewis1978,184,a,184a,Cibarium with 12-15 teeth,,Sergentomyia hitchensi,,,,Lewis 1978 p. 299,,lewis1978.txt
+lewis1978,184,b,184b,Cibarium with 24-27 teeth,,Sergentomyia knudseni,,,,Lewis 1978 p. 300,,lewis1978.txt
+lewis1978,185,a,185a,Cibarium with patch of teeth behind main teeth,,Sergentomyia reidi,,,,Lewis 1978 p. 305,,lewis1978.txt
+lewis1978,185,b,185b,Cibarium without such patch,186,,,,,,,lewis1978.txt
+lewis1978,186,a,186a,"Style with two of spines subterminal and seta near base, and cibarial teeth small",,Sergentomyia hitchensi,,,,Lewis 1978 p. 299,,lewis1978.txt
+lewis1978,186,b,186b,Without this combination,187,,,,,,,lewis1978.txt
+lewis1978,187,a,187a,Cibarium with faint median hind process and no definite teeth,,Sergentomyia anodontis,,,,Lewis 1978 p. 295,,lewis1978.txt
+lewis1978,187,b,187b,Cibarium otherwise,188,,,,,,,lewis1978.txt
+lewis1978,188,a,188a,Palpal segment 4 nearly twice length of 3. Cibarium with 12 short linear teeth and ten fore teeth in two rows,,Sergentomyia dapsilidentes,,,,Lewis 1978 p. 296,,lewis1978.txt
+lewis1978,188,b,188b,Palpal segment 4 not so long,189,,,,,,,lewis1978.txt
+lewis1978,189,a,189a,"Cibarium with six to ten barb-like teeth, six fore teeth and a long antenna 3, 0.31 mm",,Sergentomyia delfinadoae,,,,Lewis 1978 p. 296,,lewis1978.txt
+lewis1978,189,b,189b,Without this combination,190,,,,,,,lewis1978.txt
+lewis1978,190,a,190a,Cibarium with many small triangular teeth of different sizes tending to form two rows in the centre,,Sergentomyia fanglianensis,,,,Lewis 1978 p. 297,,lewis1978.txt
+lewis1978,190,b,190b,Cibarial teeth not like this,191,,,,,,,lewis1978.txt
+lewis1978,191,a,191a,Cibarium with eight prominent diamond-shaped hind teeth and eight fore teeth in two rows. Inter-arcal area pigmented,,Sergentomyia heiseri,,,,Lewis 1978 p. 299,,lewis1978.txt
+lewis1978,191,b,191b,Cibarium not like this,192,,,,,,,lewis1978.txt
+lewis1978,192,a,192a,"Cibarium with about eight sharp spike-like teeth, and 10-20 fore teeth, usually in one main row",,Sergentomyia imitor,,,,Lewis 1978 p. 299,,lewis1978.txt
+lewis1978,192,b,192b,Cibarium otherwise,193,,,,,,,lewis1978.txt
+lewis1978,193,a,193a,"Cibarium with about eight distinct separated teeth on convex arc, a strong bulge, and pigment patch about two-thirds width of cibarium",,Sergentomyia knudseni,,,,Lewis 1978 p. 300,,lewis1978.txt
+lewis1978,193,b,193b,Cibarium otherwise,194,,,,,,,lewis1978.txt
+lewis1978,194,a,194a,"Cibarium with seven to nine pear-shaped teeth, no fore teeth and pigmented inter-arcal area",,Sergentomyia losarcus,,,,Lewis 1978 p. 301,,lewis1978.txt
+lewis1978,194,b,194b,Cibarium otherwise,195,,,,,,,lewis1978.txt
+lewis1978,195,a,195a,Cibarium with 12-15 small teeth and eight fore teeth,,Sergentomyia maai,,,,Lewis 1978 p. 301,,lewis1978.txt
+lewis1978,195,b,195b,Cibarium otherwise,196,,,,,,,lewis1978.txt
+lewis1978,196,a,196a,"Cibarium with about 18 teeth in one row, about three rows in front of them on each side, and a distinct pigment patch",,Sergentomyia montana,,,,Lewis 1978 p. 303,,lewis1978.txt
+lewis1978,196,b,196b,Cibarium otherwise,197,,,,,,,lewis1978.txt
+lewis1978,197,a,197a,"Cibarium with six or seven groups of small fine teeth, and some fore teeth, and no pigment patch",,Sergentomyia morini,,,,Lewis 1978 p. 303,,lewis1978.txt
+lewis1978,197,b,197b,Cibarium otherwise,198,,,,,,,lewis1978.txt
+lewis1978,198,a,198a,"Cibarium with six small but distinct teeth, five fore teeth in one row, and no pigment patch. Antenna 3 short, 0.11 mm, style with three apical and one subapical spines, and seta at 0.7",,Sergentomyia neras,,,,Lewis 1978 p. 303,,lewis1978.txt
+lewis1978,198,b,198b,Without this combination,199,,,,,,,lewis1978.txt
+lewis1978,199,a,199a,Cibarium with about six long teeth and about 18 irregular fore teeth,,Sergentomyia pachystoma,,,,Lewis 1978 p. 304,,lewis1978.txt
+lewis1978,199,b,199b,"Cibarial hind teeth numbering 23-29; fore teeth numbering 10-15, those at centre less pointed than side ones",,Sergentomyia pooi,,,,Lewis 1978 p. 305,,lewis1978.txt
+lewis1982_subgenera,1,a,1a,"Distance between bases of R4 and R5 relatively short, not more than a quarter of width of wing. A pair of rods present next to genital pump. Palpal sensilla not spatulate. Antenna 3 very long and much longer than palp. Palp short, with segment 5 shorter than or equal to 3. Style very long. Spermathecal ducts usually short and wide",2,,,,,,,lewis1982.txt
+lewis1982_subgenera,1,b,1b,"Distance between bases of R4 and R5 relatively long, at least a third of width of wing. Genital pump without adjacent rods. Palpal sensilla spatulate",3,,,,,,,lewis1982.txt
+lewis1982_subgenera,2,a,2a,"Vein M1+2 forking at level of radio-median cross-vein, before base of R4. Cibarium of female unarmed. Antenna 3 = 2.3 to 2.5 times length of labrum. Palp segment 3 not enlarged at base, with sensilla scattered on flat surface. Style with four spines and a long hair. Afrotropical Region",,Subgenus Spelaeophlebotomus,,,,Lewis 1982 p. 131,,lewis1982.txt
+lewis1982_subgenera,2,b,2b,"Vein M1+2 forking beyond level of radio-median cross-vein, beyond base of R4. Cibarium of female with teeth covering a large area. Antenna 3 about three or more times length of labrum. Palp segment 3 enlarged at base, with sunken patch of sensilla. Style with three to five thick spines and sometimes several thick hairs. Oriental, Palaearctic and Australian Regions",,Subgenus Idiophlebotomus,,,Now usually ranked as a genus.,Lewis 1982 p. 133,,lewis1982.txt
+lewis1982_subgenera,3,a,3a,"Style with three spines. Female with row of about five to ten cibarial teeth, few or no hypopharyngeal teeth, and thin-walled spermathecae. Male with genital filaments short or very short, paramere simple and beak-like, and coxite with simple hair pattern",,Subgenus Australophlebotomus,,,,Lewis 1982 p. 135,,lewis1982.txt
+lewis1982_subgenera,3,b,3b,Style with four or more spines,4,,,,,,,lewis1982.txt
+lewis1982_subgenera,4,a,4a,"Coxite with hairy process near base. Genital filaments short, 1.3 to 2.3 times length of pump",5,,,,,,,lewis1982.txt
+lewis1982_subgenera,4,b,4b,Coxite without such process. Genital filaments 3 to 11 times length of pump,7,,,,,,,lewis1982.txt
+lewis1982_subgenera,5,a,5a,"Coxite 0.37 to 0.74 mm long, its process very small. Style long and cylindrical with three distal spatulate spines and two other spines. Paramere with two upward processes. Surstyle with distal spines. Pharyngeal armature of female comprising either a network of lines or scales. Spermatheca with nearly equal segments and a refractive membrane near the distal one",,Subgenus Phlebotomus,,,,Lewis 1982 p. 137,,lewis1982.txt
+lewis1982_subgenera,5,b,5b,"Coxite 0.20 to 0.33 mm long, its process usually large, and having a brush of long hairs. Style not long, with four or five spines. Paramere simple, distal upper surface flat and elliptical with short hairs. Surstyle without distal spines. Pharynx of female with teeth or scales. Spermatheca sometimes with differentiated rounded end-segment",6,,,,,,,lewis1982.txt
+lewis1982_subgenera,6,a,6a,"Style with four long spines, two near the tip and two near the base. Pharynx of female with large backwardly directed teeth",,Subgenus Paraphlebotomus,,,,Lewis 1982 p. 142,,lewis1982.txt
+lewis1982_subgenera,6,b,6b,"Style with five long spines, two at the tip and three near the middle. Pharynx of female with irregular scales or punctiform teeth",,Subgenus Synphlebotomus,,,,Lewis 1982 p. 148,,lewis1982.txt
+lewis1982_subgenera,7,a,7a,"Style with four long spines, one distal, one subterminal, and two near middle. Paramere with one or two extra lobes, with or without accessory spine. Aedeagus sometimes conical. Pharynx of female with a small group of teeth in middle, and behind it some concentric lines. Spermatheca segmented, end-segment not enlarged",,Subgenus Anaphlebotomus,,,,Lewis 1982 p. 170,,lewis1982.txt
+lewis1982_subgenera,7,b,7b,Style with five long spines,8,,,,,,,lewis1982.txt
+lewis1982_subgenera,8,a,8a,"Paramere with one or two extra lobes, with or without accessory spine. Pharynx of female as in Anaphlebotomus. Spermatheca with differentiated end-segment",,Subgenus Euphlebotomus,,,,Lewis 1982 p. 168,,lewis1982.txt
+lewis1982_subgenera,8,b,8b,Paramere without extra lobes. Pharyngeal armature otherwise,9,,,,,,,lewis1982.txt
+lewis1982_subgenera,9,a,9a,"Paramere truncated. Antenna 3 and legs long, and wings narrow. Spermatheca moniliform. Haltere of male with broad stalk. Paramere with adjacent rod",,Subgenus Kasaulius,,,Type species P. newsteadi.,Lewis 1982 p. 172,,lewis1982.txt
+lewis1982_subgenera,9,b,9b,Paramere not truncated,10,,,,,,,lewis1982.txt
+lewis1982_subgenera,10,a,10a,"Pharynx of female and male with punctiform teeth (large in wenyoni), except in mascittii which has large irregular teeth. Spermatheca segmented, with long finger-like neck except in somaliensis, which has a rather long end-segment, and mascittii, which has a spermatheca with transverse striations often in distal part, a small head, little or no narrowing, and a wide duct. Genital filaments three to five times as long as pump",,Subgenus Larroussius,,,,Lewis 1982 p. 150,,lewis1982.txt
+lewis1982_subgenera,10,b,10b,"Pharynx of female with triangular or rounded group of medium-size teeth. Spermatheca incompletely segmented. Genital filaments usually very long, 6.6 to 11.0 length of pump",,Subgenus Adlerius,,,,Lewis 1982 p. 163,,lewis1982.txt
+lewis1982_idiophlebotomus,0,a,0a,Female,F1,,,,,,,lewis1982.txt
+lewis1982_idiophlebotomus,0,b,0b,Male,M1,,,,,,,lewis1982.txt
+lewis1982_idiophlebotomus,F1,a,F1a,Cibarial armature with median rod or big tooth,F2,,,,,,,lewis1982.txt
+lewis1982_idiophlebotomus,F1,b,F1b,Cibarial armature without median rod or big tooth,F7,,,,,,,lewis1982.txt
+lewis1982_idiophlebotomus,F2,a,F2a,Cibarial median rod with large serrations,,Idiophlebotomus asperulus,,,,,,lewis1982.txt
+lewis1982_idiophlebotomus,F2,b,F2b,Cibarial median rod with minute serrations or none,F3,,,,,,,lewis1982.txt
+lewis1982_idiophlebotomus,F3,a,F3a,Cibarium without patch of teeth except a few granulose spicules,,Idiophlebotomus erebicolus,,,,,,lewis1982.txt
+lewis1982_idiophlebotomus,F3,b,F3b,Cibarium with patch of teeth,F4,,,,,,,lewis1982.txt
+lewis1982_idiophlebotomus,F4,a,F4a,Median cibarial projection short and tooth-shaped,,Idiophlebotomus teshi,,,,,,lewis1982.txt
+lewis1982_idiophlebotomus,F4,b,F4b,Median cibarial projection long and rod-shaped,F5,,,,,,,lewis1982.txt
+lewis1982_idiophlebotomus,F5,a,F5a,Cibarial teeth in radiating lines,,Idiophlebotomus tubifer,,,,,,lewis1982.txt
+lewis1982_idiophlebotomus,F5,b,F5b,Cibarial teeth not in radiating lines,F6,,,,,,,lewis1982.txt
+lewis1982_idiophlebotomus,F6,a,F6a,Cibarial teeth very long and parallel,,Idiophlebotomus frondifer,,,,,,lewis1982.txt
+lewis1982_idiophlebotomus,F6,b,F6b,Cibarial teeth not very long and parallel,,Idiophlebotomus pholetor,,,,,,lewis1982.txt
+lewis1982_idiophlebotomus,F7,a,F7a,Pharynx with scale-like teeth,,Idiophlebotomus longiforceps,,,,,,lewis1982.txt
+lewis1982_idiophlebotomus,F7,b,F7b,Pharynx unarmed,F8,,,,,,,lewis1982.txt
+lewis1982_idiophlebotomus,F8,a,F8a,Cibarial teeth all small,,Idiophlebotomus stellae,,,,,,lewis1982.txt
+lewis1982_idiophlebotomus,F8,b,F8b,Anterior cibarial teeth very long,,Idiophlebotomus sejunctus,,,,,,lewis1982.txt
+lewis1982_idiophlebotomus,M1,a,M1a,Apical spine of style with marked basal expansion,,Idiophlebotomus asperulus,,,,,,lewis1982.txt
+lewis1982_idiophlebotomus,M1,b,M1b,Apical spine of style without such expansion,M2,,,,,,,lewis1982.txt
+lewis1982_idiophlebotomus,M2,a,M2a,Style with three spines,M3,,,,,,,lewis1982.txt
+lewis1982_idiophlebotomus,M2,b,M2b,Style with more than three spines,M4,,,,,,,lewis1982.txt
+lewis1982_idiophlebotomus,M3,a,M3a,Coxite with the two non-distal spines at 0.39. Paramere nearly straight with bulbous apex,,Idiophlebotomus erebicolus,,,,,,lewis1982.txt
+lewis1982_idiophlebotomus,M3,b,M3b,"Coxite with the two non-distal spines at 0.5 or 0.6, and 0.7. Paramere curved upward and pointed",,Idiophlebotomus longiforceps,,,,,,lewis1982.txt
+lewis1982_idiophlebotomus,M4,a,M4a,Style with four spines,,Idiophlebotomus frondifer,,,,,,lewis1982.txt
+lewis1982_idiophlebotomus,M4,b,M4b,Style with five spines,M5,,,,,,,lewis1982.txt
+lewis1982_idiophlebotomus,M5,a,M5a,Aedeagus prominent and capitate. Paramere slender and without dorsal appendage,,Idiophlebotomus pholetor,,,,,,lewis1982.txt
+lewis1982_idiophlebotomus,M5,b,M5b,Aedeagus small and triangular. Paramere with basal dorsal curved appendage,,Idiophlebotomus stellae,,,,,,lewis1982.txt
+lewis1982_euphlebotomus,0,a,0a,Female,F1,,,,,,,lewis1982.txt
+lewis1982_euphlebotomus,0,b,0b,Male,M1,,,,,,,lewis1982.txt
+lewis1982_euphlebotomus,F1,a,F1a,"Spermatheca bulbous with faint striations near duct, with head on a distinct narrow neck. Pharyngeal armature comprising five or six anterior rows of grouped spicules and many minutely spiculate transverse ridges",,Phlebotomus tumenensis,,,,,,lewis1982.txt
+lewis1982_euphlebotomus,F1,b,F1b,"Spermatheca not bulbous, without narrow neck. Pharyngeal armature comprising distinct teeth or ridges",F2,,,,,,,lewis1982.txt
+lewis1982_euphlebotomus,F2,a,F2a,Spermatheca with faint transverse striations or indistinct segments,F3,,,,,,,lewis1982.txt
+lewis1982_euphlebotomus,F2,b,F2b,Spermatheca distinctly segmented,F4,,,,,,,lewis1982.txt
+lewis1982_euphlebotomus,F3,a,F3a,Spermatheca with large apical segment and about 15 indistinct segments. Pharynx with many uniform teeth,,Phlebotomus mesghalii,,,Iran; not Oriental,,,lewis1982.txt
+lewis1982_euphlebotomus,F3,b,F3b,"Spermatheca with small apical segment and about 30 transverse striations. Pharynx with a median group of small teeth and, behind them, some close-set concentric lines",,Phlebotomus kiangsuensis,,,,,,lewis1982.txt
+lewis1982_euphlebotomus,F4,a,F4a,Spermathecal common duct with rather thin walls. Antenna 5 without papilla,,Phlebotomus argentipes,,,,,,lewis1982.txt
+lewis1982_euphlebotomus,F4,b,F4b,Spermathecal common duct with thick walls. Antenna 5 with papilla,F5,,,,,,,lewis1982.txt
+lewis1982_euphlebotomus,F5,a,F5a,Antenna 3/labrum 1.0,,Phlebotomus philippinensis philippinensis,,,,,,lewis1982.txt
+lewis1982_euphlebotomus,F5,b,F5b,Antenna 3/labrum 1.4,,Phlebotomus philippinensis gouldi,,,Holotype from Thailand,,,lewis1982.txt
+lewis1982_euphlebotomus,M1,a,M1a,Paramere with two lobes,,Phlebotomus mesghalii,,,,,,lewis1982.txt
+lewis1982_euphlebotomus,M1,b,M1b,Paramere with three lobes,M2,,,,,,,lewis1982.txt
+lewis1982_euphlebotomus,M2,a,M2a,Middle lobe of paramere nearly rectangular,,Phlebotomus caudatus,,,Afghanistan; not Oriental,,,lewis1982.txt
+lewis1982_euphlebotomus,M2,b,M2b,Middle lobe of paramere with rounded end,M3,,,,,,,lewis1982.txt
+lewis1982_euphlebotomus,M3,a,M3a,Middle lobe of paramere thicker than main (upper) lobe,,Phlebotomus kiangsuensis,,,,,,lewis1982.txt
+lewis1982_euphlebotomus,M3,b,M3b,Middle lobe of paramere thinner than main lobe,M4,,,,,,,lewis1982.txt
+lewis1982_euphlebotomus,M4,a,M4a,"Main lobe of paramere much more than twice length of middle lobe, lower lobe narrow, depth of paramere about 0.29 of its length (measured to junction with coxite)",,Phlebotomus argentipes,,,,,,lewis1982.txt
+lewis1982_euphlebotomus,M4,b,M4b,Main lobe of paramere about twice length of middle lobe,M5,,,,,,,lewis1982.txt
+lewis1982_euphlebotomus,M5,a,M5a,Aedeagus without accessory spines,,Phlebotomus tumenensis,,,,,,lewis1982.txt
+lewis1982_euphlebotomus,M5,b,M5b,"Aedeagus with accessory spines. Lower lobe of paramere appearing narrow but extending mesally, depth of paramere about 0.35 of its length",M6,,,,,,,lewis1982.txt
+lewis1982_euphlebotomus,M6,a,M6a,"Antenna 3/labrum 1.7. Style 0.54 length of coxite, and more than four times as long as thick",,Phlebotomus philippinensis philippinensis,,,,,,lewis1982.txt
+lewis1982_euphlebotomus,M6,b,M6b,"Antenna 3/labrum 2.0. Style 0.61 length of coxite, and about three times as long as thick",,Phlebotomus philippinensis gouldi,,,,,,lewis1982.txt
+lewis1982_anaphlebotomus,0,a,0a,Female,F1,,,,,,,lewis1982.txt
+lewis1982_anaphlebotomus,0,b,0b,Male,M1,,,,,,,lewis1982.txt
+lewis1982_anaphlebotomus,F1,a,F1a,Spermatheca long (about eight times as long as wide) and tubular with very long duct. Afrotropical,,Phlebotomus rodhaini,,,,,,lewis1982.txt
+lewis1982_anaphlebotomus,F1,b,F1b,Spermatheca not long and tubular. Oriental,F2,,,,,,,lewis1982.txt
+lewis1982_anaphlebotomus,F2,a,F2a,"Spermatheca slightly carrot-shaped with small end-segment, individual duct about four (possibly more) times length of spermatheca. Sternal tubercle broad",,Phlebotomus colabaensis,,,,,,lewis1982.txt
+lewis1982_anaphlebotomus,F2,b,F2b,"Spermatheca spindle-shaped with very narrow cylindrical apical segment, duct short but common duct very long. Ascoids long. Palp 3 with peg sensilla grouped around middle",F3,,,,,,,lewis1982.txt
+lewis1982_anaphlebotomus,F3,a,F3a,Pharyngeal armature with antero-median numerous long pointed teeth which blend laterally with ridges. Individual ducts longer than spermathecae,,Phlebotomus stantoni,,,See Renaux Torres et al. 2023 on P. stantoni as a species complex,,,lewis1982.txt
+lewis1982_anaphlebotomus,F3,b,F3b,"Pharyngeal armature with several antero-median rows of small short teeth, and antero-laterally a number of backward-pointing teeth. Individual ducts shorter than spermathecae",,Phlebotomus hoepplii,,,,,P. hoepplii was later treated as a synonym of P. stantoni; Renaux Torres et al. (2023) consider it valid.,lewis1982.txt
+lewis1982_anaphlebotomus,M1,a,M1a,Paramere bilobed,,Phlebotomus colabaensis,,,,,,lewis1982.txt
+lewis1982_anaphlebotomus,M1,b,M1b,Paramere trilobed,M2,,,,,,,lewis1982.txt
+lewis1982_anaphlebotomus,M2,a,M2a,Plunger of sperm pump much wider than body of barrel. Afrotropical,,Phlebotomus rodhaini,,,,,,lewis1982.txt
+lewis1982_anaphlebotomus,M2,b,M2b,Plunger of sperm pump narrower than body of barrel. Oriental,M3,,,,,,,lewis1982.txt
+lewis1982_anaphlebotomus,M3,a,M3a,Spine near aedeagus not longer than it. Pharynx with a series of oblique ridges radiating from mid-line and ending in loops laterally,,Phlebotomus stantoni,,,,,P. stantoni s.l.: see P. shadenae (♂ aedeagal ducts about 655 µm versus about 304 µm in P. stantoni; Renaux Torres et al. 2023).,lewis1982.txt
+lewis1982_anaphlebotomus,M3,b,M3b,"Spine near aedeagus much longer than it. Pharynx with a series of posterior ridges and, antero-laterally, a number of teeth projecting medio-posteriorly",,Phlebotomus hoepplii,,,,,,lewis1982.txt
+lewis1987_grassomyia,1,a,1a,Femora with short spines. Anepimeron bare. Cibarium with 42-55 teeth,2,,,,,,,lewis1987.txt
+lewis1987_grassomyia,1,b,1b,Femora without short spines,3,,,,,,,lewis1987.txt
+lewis1987_grassomyia,2,a,2a,Femur 1 with 8-9 short spines,,Grassomyia dreyfussi dreyfussi,,,Not Oriental,,,lewis1987.txt
+lewis1987_grassomyia,2,b,2b,Femur 1 with about 3-5 short spines. Oriental Region,,Grassomyia dreyfussi turkestanica,,,,,,lewis1987.txt
+lewis1987_grassomyia,3,a,3a,Anepimeron with scales,4,,,,,,,lewis1987.txt
+lewis1987_grassomyia,3,b,3b,Anepimeron without scales,6,,,,,,,lewis1987.txt
+lewis1987_grassomyia,4,a,4a,Anepimeron with 17-35 scales. Cibarium with 48-55 teeth,,Grassomyia squamipleuris,,,Not Oriental,,,lewis1987.txt
+lewis1987_grassomyia,4,b,4b,Anepimeron with 1-12 scales,5,,,,,,,lewis1987.txt
+lewis1987_grassomyia,5,a,5a,Cibarium with 19-25 teeth. Anepimeron with 4-9 scales. Pharynx without teeth,,Grassomyia inermis,,,Not Oriental,,,lewis1987.txt
+lewis1987_grassomyia,5,b,5b,Cibarium with 36-43 teeth. Anepimeron with 1-12 scales. Pharynx with many teeth,,Grassomyia madagascarensis,,,Not Oriental,,,lewis1987.txt
+lewis1987_grassomyia,6,a,6a,Dark part of pigment belt concave anteriorly. Cibarium with 27-37 teeth. West Africa and Ethiopia,,Grassomyia ghesquierei,,,Not Oriental,,,lewis1987.txt
+lewis1987_grassomyia,6,b,6b,Dark part of pigment belt straight anteriorly. Oriental Region,,Grassomyia indica,,,,,,lewis1987.txt
+lewis1987_babu,1,a,1a,Pharyngeal teeth short (scale-like and some denticulate). Cibarium with 16.7 (12-20 ±1.9) teeth and a rounded notch 15.2 (11-19 ±2.2) µm wide internally,,Sergentomyia baghdadis,,,,,,lewis1987.txt
+lewis1987_babu,1,b,1b,Pharyngeal teeth long and pointed,2,,,,,,,lewis1987.txt
+lewis1987_babu,2,a,2a,Cibarium with V-shaped notch and 12.6 (10-16 ±1.3) teeth,,Sergentomyia shorttii,,,,,,lewis1987.txt
+lewis1987_babu,2,b,2b,Cibarium with rounded notch,3,,,,,,,lewis1987.txt
+lewis1987_babu,3,a,3a,"Cibarium with 25.0 (20-29 ±2.3) teeth. Wing narrow, 4.52 (4.19-5.06) times as long as wide. Notch 17.6 (11-28 ±4.1) µm wide",,Sergentomyia babu babu,,,,,,lewis1987.txt
+lewis1987_babu,3,b,3b,"Cibarium with 45.8 (42-51) teeth. Wing wide, 3.85 (3.76-3.96) times as long as wide",,Sergentomyia babu insularis,,,,,,lewis1987.txt
+quate1962,1,a,1a,"Abdominal hairs erect, sockets on tergites 2 to 6 as large as on 1; palpal segment 4 often only 1/2 length of 3; ♂ dististyle with 2 or 3 spines in center; pharynx armed apically; cibarium at most with weak and irregularly developed teeth",2,,Genus Phlebotomus,,"Quate: ""subgenus Phlebotomus""",,,quate1962.txt
+quate1962,1,b,1b,"Abdominal hairs on tergites 2 to 6 recumbent, sockets much smaller than on tergite 1; palpal segment 4 longer than 1/2 length of 3; ♂ dististyle with all spines distad of center (except sylvestris and khawi); pharynx armed or unarmed; cibarium of ♀ usually with well developed teeth",4,,Genus Sergentomyia,,"Quate: ""subgenus Sergentomyia""",,,quate1962.txt
+quate1962,2,a,2a,Male dististyle with 5 spines; ♀ with antennal segment 3 ending well before tip of proboscis,3,,,,,,,quate1962.txt
+quate1962,2,b,2b,Male dististyle with 4 spines; ♀ with antennal segment 3 extending to tip of proboscis and cibarium with 2 teeth considerably larger than others,,Phlebotomus stantoni,,,,,P. stantoni s.l.: see P. shadenae (Renaux Torres et al. 2023).,quate1962.txt
+quate1962,3,a,3a,"Male genitalia with 2 small lobes below larger, main lobe on paramere, and long, slender spine on each side of aedeagus; ♀ spermatheca with distal part as broad as basal; ♀ cibarium with several central teeth larger than others",,Phlebotomus argentipes,,,,,"P. argentipes s.l.: see P. seowpohi (Ding et al. 2025) and the Sri Lanka key (P. argentipes s.s., P. annandalei, P. glaucus).",quate1962.txt
+quate1962,3,b,3b,"Male paramere simple, without ventral lobes; ♀ spermatheca with distal part reduced to slender neck; ♀ cibarium with all teeth of about same size",,Phlebotomus chinensis,,,,,,quate1962.txt
+quate1962,4,a,4a,R2+3 (beta) subequal to or longer than R2 (alpha); delta 1/2 or less length of R2,5,,,,,,,quate1962.txt
+quate1962,4,b,4b,"R2+3 much shorter, less than 1/2 length of R2; delta at least 3/4 length of R2; ♀ pharynx armed, ♂ unarmed; ♀ cibarium with row of fine, numerous teeth, pigment patch well sclerotized and top-shaped; ♂ cibarium with fewer and smaller teeth and pigment patch slender, carrot-shaped",,Sergentomyia brevicaulis,,,,,,quate1962.txt
+quate1962,5,a,5a,Males,6,,,,,,,quate1962.txt
+quate1962,5,b,5b,Females,13,,,,,,,quate1962.txt
+quate1962,6,a,6a,"Dististyle with 2 apical spines and 2 clearly basad of apex; antennal segment 3 very long, extending well beyond proboscis",7,,,,,,,quate1962.txt
+quate1962,6,b,6b,"Dististyle with all spines apical or subapical, coxite not elongate; antennal segment 3 shorter than or not greatly exceeding proboscis",8,,,,,,,quate1962.txt
+quate1962,7,a,7a,Dististyle with 2 spines near center; palpal formula 1-4-2-3-5 or 1-2-4-3-5,,Sergentomyia perturbans,,,"Quate: ""sylvestris"" (Sinton), synonymised with S. perturbans by Lewis 1978",,,quate1962.txt
+quate1962,7,b,7b,Dististyle with 2 spines at apical 1/4; palpal formula 1-2-3-4-5,,Sergentomyia khawi,,,,,,quate1962.txt
+quate1962,8,a,8a,Antennal segment 3 ends before proboscis tip,9,,,,,,,quate1962.txt
+quate1962,8,b,8b,Antennal segment 3 extends beyond proboscis tip,11,,,,,,,quate1962.txt
+quate1962,9,a,9a,"Paramere ends in down-curved, pointed apex; pharynx slender and sides nearly straight, unarmed; Newstead scales on palpal segment 3 only; ridge bearing cibarial teeth concave (curvature opposite that of pigment patch)",10,,,,,,,quate1962.txt
+quate1962,9,b,9b,Paramere ends in bluntly rounded apex; pharynx expanded distally and armed with few spines apically; Newstead scales on palpal segments 2 and 3; ridge bearing cibarial teeth straight or convex; pleuron with scales,,Sergentomyia indica,,,"Quate: ""squamipleuris"" (Oriental Grassomyia = S. indica according to Lewis 1978)",,,quate1962.txt
+quate1962,10,a,10a,Accessory spine of dististyle on about same level as subapical spine; basistyle with many (more than 20) non-deciduous hairs; sides of cibarium suddenly expanded posteriorly to nearly form a right angle,,Sergentomyia bailyi,,,,,,quate1962.txt
+quate1962,10,b,10b,Accessory spine of dististyle clearly basad of subapical spine; basistyle with few (less than 15) non-deciduous hairs; sides of cibarium expanded but not strongly enough to form right angle,,Sergentomyia barraudi,,,,,,quate1962.txt
+quate1962,11,a,11a,Genital filaments 3-4x length of pump,12,,,,,,,quate1962.txt
+quate1962,11,b,11b,"Genital filaments very long, 5-6x length of pump; basistyle with patch of non-deciduous hairs; cibarium with 7-9 well defined teeth and few, smaller lateral ones on either side",,Sergentomyia morini,,,,,,quate1962.txt
+quate1962,12,a,12a,Palpal formula 1-2-4-3-5 or 1-(2-4)-3-5; 8 cibarial teeth weak and granular,,Sergentomyia silvatica,,,"Quate: ""sylvaticus""",,,quate1962.txt
+quate1962,12,b,12b,"Palpal formula 1-2-3-4-5; cibarium with about 14 teeth, central 4 about 1/2 size of lateral ones",,Sergentomyia iyengari,,,,,,quate1962.txt
+quate1962,13,a,13a,Pharynx armed with thick cluster of spines apically,14,,,,,,,quate1962.txt
+quate1962,13,b,13b,Pharynx unarmed,15,,,,,,,quate1962.txt
+quate1962,14,a,14a,Pigment patch terminating anteriorly as single point; Newstead scales on palpal segments 2 and 3; spermatheca spherical with many setose annulations and thick apical knob,,Sergentomyia indica,,,"Quate: ""squamipleuris""",,,quate1962.txt
+quate1962,14,b,14b,"Pigment patch terminating anteriorly as 2 points; Newstead scales only on palpal segment 3; spermatheca ovoid, smooth, without setae",,Sergentomyia barraudi,,,,,"S. barraudi group: see update note on lewis1978 couplet 76a (S. siamensis, S. maiae).",quate1962.txt
+quate1962,15,a,15a,Antennal segment 3 ending well before proboscis tip,16,,,,,,,quate1962.txt
+quate1962,15,b,15b,Antennal segment 3 extending nearly to or beyond proboscis tip,17,,,,,,,quate1962.txt
+quate1962,16,a,16a,"Palpal formula 1-2-3-4-5, rarely 1-2-(3-4)-5; antennal segment 3 very short, extending only to about center of proboscis; cibarium with irregular double row of small, faint teeth",,Sergentomyia bailyi,,,,,,quate1962.txt
+quate1962,16,b,16b,Palpal formula 1-2-4-3-5; antennal segment 3 extending to about distal 1/4 of proboscis; cibarium with 4-6 teeth in center and patch of 8-10 smaller ones on each side,,Sergentomyia silvatica,,,"Quate: ""sylvaticus, pars"" (part)",,,quate1962.txt
+quate1962,17,a,17a,Palpal formula 1-2-3-4-5 or 1-2-4-3-5,18,,,,,,,quate1962.txt
+quate1962,17,b,17b,"Palpal formula 1-4-2-3-5; cibarium with about 16 large teeth; pigment patch dark, ovoid with anterior extension and with about 10 large, dark rectangles below teeth",,Sergentomyia perturbans,,,"Quate: ""sylvestris""",,,quate1962.txt
+quate1962,18,a,18a,"Cibarium with weak, rectangular or no pigment patch and less than 10 distinct teeth",19,,,,,,,quate1962.txt
+quate1962,18,b,18b,"Cibarium with large, distinct pigment patch and 14 or more teeth",20,,,,,,,quate1962.txt
+quate1962,19,a,19a,"Palpal formula 1-2-4-3-5; antennal segment 3 extends to about proboscis tip; cibarium with 4-6 teeth in center larger than patch of 8-10 on each side; pigment patch small, rectangular; pharynx slender, little expanded apically",,Sergentomyia silvatica,,,"Quate: ""sylvaticus""",,,quate1962.txt
+quate1962,19,b,19b,"Palpal formula 1-2-3-4-5; antennal segment 3 extends well beyond proboscis tip; cibarium with number of small, indefinite teeth; pigment patch absent; pharynx broadly expanded apically",,Sergentomyia tonkinensis,,,,,,quate1962.txt
+quate1962,20,a,20a,"Cibarium with 14 to 17 vertical teeth, 4 central ones of which reduced; erect teeth absent or variably to 2 rows of 20 in each row; pigment patch hemispherical or top-shaped with anterior projection reaching arch",,Sergentomyia iyengari,,,,,"S. iyengari group: see update note on lewis1978 couplet 122a (S. hivernus, S. khawi).",quate1962.txt
+quate1962,20,b,20b,"Cibarium with 20, equal-sized teeth; erect teeth in 2 rows of 20 in each row and a third, incomplete row with 4 teeth on either side; pigment patch beet-shaped and anterior projection not reaching arch",,Sergentomyia khawi,,,,,,quate1962.txt
+srilanka_female,G1,a,G1a,"Wings broader, asymmetrical along the length (Fig. 1f). Cibarium unarmed or with scattered spicules, without a pigment patch (Fig. 1d)",P1,,Genus Phlebotomus,Fig. 1f; Fig. 1d,,,,wijerathna2020.txt
+srilanka_female,G1,b,G1b,"Wings narrow, lanceolate, symmetrical along the length (Fig. 1e). Cibarium with one or more rows of teeth, pigment patch usually present (Fig. 1c)",S1,,Genus Sergentomyia,Fig. 1e; Fig. 1c,,,,wijerathna2020.txt
+srilanka_female,P1,a,P1a,Head of spermatheca with a distinct neck; spermatheca spindle-shaped (Fig. 2a),,Phlebotomus stantoni,,Fig. 2a,,,"P. stantoni s.l.: see P. shadenae (Renaux Torres et al. 2023), separated by spermathecal duct length.",wijerathna2020.txt
+srilanka_female,P1,b,P1b,"Head of spermatheca without a distinct neck (Figs 2b, 4a); spermatheca not spindle-shaped",P2,,,"Figs 2b, 4a",,,,wijerathna2020.txt
+srilanka_female,P2,a,P2a,Spermatheca with 7-8 segments; apical segment not enlarged (Fig. 4a),,Phlebotomus salehi,,Fig. 4a,,,,wijerathna2020.txt
+srilanka_female,P2,b,P2b,Spermatheca with 15-17 segments; apical segment enlarged (Fig. 2b),P3,,,Fig. 2b,,,,wijerathna2020.txt
+srilanka_female,P3,a,P3a,"Thorax dorsum brown, sides dark",,Phlebotomus marginatus,,,Status debated; often treated as a variety of P. argentipes (see paper's discussion).,,,wijerathna2020.txt
+srilanka_female,P3,b,P3b,"Thorax dorsum black, sides pale",P4,,Phlebotomus argentipes sensu lato,,,,,wijerathna2020.txt
+srilanka_female,P4,a,P4a,Wing overlap (R1 overlap with R2 / complete length of R2) < 0.2; wing index (R2/R2+3) < 0.2; ascoid : antennal flagellomere ratio > 0.5,,Phlebotomus glaucus,,,,,,wijerathna2020.txt
+srilanka_female,P4,b,P4b,Wing overlap ≥ 0.2; wing index > 0.2; ascoid : antennal flagellomere ratio < 0.5,P5,,,,,,,wijerathna2020.txt
+srilanka_female,P5,a,P5a,Wing overlap = 0.2; wing index = 2.0; ascoid : antennal flagellomere ratio > 0.4,,Phlebotomus argentipes,,,sensu stricto,,,wijerathna2020.txt
+srilanka_female,P5,b,P5b,Wing overlap > 0.2; wing index < 2.0; ascoid : antennal flagellomere ratio < 0.4,,Phlebotomus annandalei,,,,,,wijerathna2020.txt
+srilanka_female,S1,a,S1a,"Spermatheca with capsule (Fig. 4b, c), not tubular",S2,,,"Fig. 4b, c",,,,wijerathna2020.txt
+srilanka_female,S1,b,S1b,"Spermatheca without capsule, tubular (Fig. 4d)",S10,,,Fig. 4d,,,,wijerathna2020.txt
+srilanka_female,S2,a,S2a,"Capsule of spermatheca with numerous spicules or striations (Fig. 4b, c)",S3,,Subgenus Grassomyia,"Fig. 4b, c",,,,wijerathna2020.txt
+srilanka_female,S2,b,S2b,Capsule of spermatheca smooth,S4,,Subgenus Parrotomyia,,,,,wijerathna2020.txt
+srilanka_female,S3,a,S3a,Tip of spermatheca with minute projections (Fig. 4b),,Sergentomyia indica,,Fig. 4b,,,,wijerathna2020.txt
+srilanka_female,S3,b,S3b,Tip of spermatheca with small projections (Fig. 4c),,Sergentomyia dreyfussi,,Fig. 4c,,,,wijerathna2020.txt
+srilanka_female,S4,a,S4a,Pharynx with distinct pointed teeth (Fig. 3a),S5,,,Fig. 3a,,,,wijerathna2020.txt
+srilanka_female,S4,b,S4b,Pharynx with fine spicules or none (Fig. 5a),S7,,,Fig. 5a,,,,wijerathna2020.txt
+srilanka_female,S5,a,S5a,Cibarium with a deep notch in hind end of ventral plate (Fig. 3b),,Sergentomyia babu insularis,,Fig. 3b,,,,wijerathna2020.txt
+srilanka_female,S5,b,S5b,Cibarium without a notch in hind end of ventral plate (Fig. 5b),S6,,,Fig. 5b,,,,wijerathna2020.txt
+srilanka_female,S6,a,S6a,"Pharynx broad with numerous finely pointed teeth; cibarium with 40-70 teeth; tip of pigment patch bifid, ragged or fenestrated (Fig. 5b)",,Sergentomyia barraudi,,Fig. 5b,,,,wijerathna2020.txt
+srilanka_female,S6,b,S6b,Without this combination,,Sergentomyia rudnicki,,,,,,wijerathna2020.txt
+srilanka_female,S7,a,S7a,Cibarium with a deep notch (Fig. 5c),,Sergentomyia baghdadis,,Fig. 5c,,,,wijerathna2020.txt
+srilanka_female,S7,b,S7b,Cibarium without a deep notch,S8,,,,,,,wijerathna2020.txt
+srilanka_female,S8,a,S8a,Pharynx with well-defined scales (Fig. 5d),,Sergentomyia grekovi,,Fig. 5d,,,,wijerathna2020.txt
+srilanka_female,S8,b,S8b,Pharynx without scales,S9,,,,,,,wijerathna2020.txt
+srilanka_female,S9,a,S9a,Cibarium with pigment patch and 17 hind teeth; pharynx with long teeth (Fig. 5e),,Sergentomyia modii,,Fig. 5e,,,,wijerathna2020.txt
+srilanka_female,S9,b,S9b,Cibarial pigment patch small or absent (Fig. 5f); pharynx with spiculate ridges,,Sergentomyia bailyi,,Fig. 5f,,,,wijerathna2020.txt
+srilanka_female,S10,a,S10a,Spermatheca smooth (Fig. 4e),S11,,Subgenus Sergentomyia,Fig. 4e,,,,wijerathna2020.txt
+srilanka_female,S10,b,S10b,Spermatheca with striations (Fig. 4d),S13,,Subgenus Neophlebotomus,Fig. 4d,,,,wijerathna2020.txt
+srilanka_female,S11,a,S11a,Pharynx broad at posterior end with a deep constriction at base (Fig. 5g),,Sergentomyia punjabensis,,Fig. 5g,,,,wijerathna2020.txt
+srilanka_female,S11,b,S11b,"Pharynx barrel-shaped at posterior end and lacking a deep constriction at the base (Fig. 5h, i)",S12,,,"Fig. 5h, i",,,,wijerathna2020.txt
+srilanka_female,S12,a,S12a,Posterior margin of pharyngeal armature convex (Fig. 5h),,Sergentomyia dentata,,Fig. 5h,,,,wijerathna2020.txt
+srilanka_female,S12,b,S12b,Posterior margin of pharyngeal armature straight (Fig. 5i),,Sergentomyia pondicherriensis,,Fig. 5i,,,,wijerathna2020.txt
+srilanka_female,S13,a,S13a,Cibarium with about 8 rows of fore teeth (Fig. 3c); labrum 0.13-0.15 times the length of wing,,Sergentomyia arboris,,Fig. 3c,,,,wijerathna2020.txt
+srilanka_female,S13,b,S13b,Cibarium with one or more rows of teeth; labrum > 0.11 times the length of wing,S14,,,,"As printed. S. jamesi (14a) has no tooth row, so read 13b as ""cibarium without about 8 rows of fore teeth"".",,,wijerathna2020.txt
+srilanka_female,S14,a,S14a,Cibarium without row of teeth; labrum 0.11 times the length of wing,,Sergentomyia jamesi,,,,,,wijerathna2020.txt
+srilanka_female,S14,b,S14b,Cibarium with 3 rows of fore teeth (Fig. 3d),S15,,,Fig. 3d,,,,wijerathna2020.txt
+srilanka_female,S15,a,S15a,Labrum 0.18-0.20 times length of wing; R2/R2+3 < 2.06,,Sergentomyia malayae,,,,,,wijerathna2020.txt
+srilanka_female,S15,b,S15b,Labrum 0.13-0.15 times length of wing; R2/R2+3 > 2.06,,Sergentomyia zeylanica,,,,,,wijerathna2020.txt
+srilanka_male,G1,a,G1a,Style with 4 or 5 spines; not all spines terminal (Fig. 1b),P1,,Genus Phlebotomus,Fig. 1b,,,,wijerathna2020.txt
+srilanka_male,G1,b,G1b,"Style with 4-5 spines, usually terminal; if not all spines terminal, 2 spines terminal and 2 sub-terminal, often in pairs (Fig. 1g)",S1,,Genus Sergentomyia,Fig. 1g,,,,wijerathna2020.txt
+srilanka_male,P1,a,P1a,"Paramere with 2 long dorsal processes; style long, with 5 short spines (Fig. 4f)",,Phlebotomus salehi,,Fig. 4f,,,,wijerathna2020.txt
+srilanka_male,P1,b,P1b,"Paramere without processes or with short ventral processes; style long or short, with long spines (Fig. 2c, d)",P2,,,"Fig. 2c, d",,,,wijerathna2020.txt
+srilanka_male,P2,a,P2a,Parameres tri-lobed. Style with 4 spines (Fig. 2d),,Phlebotomus stantoni,,Fig. 2d,,,"P. stantoni s.l.: see P. shadenae (Renaux Torres et al. 2023), separated by aedeagal duct length.",wijerathna2020.txt
+srilanka_male,P2,b,P2b,"Parameres with 2 ventral processes; style with 5 spines, rarely 6 spines (Fig. 2c)",P3,,Phlebotomus argentipes sensu lato,Fig. 2c,,,,wijerathna2020.txt
+srilanka_male,P3,a,P3a,Gonocoxite : gonostyle ratio < 1.5,,Phlebotomus glaucus,,,,,,wijerathna2020.txt
+srilanka_male,P3,b,P3b,Gonocoxite : gonostyle ratio > 1.5,P4,,,,,,,wijerathna2020.txt
+srilanka_male,P4,a,P4a,Gonocoxite : gonostyle ratio > 1.65,,Phlebotomus argentipes,,,sensu stricto. Ratios in 4a/4b overlap as printed; confirm with other characters.,,,wijerathna2020.txt
+srilanka_male,P4,b,P4b,Gonocoxite : gonostyle ratio > 1.75,,Phlebotomus annandalei,,,,,,wijerathna2020.txt
+srilanka_male,S1,a,S1a,"Aedeagus thick, finger-shaped (Fig. 2e)",S2,,Subgenus Sergentomyia,Fig. 2e,,,,wijerathna2020.txt
+srilanka_male,S1,b,S1b,Aedeagus gradually tapering to the end (Fig. 2f),S4,,,Fig. 2f,,,,wijerathna2020.txt
+srilanka_male,S2,a,S2a,Style with 2 terminal and 2 subterminal spines (Fig. 4g); cibarial teeth not uniform in size,,Sergentomyia dentata,,Fig. 4g,,,,wijerathna2020.txt
+srilanka_male,S2,b,S2b,Style with 4 terminal spines and no subterminal spines (Fig. 2g); cibarial teeth uniform in size,S3,,,Fig. 2g,,,,wijerathna2020.txt
+srilanka_male,S3,a,S3a,Cibarial teeth arranged in 2 rows,,Sergentomyia pondicherriensis,,,,,,wijerathna2020.txt
+srilanka_male,S3,b,S3b,Cibarial teeth arranged in a single row,,Sergentomyia punjabensis,,,,,,wijerathna2020.txt
+srilanka_male,S4,a,S4a,Genital filaments with dilated ends; A3 without ascoid,S5,,Subgenus Grassomyia,,,,,wijerathna2020.txt
+srilanka_male,S4,b,S4b,Genital filaments with narrow ends (Fig. 2h); A3 with one ascoid,S6,,,Fig. 2h,,,,wijerathna2020.txt
+srilanka_male,S5,a,S5a,Paramere with rounded end (Fig. 4h),,Sergentomyia indica,,Fig. 4h,,,,wijerathna2020.txt
+srilanka_male,S5,b,S5b,Paramere with hooked end (Fig. 4i),,Sergentomyia dreyfussi,,Fig. 4i,,,,wijerathna2020.txt
+srilanka_male,S6,a,S6a,Paramere with hairy ventral tubercles (Fig. 2i),S7,,Subgenus Neophlebotomus,Fig. 2i,,,,wijerathna2020.txt
+srilanka_male,S6,b,S6b,Paramere without ventral tubercles (Fig. 2j),S9,,Subgenus Parrotomyia,Fig. 2j,,,,wijerathna2020.txt
+srilanka_male,S7,a,S7a,Aedeagus length c. 10 times mid-width of shaft (Fig. 2k),,Sergentomyia arboris,,Fig. 2k,,,,wijerathna2020.txt
+srilanka_male,S7,b,S7b,Aedeagus length c. 5 times mid-width of shaft,S8,,,,,,,wijerathna2020.txt
+srilanka_male,S8,a,S8a,Outer hairs of the coxite evenly spaced,,Sergentomyia malayae,,,,,,wijerathna2020.txt
+srilanka_male,S8,b,S8b,"Outer hairs of the coxite not evenly spaced, some of the hairs concentrated (Fig. 2l)",,Sergentomyia zeylanica,,Fig. 2l,,,,wijerathna2020.txt
+srilanka_male,S9,a,S9a,Style c. 4 times as long as thick; all spines on style apical,,Sergentomyia barraudi,,,,,,wijerathna2020.txt
+srilanka_male,S9,b,S9b,Style 5 or 6 times as long as thick; spines on style not always apical,S10,,,,,,,wijerathna2020.txt
+srilanka_male,S10,a,S10a,Cibarial fore teeth well developed,,Sergentomyia grekovi,,,,,,wijerathna2020.txt
+srilanka_male,S10,b,S10b,Cibarial fore teeth not well developed,S11,,,,,,,wijerathna2020.txt
+srilanka_male,S11,a,S11a,Antennal segment 3 > 0.25 mm in length,,Sergentomyia rudnicki,,,,,,wijerathna2020.txt
+srilanka_male,S11,b,S11b,Antennal segment 3 < 0.20 mm in length,,Sergentomyia babu insularis,,,"Printed as S. babu insularis only, but the authors state that males of S. baghdadis cannot be separated from it and key out here too.",,,wijerathna2020.txt

@@ -1,0 +1,12 @@
+key_id,title,source_id,region,sexes,start,order,description
+lewis1978,Oriental Phlebotominae: species and subspecies,lewis1978,Oriental Region,both,1,1,"The standard key to all Oriental species known in 1978 (199 couplets). Females and males are separated inside each subgenus. Start here for Thai material, then check the update notes for later splits."
+quate1962,Indo-Chinese species (Thailand to Viet Nam),quate1962,"Thailand, Laos, Cambodia, Viet Nam, S. China",both,1,2,"Short key to the 13+ species known from Indo-China in 1962. Older names are converted to current names in the result column."
+srilanka_female,Sri Lanka: females,wijerathna2020,Sri Lanka,female,G1,3,"Modern photo-illustrated key to the 22 species recorded from Sri Lanka, females."
+srilanka_male,Sri Lanka: males,wijerathna2020,Sri Lanka,male,G1,4,"Modern photo-illustrated key to the species recorded from Sri Lanka, males."
+lewis1982_subgenera,Subgenera of Phlebotomus,lewis1982,World,both,1,5,"Key to the 11 subgenera of Phlebotomus recognised by Lewis (1982)."
+lewis1982_idiophlebotomus,Idiophlebotomus species,lewis1982,"Oriental, Palaearctic",both,0,6,"Key to the cave-dwelling Idiophlebotomus (now a genus), including I. longiforceps recorded in Thai caves."
+lewis1982_euphlebotomus,Euphlebotomus species (argentipes group),lewis1982,"Oriental, Palaearctic",both,0,7,"Key to Euphlebotomus, the subgenus of the kala-azar vector P. argentipes. Species described later (P. barguesae, P. mascomai, P. seowpohi) are not included."
+lewis1982_anaphlebotomus,Anaphlebotomus species (stantoni group),lewis1982,"Oriental, Afrotropical",both,0,8,"Key to Anaphlebotomus. See P. shadenae (2023) for the Thai species close to P. stantoni."
+lewis1987_grassomyia,Grassomyia: females,lewis1987,Old World,female,1,9,"Female key to all Grassomyia, showing the two Oriental taxa."
+lewis1987_babu,Sergentomyia babu series: females,lewis1987,Oriental Region,female,1,10,"Female key to the four taxa with a notch at the hind end of the cibarial dental area."
+italy,Italy (comparison key),dantastorres2014,Italy,both,G1,11,"Illustrated key to the eight Italian species. Included as a Mediterranean comparison and a model of clear illustration."

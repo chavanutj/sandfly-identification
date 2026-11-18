@@ -1,0 +1,6 @@
+figure_prefix,source_id,pdf_file,caption_regex,licence
+srilanka,wijerathna2020,11. Morphological identification keys for adults of sand flies (Diptera Psychodidae) in Sri Lanka.pdf,^Fig\.\s*(\d+)\s+(.*),CC BY 4.0 - Wijerathna & Gunathilaka 2020
+italy,dantastorres2014,19. Morphological keys for the identification of Italian phlebotomine sand flies (Diptera-Psychodidae-Phlebotominae).pdf,^Figure\s+(\d+)\s+(.*),CC BY 4.0 - Dantas-Torres et al. 2014
+galati2017,galati2017,"3. An illustrated guide for characters and terminology used in descriptions of Phlebotominae (Diptera, Psychodidae).pdf",^Figure\s+(\d+)\.\s*(.*),CC BY 4.0 - Galati et al. 2017
+renauxtorres2023,renauxtorres2023,"17. (Phletobomus shadenae) Phlebotomine sand flies (Diptera, Psychodidae) from Pha Tong cave, Northern Thailand with a description of two new species and taxonomical thoughts about Phlebotomus stantoni.pdf",^Fig\s+(\d+)\.\s*(.*),CC BY 4.0 - Renaux Torres et al. 2023
+ding2025,ding2025,15. (Phlebotomus seowpohi) Hidden in plain sight discovery of sand flies in Singapore and description of four species new to science.pdf,^Fig\.\s*(\d+)\s+(.*),CC BY 4.0 - Ding et al. 2025
