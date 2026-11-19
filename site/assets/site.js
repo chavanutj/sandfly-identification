@@ -23,6 +23,26 @@
   });
   syncCtl();
 
+  // ---------- home page photo slideshow (pauses on hover/focus and when the tab is hidden)
+  (function () {
+    var show_ = document.querySelector(".slideshow");
+    if (!show_) return;
+    var slides = show_.querySelectorAll(".slide"), dots = show_.querySelectorAll(".dots button");
+    var cur = 0, timer = null, paused = false, secs = (+show_.getAttribute("data-seconds") || 10) * 1000;
+    var go = function (i) {
+      slides[cur].classList.remove("on"); if (dots[cur]) dots[cur].classList.remove("on");
+      cur = (i + slides.length) % slides.length;
+      slides[cur].classList.add("on"); if (dots[cur]) dots[cur].classList.add("on");
+    };
+    var start = function () { clearInterval(timer); if (slides.length > 1) timer = setInterval(function () { if (!paused && !document.hidden) go(cur + 1); }, secs); };
+    dots.forEach(function (d, i) { d.addEventListener("click", function () { go(i); start(); }); });
+    show_.addEventListener("mouseenter", function () { paused = true; });
+    show_.addEventListener("mouseleave", function () { paused = false; });
+    show_.addEventListener("focusin", function () { paused = true; });
+    show_.addEventListener("focusout", function () { paused = false; });
+    start();
+  })();
+
   // ---------- keys.html: choose which embedded key is shown
   var sel = document.getElementById("keyselect");
   if (sel && sel.options.length) {
@@ -85,6 +105,7 @@
         var go = lead.querySelector("a.goto");
         lead.addEventListener("click", function (ev) {
           if (ev.target.closest("a.thumb")) return;           // let figure links open
+          if (ev.target.closest("details.note, details.update")) return;  // open/close a note without choosing the lead
           if (go) { ev.preventDefault(); history.push(go.getAttribute("data-goto")); render(); save(); window.scrollTo({top: stepper.offsetTop - 10}); }
           else if (!ev.target.closest("a.taxon")) {
             var t = lead.querySelector(".res").cloneNode(true);

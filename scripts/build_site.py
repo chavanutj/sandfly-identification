@@ -205,7 +205,8 @@ def lead_html(l, prefix, kid, idp=""):
     pref = f' <span class="pref">{esc(l["page_ref"])}</span>' if l.get("page_ref") else ""
     if notes:
         warn = '<span class="warn" title="This lead has a note">⚠</span>'
-    det = "".join(f'<div class="{c}"><b>{t}:</b> {italic_names(n)}</div>' for c, t, n in notes)
+    det = "".join(f'<details class="{c}"><summary>{t}</summary><div class="body">{italic_names(n)}</div></details>'
+                  for c, t, n in notes)
     return (f'<div class="lead" id="{idp}l{esc(l["lead_id"])}"><div class="lt"><span class="lid">{esc(l["couplet"])}{"" if l["lead"] == "a" else "′"}</span>'
             f'{"" if l["lead"] == "a" else "<span class=dash>–</span>"} {italic_names(l["text"])} {warn}{fig_links(l, prefix)}{pref}</div>'
             f'<div class="res">{group}{res}</div>{det}</div>')
@@ -417,25 +418,56 @@ disagreement is listed here with both citations. The keys themselves stay as pri
     write("about.html", page("About", body, "", "about.html"))
 
     n_th = sum(1 for t in taxa if t["focus_record"])
-    img = (f'<img src="{esc(CFG["home_image"])}" alt="{esc(CFG.get("home_image_alt", ""))}">' if CFG.get("home_image") else "")
-    focus_tile = (f'<a href="{FOCUS_PAGE}"><b>{n_th}</b> recorded from {esc(FOCUS)}<br><span>in the sources used</span></a>' if FOCUS else "")
     start = CFG.get("start_key") or (keys_index[0]["key_id"] if keys_index else "")
-    start_link = f' (start with <a href="keys/{esc(start)}.html">the main key</a>)' if start else ""
+    slides = CFG.get("home_slides") or ([{"src": CFG["home_image"], "alt": CFG.get("home_image_alt", ""),
+                                          "caption_html": CFG.get("home_image_caption_html", "")}] if CFG.get("home_image") else [])
+    img = ""
+    if slides:
+        sl = "".join(
+            f'<div class="slide{" on" if i == 0 else ""}"><img src="{esc(s["src"])}" alt="{esc(s.get("alt", ""))}"'
+            f'{"" if i == 0 else " loading=lazy"} style="object-position:{esc(s.get("pos", "50% 50%"))}">'
+            f'{"<figcaption>" + s["caption_html"] + "</figcaption>" if s.get("caption_html") else ""}</div>'
+            for i, s in enumerate(slides))
+        dots = ("" if len(slides) < 2 else '<div class="dots" role="tablist" aria-label="Choose photo">' + "".join(
+            f'<button type="button" aria-label="Photo {i + 1} of {len(slides)}"{" class=on" if i == 0 else ""}></button>'
+            for i in range(len(slides))) + "</div>")
+        img = (f'<figure class="hero-img slideshow" data-seconds="{int(CFG.get("home_slides_seconds", 10))}" '
+               f'aria-roledescription="carousel">{sl}{dots}</figure>')
+    focus_tile = (f'<a href="{FOCUS_PAGE}"><span class="ico">📍</span><b>{n_th}</b> recorded from {esc(FOCUS)}'
+                  f'<span>in the sources used</span></a>' if FOCUS else "")
+    start_btn = f'<a class="btn primary" href="keys/{esc(start)}.html">Start identifying →</a>' if start else ""
     quick = CFG.get("quick_start_html") or (
-        f'<li>Open <a href="keys.html">the keys</a>{start_link} '
-        'and use <b>Step through</b>.</li><li>Read any <span class="warn">⚠</span> note on the leads you passed.</li>'
+        f'<li>Open <a href="keys.html">the keys</a> and use <b>Step through</b>.</li>'
+        '<li>Read any <span class="warn">⚠</span> note on the leads you passed.</li>'
         '<li>Open the species page and compare diagnostic notes, conflicts and figures.</li>')
-    body = f"""<h1>{esc(SITE_TITLE)}</h1>
-<div class="intro">{img}<div>{CFG.get("home_intro_html", "")}</div></div>
+    # keys grouped by the part of the title before ":" (e.g. "Sri Lanka: females")
+    # (only a prefix shared by 2+ keys makes a group; the rest go under "Main keys", listed first)
+    main_g = CFG.get("home_main_key_group", "Main keys")
+    prefixes = [k["title"].partition(":")[0].strip() for k in keys_index if ":" in k["title"]]
+    groups = {main_g: []}
+    for k in keys_index:
+        g, _, rest = k["title"].partition(":")
+        g, label = (g.strip(), rest.strip()) if rest and prefixes.count(g.strip()) > 1 else (main_g, k["title"])
+        groups.setdefault(g, []).append(
+            f'<a class="keycard" href="keys/{esc(k["key_id"])}.html"><span class="kt">{italic_names(label)}</span>'
+            f'<span class="ks">{esc(sources[k["source_id"]]["short"])}</span></a>')
+    keyblocks = "".join(f'<h3>{esc(g)} <span class="count">{len(v)}</span></h3><div class="keygrid">{"".join(v)}</div>'
+                        for g, v in groups.items())
+    body = f"""<section class="hero">
+<div class="hero-text"><p class="eyebrow">{esc(CFG.get("home_eyebrow", "Identification resource"))}</p>
+<h1>{esc(SITE_TITLE)}</h1>
+<div class="lede">{CFG.get("home_intro_html", "")}</div>
+<p class="cta">{start_btn}<a class="btn" href="taxa/index.html">Browse species</a><a class="btn" href="glossary.html">Glossary</a></p></div>
+{img}</section>
 <div class="tiles">
-<a href="keys.html"><b>{len(keys_index)}</b> identification keys<br><span>{len(leads)} leads, {len({l['key_id'] + l['couplet'] for l in leads})} couplets</span></a>
-<a href="taxa/index.html"><b>{len(taxa)}</b> taxa<br><span>with key paths and notes</span></a>
+<a href="keys.html"><span class="ico">🔑</span><b>{len(keys_index)}</b> identification keys<span>{len(leads)} leads, {len({l['key_id'] + l['couplet'] for l in leads})} couplets</span></a>
+<a href="taxa/index.html"><span class="ico">🦟</span><b>{len(taxa)}</b> taxa<span>with key paths and notes</span></a>
 {focus_tile}
-<a href="conflicts.html"><b>{len(conflicts)}</b> documented conflicts<br><span>plus {sum(1 for l in leads if l['update_note'])} update notes</span></a>
+<a href="conflicts.html"><span class="ico">⚖️</span><b>{len(conflicts)}</b> documented conflicts<span>plus {sum(1 for l in leads if l['update_note'])} update notes</span></a>
 </div>
 <h2>Quick start</h2>
-<ol>{quick}</ol>
-<h2>Keys</h2><ul>{''.join(f'<li><a href="keys/{k["key_id"]}.html">{esc(k["title"])}</a> <span class="muted">({esc(sources[k["source_id"]]["short"])})</span></li>' for k in keys_index)}</ul>"""
+<ol class="steps">{quick}</ol>
+<h2>Keys</h2>{keyblocks}"""
     write("index.html", page("Home", body, "", "index.html"))
 
 
