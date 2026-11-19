@@ -225,6 +225,8 @@ def taxon_cell(t, prefix=""):
     name = t["taxon"]
     m = re.match(r"^(.*?\bspp?\.(?:\s*[\w-]+)?)\s+(\(.*\))$", name)
     main, extra = (m.group(1), m.group(2)) if m else (name, t.get("author", ""))
+    extra = re.sub(r"^\((.*)\)$", r"\1", extra.strip())  # shown without brackets (kept in taxa.csv / species pages)
+    extra = extra.replace(" and ", " & ")
     return (f'<a class="tname" href="{prefix}taxa/{slug(name)}.html"><i>{esc(main)}</i></a>'
             + (f'<span class="tauth">{esc(extra)}</span>' if extra else ""))
 
