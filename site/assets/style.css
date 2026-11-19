@@ -126,9 +126,10 @@ nav.side .search input { width: 100%; margin-top: .9rem; padding: .55rem .75rem 
 nav.side .search input:focus { outline: none; border-color: var(--brand); box-shadow: 0 0 0 3px var(--brand2); }
 main { flex: 1; min-width: 0; padding: 1.5rem 2rem 3rem; }
 /* distributed (justified) text on every page: lines run to the heading line; short items stay left-aligned (see below) */
-main p, main li, main td, main dd, main figcaption, main .callout, main .facts span, main .tiles span, main .keycard .kt, .lead .lt, .lead details > .body, .intro p,
+main p, main li, main td, main dd, main figcaption, main .callout, .lead .lt, .lead details > .body, .intro p,
 #gpop p, #lbox .lb-cap { text-align: justify; text-justify: inter-word; hyphens: auto; -webkit-hyphens: auto; }
-main th, main .toc, main .chips, main .crumb, main .stepnav, main .trail, main .gfilter *, main td.num { text-align: left; hyphens: manual; }
+main th, main .toc, main .chips, main .crumb, main .stepnav, main .trail, main .gfilter *, main td.num,
+main .keycard *, main .tiles *, main .facts *, main .chip { text-align: left; hyphens: manual; -webkit-hyphens: manual; }  /* short card text: never stretched */
 main td.num { text-align: right; }
 /* narrow table columns: no stretching or hyphenation (justify only suits wide text) */
 main table.list td, main table.list td * { text-align: left; hyphens: manual; -webkit-hyphens: manual; }
