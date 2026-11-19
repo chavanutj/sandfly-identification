@@ -230,7 +230,8 @@ ul.taxlist li:target { background: var(--hl); outline: 2px solid var(--accent); 
   background: linear-gradient(160deg, var(--brand2) 0%, var(--card) 70%); }
 .hero .eyebrow { margin: 0 0 .4rem; font: 600 .74rem var(--sans); letter-spacing: .12em; text-transform: uppercase; color: var(--accent); }
 .hero h1 { font-size: 2.05rem; margin: 0 0 .7rem; }
-.hero .lede p { margin: 0 0 .7em; font-size: 1rem; line-height: 1.7; max-width: none; }
+.hero .lede p { margin: 0 0 .7em; font-size: 1rem; line-height: 1.7; max-width: none;
+  text-align: justify; text-justify: inter-word; hyphens: auto; -webkit-hyphens: auto; }  /* distributed: every line full width */
 .hero .cta { display: flex; flex-wrap: wrap; gap: .5rem; margin: .6rem 0 0; }
 .btn { display: inline-block; padding: .55em 1.1em; border-radius: 999px; border: 1px solid var(--brand); color: var(--brand);
   background: var(--card); font: 600 .9rem var(--sans); text-decoration: none; transition: background .15s, transform .15s; }
