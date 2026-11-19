@@ -516,7 +516,7 @@ def build_glossary():
         did = d["diagram_id"]
         tabs.append(f'<button type="button" role="tab" data-d="{did}"{" class=on aria-selected=true" if i == 0 else ""}>{esc(d["title"])}</button>')
         panels.append(
-            f'<div class="dpanel{" on" if i == 0 else ""}{" wide" if W / H > 1.4 else ""}" id="d-{did}" data-d="{did}" role="tabpanel">'
+            f'<div class="dpanel{" on" if i == 0 else ""}{" wide" if W / H > 1.2 else ""}" id="d-{did}" data-d="{did}" role="tabpanel">'
             f'<div class="dfig" style="aspect-ratio:{W}/{H};max-width:min(100%,calc(80vh*{W}/{H}))"><img src="{esc(d["file"])}" alt="{esc(d["title"])} with labelled parts" loading="lazy">{"".join(hs)}</div>'
             f'<div class="dside"><h3>{esc(d["title"])}</h3><p class="muted">{d["specimen"]}. '
             f'From <a href="figures.html#{esc(d["figure_id"])}">{esc(sources.get("galati2017", {}).get("short", "Galati et al. 2017"))} '

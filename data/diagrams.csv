@@ -1,6 +1,6 @@
 diagram_id,title,body_part,figure_id,crop,file,specimen
-head,Head (female),Head & antenna,galati2017:Fig1,0 0 1155 1265,assets/img/diagrams/head.jpg,"Dorsal view of the head of a female, <i>Nyssomyia intermedia</i>"
-cibarium,Cibarium & pharynx,"Mouthparts, cibarium & pharynx",galati2017:Fig7,650 20 1110 1235,assets/img/diagrams/cibarium.jpg,"Cibarium and pharynx of a female, <i>Bichromomyia flaviscutellata</i>"
-wing,Wing,Thorax & wing,galati2017:Fig14,0 0 1156 590,assets/img/diagrams/wing.jpg,"Wing with the main indices"
-female,Female genitalia,Female genitalia,galati2017:Fig16,600 440 1156 1300,assets/img/diagrams/female.jpg,"Spermathecae, genital furca and terminal segments of a female, <i>Nyssomyia neivai</i>"
-male,Male genitalia,Male genitalia,galati2017:Fig21,0 0 1150 548,assets/img/diagrams/male.jpg,"Male genitalia in lateral view, <i>Nyssomyia neivai</i>"
+head,Head (female),Head & antenna,galati2017:Fig1,0 0 1155 1312,assets/img/diagrams/head.jpg,"Dorsal view of the head of a female, <i>Nyssomyia intermedia</i>"
+cibarium,Cibarium & pharynx,"Mouthparts, cibarium & pharynx",galati2017:Fig7,0 0 1155 1307,assets/img/diagrams/cibarium.jpg,Cibarium and pharynx of females: (A) <i>Micropygomyia atroclavata</i>; (B) <i>Bichromomyia flaviscutellata</i> (labelled)
+wing,Wing,Thorax & wing,galati2017:Fig14,0 0 1156 927,assets/img/diagrams/wing.jpg,"Wing: (A) main indices; (B) <i>Chinius eunicegalatiae</i>, with R2 and R3 fused"
+female,Female genitalia,Female genitalia,galati2017:Fig16,0 0 1156 1331,assets/img/diagrams/female.jpg,"Abdomen and genitalia of a female, <i>Nyssomyia neivai</i>: (A) abdomen, (B) genitalia, lateral; (C) 8th segment; (D) spermathecae; (E) 9th–10th segments, ventral"
+male,Male genitalia,Male genitalia,galati2017:Fig21,0 0 1150 1098,assets/img/diagrams/male.jpg,Male genitalia in lateral view: (A) <i>Nyssomyia neivai</i> (labelled); (B) <i>Warileya nigrosaccula</i>
