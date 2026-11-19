@@ -332,6 +332,7 @@ ol.refs li { margin: .25rem 0; }
 @media (max-width: 900px) { .split, .split.rev { grid-template-columns: 1fr; } }
 /* distributed (justified) body text on the biology page; short items, captions and references stay left-aligned */
 .article p, .article li, .article .callout { text-align: justify; text-justify: inter-word; hyphens: auto; -webkit-hyphens: auto; }
+.article p, .article ul, .article ol, .article .callout, .article .lede-text { max-width: none; }  /* text runs to the heading line */
 .article .facts *, .article .toc, .article figcaption, .article ol.refs li, .article table * { text-align: left; hyphens: manual; }
 
 /* ---------- term popups (words with a dotted underline) ---------- */
