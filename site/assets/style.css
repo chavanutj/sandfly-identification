@@ -2,6 +2,25 @@
    All sizes are in rem/em, so the text-size buttons (html[data-size]) scale the whole page.
    html[data-view="scope"] = Microscope mode: large, high-contrast, dark, big click targets. */
 
+/* ---------- fonts: Source Serif 4 (headings) + Source Sans 3 (text), self-hosted in assets/fonts/
+   (SIL Open Font License, see OFL-*.txt there). Thai falls back to Leelawadee UI / Noto Sans Thai. ---------- */
+@font-face { font-family: "Source Serif 4"; font-style: normal; font-weight: 200 900; font-display: swap;
+  src: url("fonts/source-serif-4-latin-ext-wght-normal.woff2") format("woff2"); unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+@font-face { font-family: "Source Serif 4"; font-style: italic; font-weight: 200 900; font-display: swap;
+  src: url("fonts/source-serif-4-latin-ext-wght-italic.woff2") format("woff2"); unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+@font-face { font-family: "Source Serif 4"; font-style: normal; font-weight: 200 900; font-display: swap;
+  src: url("fonts/source-serif-4-latin-wght-normal.woff2") format("woff2"); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family: "Source Serif 4"; font-style: italic; font-weight: 200 900; font-display: swap;
+  src: url("fonts/source-serif-4-latin-wght-italic.woff2") format("woff2"); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family: "Source Sans 3"; font-style: normal; font-weight: 200 900; font-display: swap;
+  src: url("fonts/source-sans-3-latin-ext-wght-normal.woff2") format("woff2"); unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+@font-face { font-family: "Source Sans 3"; font-style: italic; font-weight: 200 900; font-display: swap;
+  src: url("fonts/source-sans-3-latin-ext-wght-italic.woff2") format("woff2"); unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF; }
+@font-face { font-family: "Source Sans 3"; font-style: normal; font-weight: 200 900; font-display: swap;
+  src: url("fonts/source-sans-3-latin-wght-normal.woff2") format("woff2"); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+@font-face { font-family: "Source Sans 3"; font-style: italic; font-weight: 200 900; font-display: swap;
+  src: url("fonts/source-sans-3-latin-wght-italic.woff2") format("woff2"); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
+
 /* ---------- colours (edit here) ---------- */
 :root {
   --ink: #1f2a2e; --muted: #5d6b70; --line: #dde3e1; --bg: #fbfaf7; --panel: #f1f3ee; --card: #ffffff;
@@ -12,8 +31,8 @@
   --shadow: 0 1px 2px rgba(20, 40, 35, .06), 0 2px 8px rgba(20, 40, 35, .05);
   --shadow-up: 0 4px 14px rgba(20, 40, 35, .12);
   --radius: 10px;
-  --serif: "Iowan Old Style", "Palatino Linotype", Charter, Georgia, "Leelawadee UI", serif;
-  --sans: "Segoe UI", system-ui, -apple-system, "Leelawadee UI", "Noto Sans Thai", Tahoma, sans-serif;
+  --serif: "Source Serif 4", "Iowan Old Style", "Palatino Linotype", Georgia, "Leelawadee UI", serif;
+  --sans: "Source Sans 3", "Segoe UI", system-ui, -apple-system, "Leelawadee UI", "Noto Sans Thai", Tahoma, sans-serif;
 }
 @media (prefers-color-scheme: dark) {
   :root:not([data-view="scope"]) {
