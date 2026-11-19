@@ -92,7 +92,10 @@ nav.side .search input { width: 100%; margin-top: .9rem; padding: .55rem .75rem 
   color: var(--ink); font: .9rem var(--sans); box-shadow: var(--shadow); }
 nav.side .search input:focus { outline: none; border-color: var(--brand); box-shadow: 0 0 0 3px var(--brand2); }
 main { flex: 1; min-width: 0; padding: 1.5rem 2rem 3rem; }
-main p, main > ol, main > ul:not(.taxlist) { max-width: 52rem; }
+/* distributed (justified) text on every page: lines run to the heading line; short items stay left-aligned (see below) */
+main p, main li, main .callout, .lead .lt, .lead details > .body, .intro p { text-align: justify; text-justify: inter-word; hyphens: auto; -webkit-hyphens: auto; }
+main table *, main figcaption, main .facts *, main .toc, main ol.refs li, main .chips, main .crumb, main .muted.gcount,
+main ul.taxlist li, main .keycard *, main .tiles *, main .gfilter *, main .stepnav, main .trail, main .dside .hint { text-align: left; hyphens: manual; }
 footer { border-top: 1px solid var(--line); padding: 1rem 1.6rem 1.4rem; font: .78rem/1.6 var(--sans); color: var(--muted);
   max-width: 1360px; margin: 0 auto; }
 
@@ -256,7 +259,7 @@ ul.taxlist li:target { background: var(--hl); outline: 2px solid var(--accent); 
 @media (prefers-reduced-motion: reduce) { .slideshow .slide img, .slideshow .slide.on img { transform: none; } }
 .tiles a .ico { float: right; font-size: 1.5rem; line-height: 1; opacity: .85; }
 .tiles a span:not(.ico) { display: block; }
-ol.steps { list-style: none; counter-reset: step; padding: 0; display: grid; gap: .6rem; max-width: 52rem; }
+ol.steps { list-style: none; counter-reset: step; padding: 0; display: grid; gap: .6rem; }
 ol.steps li { counter-increment: step; position: relative; margin: 0; padding: .7rem 1rem .7rem 3.4rem; background: var(--card);
   border: 1px solid var(--line); border-radius: var(--radius); box-shadow: var(--shadow); }
 ol.steps li::before { content: counter(step); position: absolute; left: .9rem; top: .65rem; width: 1.8rem; height: 1.8rem;
@@ -297,7 +300,7 @@ html[data-view="scope"] .keycard:hover, html[data-view="scope"] .btn:hover { tra
 .tiles a span { color: var(--muted); font-size: .78rem; }
 
 /* ---------- biology page ---------- */
-.lede-text { font-size: 1.08rem; max-width: 52rem; }
+.lede-text { font-size: 1.08rem; }
 .facts { display: grid; grid-template-columns: repeat(auto-fit, minmax(10.5rem, 1fr)); gap: .8rem; margin: 1.2rem 0; }
 .facts > div { background: var(--card); border: 1px solid var(--line); border-top: 4px solid var(--brand); border-radius: var(--radius);
   padding: .8rem 1rem; box-shadow: var(--shadow); font: .85rem/1.4 var(--sans); }
@@ -323,17 +326,12 @@ html[data-view="scope"] .keycard:hover, html[data-view="scope"] .btn:hover { tra
 .dcard h4 { margin: 0 0 .3rem; font: 600 1rem var(--serif); color: var(--brand); }
 .dcard.danger h4 { color: var(--bad); }
 .dcard p { margin: 0; font-size: .92rem; }
-ol.criteria { max-width: 52rem; }
 ol.criteria li { margin: .3rem 0; }
-.callout { max-width: 52rem; background: var(--updbg); border-left: 4px solid var(--upd); border-radius: 8px; padding: .75rem 1rem;
+.callout { background: var(--updbg); border-left: 4px solid var(--upd); border-radius: 8px; padding: .75rem 1rem;
   font: .92rem/1.6 var(--sans); margin: 1rem 0; }
 ol.refs { font: .85rem/1.55 var(--sans); color: var(--muted); padding-left: 1.4rem; }
 ol.refs li { margin: .25rem 0; }
 @media (max-width: 900px) { .split, .split.rev { grid-template-columns: 1fr; } }
-/* distributed (justified) body text on the biology page; short items, captions and references stay left-aligned */
-.article p, .article li, .article .callout { text-align: justify; text-justify: inter-word; hyphens: auto; -webkit-hyphens: auto; }
-.article p, .article ul, .article ol, .article .callout, .article .lede-text { max-width: none; }  /* text runs to the heading line */
-.article .facts *, .article .toc, .article figcaption, .article ol.refs li, .article table * { text-align: left; hyphens: manual; }
 
 /* ---------- term popups (words with a dotted underline) ---------- */
 .gt, .gt-demo { text-decoration: underline dotted; text-decoration-color: color-mix(in srgb, var(--brand) 70%, transparent);
