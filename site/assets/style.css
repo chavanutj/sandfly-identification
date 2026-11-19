@@ -23,6 +23,7 @@
 
 /* ---------- colours (edit here) ---------- */
 :root {
+  color-scheme: light;
   --ink: #1f2a2e; --muted: #5d6b70; --line: #dde3e1; --bg: #fbfaf7; --panel: #f1f3ee; --card: #ffffff;
   --brand: #1f5c4a; --brand-deep: #143f33; --brand2: #e3eee8; --onbrand: #ffffff; --link: #1a63a0;
   --accent: #c27a1a;
@@ -34,8 +35,8 @@
   --serif: "Source Serif 4", "Iowan Old Style", "Palatino Linotype", Georgia, "Leelawadee UI", serif;
   --sans: "Source Sans 3", "Segoe UI", system-ui, -apple-system, "Leelawadee UI", "Noto Sans Thai", Tahoma, sans-serif;
 }
-@media (prefers-color-scheme: dark) {
-  :root:not([data-view="scope"]) {
+@media all { /* dark colours: opt-in only via <html data-theme="dark">; the site is light (Forest) by default */
+  :root[data-theme="dark"]:not([data-view="scope"]) {
     --ink: #e4e9e6; --muted: #a3b0b3; --line: #313b3d; --bg: #121718; --panel: #1a2123; --card: #1d2527;
     --brand: #7cc4a4; --brand-deep: #0f2a22; --brand2: #1f3029; --onbrand: #0d1714; --link: #8cc4ef;
     --accent: #e7a54a;
@@ -45,6 +46,7 @@
 }
 /* Microscope mode: dark, high contrast, bright accents (easy on dark-adapted eyes) */
 html[data-view="scope"] {
+  color-scheme: dark;
   --ink: #f5f5f0; --muted: #c9cfc9; --line: #59615c; --bg: #000000; --panel: #111511; --card: #0a0d0a;
   --brand: #ffd34d; --brand-deep: #000000; --brand2: #2b2a12; --onbrand: #000000; --link: #8fd3ff; --accent: #ffd34d;
   --warn: #ffb347; --warnbg: #2a1c05; --upd: #8fd3ff; --updbg: #071a26; --bad: #ff8a80; --badbg: #2b0d0b; --hl: #4d4400;
@@ -88,8 +90,8 @@ img { max-width: 100%; }
 .viewctl button:hover { background: rgba(255, 255, 255, .2); border-color: #fff; }
 .viewctl button.on { background: #fff; color: var(--brand-deep); border-color: #fff; }
 .viewctl .scope { margin-left: .5rem; }
-@media (prefers-color-scheme: dark) {
-  :root:not([data-view="scope"]) .viewctl button.on { color: #0f2a22; }
+@media all {
+  :root[data-theme="dark"]:not([data-view="scope"]) .viewctl button.on { color: #0f2a22; }
 }
 html[data-view="scope"] .banner { background: #000; border-bottom-color: var(--brand); }
 html[data-view="scope"] .banner a.brand, html[data-view="scope"] .viewctl { color: var(--brand); }
@@ -424,8 +426,8 @@ ol.refs li { margin: .25rem 0; }
 .gcard h3 { margin: 0 0 .25rem; font-size: 1.12rem; }
 .sexb { font: 700 .78rem var(--sans); padding: .1em .5em; border-radius: 999px; background: var(--panel); color: var(--muted); white-space: nowrap; }
 .sex-female { background: #fbe9f0; color: #a3285e; } .sex-male { background: #e6f0fb; color: #23598f; }
-@media (prefers-color-scheme: dark) { :root:not([data-view="scope"]) .sex-female { background: #3a1f2b; color: #f3a3c6; }
-  :root:not([data-view="scope"]) .sex-male { background: #1b2b3d; color: #9cc8f3; } }
+@media all { :root[data-theme="dark"]:not([data-view="scope"]) .sex-female { background: #3a1f2b; color: #f3a3c6; }
+  :root[data-theme="dark"]:not([data-view="scope"]) .sex-male { background: #1b2b3d; color: #9cc8f3; } }
 .gcard .pref, .gcard .syn { margin: 0 0 .25rem; font: .84rem var(--sans); color: var(--muted); }
 .gcard .pref b { color: var(--ink); }
 .gcard .def { margin: .35rem 0 .5rem; line-height: 1.6; }
