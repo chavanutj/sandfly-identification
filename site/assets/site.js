@@ -169,4 +169,190 @@
     }
     f.addEventListener("input", apply); th.addEventListener("change", apply); apply();
   }
+
+  // ---------- term popups: any element with data-t="key" (words in keys, diagram hotspots, chips)
+  // Mouse: shows on hover. Keyboard: on focus. Touch: first tap shows the popup, a second tap follows the link.
+  var siteBase = (function () {
+    var s = document.querySelector('script[src$="assets/site.js"]');
+    return s ? s.getAttribute("src").replace(/assets\/site\.js$/, "") : "";
+  })();
+  var lastPointer = "mouse";
+  document.addEventListener("pointerdown", function (e) { lastPointer = e.pointerType || "mouse"; }, true);
+  (function () {
+    var T = window.SF_TERMS;
+    if (!T) return;
+    var pop = document.createElement("div");
+    pop.id = "gpop"; pop.setAttribute("role", "tooltip"); pop.hidden = true;
+    document.body.appendChild(pop);
+    var cur = null, hideT = null;
+    var SEX = { female: "♀ female", male: "♂ male", both: "♀♂ both sexes" };
+    function content(k) {
+      var e = T[k];
+      return '<div class="gp-h"><b>' + e.t + "</b>" + (e.f ? '<span class="gp-f">' + e.f + "</span>" : "") +
+        (e.x && SEX[e.x] ? '<span class="gp-x">' + SEX[e.x] + "</span>" : "") + "</div>" +
+        '<p class="gp-d">' + e.d + "</p>" +
+        (e.s ? '<p class="gp-s">Also called: ' + e.s + "</p>" : "") +
+        '<a class="gp-a" href="' + siteBase + e.g + '">' + (e.l ? "Glossary: " + e.l : "Open in glossary") + " ›</a>";
+    }
+    function place(el) {
+      var r = el.getBoundingClientRect();
+      pop.style.left = "0px"; pop.style.top = "0px";
+      var pw = pop.offsetWidth, ph = pop.offsetHeight;
+      var x = Math.min(Math.max(8, r.left + r.width / 2 - pw / 2), window.innerWidth - pw - 8);
+      var y = r.bottom + 8;
+      if (y + ph > window.innerHeight - 8 && r.top - ph - 8 > 8) y = r.top - ph - 8;
+      pop.style.left = (x + window.scrollX) + "px"; pop.style.top = (y + window.scrollY) + "px";
+    }
+    function show(el) {
+      var k = el.getAttribute("data-t");
+      if (!T[k]) return;
+      clearTimeout(hideT);
+      if (cur === el && !pop.hidden) return;
+      if (cur) cur.classList.remove("gt-on");
+      cur = el; el.classList.add("gt-on");
+      pop.innerHTML = content(k); pop.hidden = false; place(el);
+    }
+    function hideNow() { pop.hidden = true; if (cur) cur.classList.remove("gt-on"); cur = null; }
+    function hide() { clearTimeout(hideT); hideT = setTimeout(hideNow, 220); }
+    document.addEventListener("mouseover", function (e) {
+      if (lastPointer === "touch") return;
+      var el = e.target.closest("[data-t]");
+      if (el) show(el);
+      else if (cur && !e.target.closest("#gpop")) hide();
+    });
+    pop.addEventListener("mouseenter", function () { clearTimeout(hideT); });
+    pop.addEventListener("mouseleave", hide);
+    document.addEventListener("focusin", function (e) { var el = e.target.closest && e.target.closest("[data-t]"); if (el) show(el); });
+    document.addEventListener("focusout", function (e) { if (e.target.closest && e.target.closest("[data-t]")) hide(); });
+    document.addEventListener("keydown", function (e) { if (e.key === "Escape") hideNow(); });
+    window.addEventListener("resize", function () { if (cur && !pop.hidden) place(cur); });
+    document.addEventListener("click", function (e) {
+      var el = e.target.closest("[data-t]");
+      if (el && lastPointer !== "mouse" && (cur !== el || pop.hidden)) {  // touch / pen: first tap only shows
+        e.preventDefault(); e.stopPropagation(); show(el); return;
+      }
+      if (!el && !e.target.closest("#gpop")) hideNow();
+    }, true);
+  })();
+
+  // ---------- glossary page: diagram tabs, hotspot highlighting, filters
+  (function () {
+    var ex = document.getElementById("explorer");
+    if (ex) {
+      var tabs = ex.querySelectorAll(".dtabs button"), panels = ex.querySelectorAll(".dpanel");
+      var showD = function (d) {
+        tabs.forEach(function (b) { var on = b.getAttribute("data-d") === d; b.classList.toggle("on", on); b.setAttribute("aria-selected", on); });
+        panels.forEach(function (p) { p.classList.toggle("on", p.getAttribute("data-d") === d); });
+      };
+      tabs.forEach(function (b) { b.addEventListener("click", function () { showD(b.getAttribute("data-d")); }); });
+      var flash = function (sel) {
+        ex.querySelectorAll(".hs.flash").forEach(function (h) { h.classList.remove("flash"); });
+        ex.querySelectorAll(sel).forEach(function (h) { h.classList.add("flash"); });
+      };
+      // chips in the side list highlight their hotspots
+      ex.querySelectorAll(".chip").forEach(function (c) {
+        c.addEventListener("mouseenter", function () { flash('.dpanel.on .hs[data-t="' + c.getAttribute("data-hs") + '"]'); });
+        c.addEventListener("mouseleave", function () { flash("none"); });
+      });
+      ex.querySelectorAll(".showall input").forEach(function (cb) {
+        cb.addEventListener("change", function () { ex.classList.toggle("outline", cb.checked);
+          ex.querySelectorAll(".showall input").forEach(function (o) { o.checked = cb.checked; }); });
+      });
+      // glossary cards: hovering highlights the part on the visible diagram; "Show on diagram" switches to it
+      document.querySelectorAll(".gcard").forEach(function (card) {
+        card.addEventListener("mouseenter", function () { flash('.dpanel.on .hs[data-g="' + card.id + '"]'); });
+        card.addEventListener("mouseleave", function () { flash("none"); });
+      });
+      document.querySelectorAll(".locate").forEach(function (b) {
+        b.addEventListener("click", function () {
+          showD(b.getAttribute("data-d"));
+          ex.scrollIntoView({ behavior: "smooth", block: "start" });
+          var g = b.getAttribute("data-g");
+          flash('.dpanel.on .hs[data-g="' + g + '"]');
+          setTimeout(function () { flash("none"); }, 3500);
+        });
+      });
+    }
+    var gs = document.getElementById("gsearch");
+    if (gs) {
+      var sex = "", part = "";
+      var segs = document.querySelectorAll(".gfilter .seg button"), pcs = document.querySelectorAll(".gfilter .partchips button");
+      var count = document.querySelector(".gcount");
+      var apply = function () {
+        var v = gs.value.trim().toLowerCase(), n = 0;
+        document.querySelectorAll(".gcard").forEach(function (c) {
+          var cs = c.getAttribute("data-sex");
+          var ok = (!v || c.getAttribute("data-text").indexOf(v) >= 0) && (!sex || cs === sex || cs === "both") &&
+            (!part || c.getAttribute("data-part") === part);
+          c.classList.toggle("hidden", !ok); if (ok) n++;
+        });
+        document.querySelectorAll(".gsec").forEach(function (s) { s.classList.toggle("hidden", !s.querySelector(".gcard:not(.hidden)")); });
+        count.textContent = (v || sex || part) ? n + " term" + (n === 1 ? "" : "s") + " shown" : "";
+      };
+      segs.forEach(function (b) { b.addEventListener("click", function () {
+        sex = b.getAttribute("data-sex"); segs.forEach(function (o) { o.classList.toggle("on", o === b); }); apply(); }); });
+      pcs.forEach(function (b) { b.addEventListener("click", function () {
+        part = part === b.getAttribute("data-part") ? "" : b.getAttribute("data-part");
+        pcs.forEach(function (o) { o.classList.toggle("on", o.getAttribute("data-part") === part); }); apply(); }); });
+      gs.addEventListener("input", apply);
+      // a link to glossary.html#term highlights that card
+      var hl = function () { var t = location.hash && document.getElementById(location.hash.slice(1));
+        if (t && t.classList.contains("gcard")) { t.classList.remove("pulse"); void t.offsetWidth; t.classList.add("pulse"); } };
+      window.addEventListener("hashchange", hl); hl();
+    }
+  })();
+
+  // ---------- figure viewer (glossary page only): thumbnails open in an overlay (zoom, ← → between figures)
+  (function () {
+    if (!document.querySelector(".gcards")) return;
+    var SEL = "a.thumb, .gallery figure > a, .gthumbs a";
+    var isImg = function (a) { return /\.(jpe?g|png|gif|webp|svg)$/i.test(a.getAttribute("href") || ""); };
+    var box = null, list = [], idx = 0;
+    function caption(a) {
+      var fig = a.closest("figure"), fc = fig && fig.querySelector("figcaption");
+      return fc ? fc.innerHTML : (a.getAttribute("title") || "");
+    }
+    function build() {
+      box = document.createElement("div");
+      box.id = "lbox"; box.setAttribute("role", "dialog"); box.setAttribute("aria-modal", "true"); box.setAttribute("aria-label", "Figure viewer");
+      box.innerHTML = '<button type="button" class="lb-x" aria-label="Close">✕</button>' +
+        '<button type="button" class="lb-p" aria-label="Previous figure">‹</button><button type="button" class="lb-n" aria-label="Next figure">›</button>' +
+        '<div class="lb-stage"><img alt=""></div><div class="lb-cap"></div>';
+      document.body.appendChild(box);
+      box.querySelector(".lb-x").addEventListener("click", close);
+      box.querySelector(".lb-p").addEventListener("click", function () { open(idx - 1); });
+      box.querySelector(".lb-n").addEventListener("click", function () { open(idx + 1); });
+      box.querySelector(".lb-stage").addEventListener("click", function (e) {
+        if (e.target.tagName === "IMG") box.classList.toggle("zoom"); else close();
+      });
+    }
+    function open(i) {
+      if (!box) build();
+      idx = (i + list.length) % list.length;
+      var a = list[idx];
+      box.classList.remove("zoom");
+      box.querySelector("img").src = a.getAttribute("href");
+      box.querySelector(".lb-cap").innerHTML = caption(a) +
+        ' <span class="lb-hint">' + (list.length > 1 ? (idx + 1) + " / " + list.length + " · " : "") + "click the image to zoom · Esc to close</span>";
+      box.classList.toggle("single", list.length < 2);
+      box.classList.add("on"); document.documentElement.classList.add("lb-open");
+      box.querySelector(".lb-x").focus();
+    }
+    function close() { if (box) { box.classList.remove("on"); document.documentElement.classList.remove("lb-open"); } }
+    document.addEventListener("click", function (e) {
+      if (e.defaultPrevented || e.button !== 0 || e.ctrlKey || e.metaKey || e.shiftKey) return;
+      var a = e.target.closest(SEL);
+      if (!a || !isImg(a)) return;
+      e.preventDefault();
+      var scope = a.closest(".lead, .gcard, .gallery, tr") || document;
+      list = Array.prototype.filter.call(scope.querySelectorAll(SEL), isImg);
+      open(list.indexOf(a));
+    });
+    document.addEventListener("keydown", function (e) {
+      if (!box || !box.classList.contains("on")) return;
+      if (e.key === "Escape") close();
+      else if (e.key === "ArrowLeft") open(idx - 1);
+      else if (e.key === "ArrowRight") open(idx + 1);
+    });
+  })();
 })();

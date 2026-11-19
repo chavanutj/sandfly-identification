@@ -85,6 +85,93 @@ glossary = read("glossary.csv")
 conflicts = read("conflicts.csv")
 figures = {f["figure_id"]: f for f in read("figures.csv")} if (DATA / "figures.csv").exists() else {}
 
+abbrevs = read("abbreviations.csv") if (DATA / "abbreviations.csv").exists() else []
+diagrams = read("diagrams.csv") if (DATA / "diagrams.csv").exists() else []
+hotspots = read("hotspots.csv") if (DATA / "hotspots.csv").exists() else []
+BODY_PARTS = ["Head & antenna", "Mouthparts, cibarium & pharynx", "Thorax & wing", "Abdomen", "Female genitalia", "Male genitalia"]
+
+
+# --------------------------------------------------------------------------- term popups (glossary + abbreviations)
+# Every glossary term and abbreviation gets a popup entry (written to assets/terms.js). Words in key texts, notes and
+# species pages that match glossary.csv `match_words` or abbreviations.csv `match_in_keys` are wrapped in
+# <span class="gt" data-t="KEY">, and site.js shows the popup when the cursor is on them.
+def term_key(entry):
+    """'g:Antenna 3' -> 'antenna-3' (glossary card id); 'a:fI' -> 'a-fi' (abbreviation row id)."""
+    kind, _, name = entry.partition(":")
+    return slug(name) if kind == "g" else "a-" + slug(name)
+
+
+gl_by_term = {g["term"]: g for g in glossary}
+
+
+def make_terms():
+    """Popup data, keyed like the data-t attributes. Paths are relative to the site root."""
+    terms = {}
+    for g in glossary:
+        terms[slug(g["term"])] = {"t": esc(g["term"]), "f": esc(g["preferred_term"]) if g["preferred_term"] != g["term"] else "",
+                                  "s": esc(g["synonyms"]), "x": g["sex"], "d": italic_names(g["definition"]),
+                                  "g": f"glossary.html#{slug(g['term'])}"}
+    for a in abbrevs:
+        link = a["glossary_term"] if a["glossary_term"] in gl_by_term else ""
+        terms["a-" + slug(a["id"])] = {"t": esc(a["abbr"]), "f": esc(a["full_name"]) if a["full_name"] != a["abbr"] else "",
+                                       "d": italic_names(a["description"]),
+                                       "g": f"glossary.html#{slug(link) if link else 'a-' + slug(a['id'])}",
+                                       "l": esc(link)}
+    return terms
+
+
+def _is_plain(p):  # patterns written without capitals match case-insensitively; 'fI', 'A3/E', 'R2' must match exactly
+    return p == p.lower()
+
+
+_pats = {}  # escaped pattern -> (key, case-insensitive?)
+for g in glossary:
+    for p in filter(None, (x.strip() for x in g.get("match_words", "").split(";"))):
+        _pats.setdefault(esc(p), (slug(g["term"]), _is_plain(p)))
+for a in abbrevs:
+    for p in filter(None, (x.strip() for x in a.get("match_in_keys", "").split(";"))):
+        _pats.setdefault(esc(p), ("a-" + slug(a["id"]), _is_plain(p)))
+_exact = {p: k for p, (k, ci) in _pats.items() if not ci}
+_lower = {p.lower(): k for p, (k, ci) in _pats.items() if ci}
+TERM_RX = re.compile(r"(?<![\w/+&#-])(" + "|".join(
+    (f"(?i:{re.escape(p)})" if ci else re.escape(p)) for p, (k, ci) in sorted(_pats.items(), key=lambda x: -len(x[0]))
+) + r")(?![\w/+-])") if _pats else None
+
+
+def gloss(html_text, skip=None):
+    """Wrap glossary terms/abbreviations in already-escaped HTML (first occurrence of each term per call).
+    Text inside <a> links and inside tags is left alone."""
+    if not TERM_RX or not html_text:
+        return html_text
+    done = {skip}
+    out, in_a = [], 0
+    for part in re.split(r"(<[^>]+>)", html_text):
+        if part.startswith("<"):
+            if re.match(r"<a[\s>]", part):
+                in_a += 1
+            elif part.startswith("</a"):
+                in_a = max(0, in_a - 1)
+            out.append(part)
+            continue
+        if in_a:
+            out.append(part)
+            continue
+
+        def rep(m):
+            k = _exact.get(m.group(1)) or _lower.get(m.group(1).lower())
+            if not k or k in done:
+                return m.group(0)
+            done.add(k)
+            return f'<span class="gt" tabindex="0" data-t="{k}">{m.group(1)}</span>'
+        out.append(TERM_RX.sub(rep, part))
+    return "".join(out)
+
+
+def rich(text, skip=None):
+    """italic names + glossary popups (used on the glossary page only)"""
+    return gloss(italic_names(text), skip)
+
+
 name_to_taxon = {}
 for t in taxa:
     EPITHETS.update(t["taxon"].split(" ")[1:])
@@ -174,7 +261,7 @@ d.dataset.size=s||"m";d.dataset.view=v||"normal";}})();</script></head>
 <main>{body}</main></div>
 <footer>Built {date.today().isoformat()} from <code>data/*.csv</code>. Key texts are transcribed from the cited
 publications; check the original before formal identification. Figures © their authors (CC BY 4.0 where stated).</footer>
-<script src="{prefix}assets/site.js"></script>
+{'<script src="assets/terms.js"></script>' + chr(10) if active == "glossary.html" else ""}<script src="{prefix}assets/site.js"></script>
 </body></html>"""
 
 
@@ -365,17 +452,143 @@ checklist. Add further records to the <code>focus_record</code> column of <code>
 
 
 # --------------------------------------------------------------------------- other pages
-def build_misc():
-    rows = []
+def term_usage(g):
+    """Leads whose text mentions a glossary term (its match_words): {key_id: [lead_id, ...]}"""
+    pats = [p.strip() for p in g.get("match_words", "").split(";") if p.strip()]
+    if not pats:
+        return {}
+    rx = re.compile(r"(?<![\w/+-])(" + "|".join(
+        f"(?i:{re.escape(p)})" if _is_plain(p) else re.escape(p) for p in sorted(pats, key=len, reverse=True)) + r")(?![\w/+-])")
+    use = defaultdict(list)
+    for l in leads:
+        if rx.search(l["text"]):
+            use[l["key_id"]].append(l["lead_id"])
+    return use
+
+
+SEX_LABEL = {"female": ("♀", "Female"), "male": ("♂", "Male"), "both": ("♀♂", "Both sexes")}
+
+
+def build_glossary():
+    absl = {a["id"]: a for a in abbrevs}
+    # ---- diagram explorer
+    tabs, panels = [], []
+    for i, d in enumerate(diagrams):
+        x0, y0, x1, y1 = map(int, d["crop"].split())
+        W, H = x1 - x0, y1 - y0
+        hs, chips, seen = [], [], []
+        for h in (h for h in hotspots if h["diagram_id"] == d["diagram_id"]):
+            k = term_key(h["entry"])
+            kind, _, name = h["entry"].partition(":")
+            if kind == "a":
+                a = absl.get(name)
+                target = slug(a["glossary_term"]) if a and a["glossary_term"] in gl_by_term else k
+                label = a["abbr"] if a else name
+                gl = slug(a["glossary_term"]) if a and a["glossary_term"] in gl_by_term else ""
+            else:
+                target, label, gl = k, name, k
+            x, y, w, hh = (int(h[c]) for c in "xywh")
+            hs.append(f'<a class="hs" href="#{target}" data-t="{k}" data-g="{gl}" aria-label="{esc(label)}" '
+                      f'style="left:{(x - x0) / W * 100:.2f}%;top:{(y - y0) / H * 100:.2f}%;width:{w / W * 100:.2f}%;height:{hh / H * 100:.2f}%"></a>')
+            if k not in seen:
+                seen.append(k)
+                chips.append(f'<a class="chip" href="#{target}" data-t="{k}" data-hs="{k}">{esc(label)}</a>')
+        f = figures.get(d["figure_id"], {})
+        did = d["diagram_id"]
+        tabs.append(f'<button type="button" role="tab" data-d="{did}"{" class=on aria-selected=true" if i == 0 else ""}>{esc(d["title"])}</button>')
+        panels.append(
+            f'<div class="dpanel{" on" if i == 0 else ""}{" wide" if W / H > 1.4 else ""}" id="d-{did}" data-d="{did}" role="tabpanel">'
+            f'<div class="dfig" style="aspect-ratio:{W}/{H};max-width:min(100%,calc(80vh*{W}/{H}))"><img src="{esc(d["file"])}" alt="{esc(d["title"])} with labelled parts" loading="lazy">{"".join(hs)}</div>'
+            f'<div class="dside"><h3>{esc(d["title"])}</h3><p class="muted">{d["specimen"]}. '
+            f'From <a href="figures.html#{esc(d["figure_id"])}">{esc(sources.get("galati2017", {}).get("short", "Galati et al. 2017"))} '
+            f'{esc(f.get("figure", ""))}</a> ({esc(f.get("licence", "").split(" - ")[0])}).</p>'
+            f'<p class="hint">Point at a label or a part of the drawing to see its name and meaning. Click to open its glossary entry.</p>'
+            f'<div class="chips">{"".join(chips)}</div>'
+            f'<label class="showall"><input type="checkbox"> Outline all parts</label></div></div>')
+    explorer = (f'<section class="explorer" id="explorer" aria-label="Labelled diagrams"><div class="dtabs" role="tablist">{"".join(tabs)}</div>'
+                f'{"".join(panels)}</section>') if diagrams else ""
+
+    # which glossary terms have hotspots (directly or through an abbreviation), and on which diagram
+    on_diag = defaultdict(set)
+    for h in hotspots:
+        kind, _, name = h["entry"].partition(":")
+        g = name if kind == "g" else (absl.get(name, {}).get("glossary_term", ""))
+        if g in gl_by_term:
+            on_diag[slug(g)].add(h["diagram_id"])
+
+    # ---- cards
+    by_part = defaultdict(list)
     for g in glossary:
-        figs = [figures[f] for f in g["figure_ids"].split(";") if f in figures]
-        th = "".join(f'<a class="thumb" href="{esc(f["file"])}" title="{esc(f["caption"][:200])}"><img loading="lazy" src="{esc(f["file"])}" alt=""></a>' for f in figs)
-        rows.append(f'<tr id="{slug(g["term"])}"><td><b>{esc(g["term"])}</b></td><td>{esc(g["preferred_term"])}</td>'
-                    f'<td>{esc(g["synonyms"])}</td><td>{esc(g["sex"])}</td><td>{italic_names(g["definition"])}</td><td class="thumbs">{th}</td></tr>')
+        by_part[g.get("body_part") or "Other"].append(g)
+    parts = [p for p in BODY_PARTS if p in by_part] + [p for p in by_part if p not in BODY_PARTS]
+    secs = []
+    for p in parts:
+        cards = []
+        for g in by_part[p]:
+            gid = slug(g["term"])
+            sym, sexname = SEX_LABEL.get(g["sex"], ("", g["sex"]))
+            figs = [figures[f] for f in g["figure_ids"].split(";") if f in figures]
+            th = "".join(f'<a class="thumb" href="{esc(f["file"])}" title="{esc(f["figure"])}: {esc(f["caption"][:300])}">'
+                         f'<img loading="lazy" src="{esc(f["file"])}" alt="{esc(f["figure"])}"></a>' for f in figs)
+            use = term_usage(g)
+            n_use = sum(len(v) for v in use.values())
+            used = ""
+            if n_use:
+                li = "".join(
+                    f'<li><b>{esc(sources[next(k for k in keys_index if k["key_id"] == kid)["source_id"]]["short"])}</b> '
+                    f'<span class="muted">{esc(next(k for k in keys_index if k["key_id"] == kid)["title"])}</span>: '
+                    + ", ".join(f'<a href="keys/{kid}.html#l{esc(lid)}">{esc(lid)}</a>' for lid in lids) + "</li>"
+                    for kid, lids in use.items())
+                used = f'<details class="used"><summary>Used in {n_use} lead{"s" if n_use > 1 else ""} of {len(use)} key{"s" if len(use) > 1 else ""}</summary><ul>{li}</ul></details>'
+            locate = "".join(f'<button type="button" class="locate" data-d="{dd}" data-g="{gid}">Show on diagram</button>'
+                             for dd in sorted(on_diag.get(gid, []))[:1])
+            text = " ".join([g["term"], g["preferred_term"], g["synonyms"], g["definition"]]).lower()
+            cards.append(
+                f'<article class="gcard" id="{gid}" data-sex="{esc(g["sex"])}" data-part="{esc(p)}" data-text="{esc(text)}">'
+                f'<header><h3>{esc(g["term"])}</h3><span class="sexb sex-{esc(g["sex"])}" title="{esc(sexname)}">{sym}</span></header>'
+                + (f'<p class="pref">Preferred term: <b>{esc(g["preferred_term"])}</b></p>' if g["preferred_term"] != g["term"] else "")
+                + (f'<p class="syn">Also called: {esc(g["synonyms"])}</p>' if g["synonyms"] else "")
+                + f'<p class="def">{rich(g["definition"], skip=gid)}</p>'
+                + (f'<div class="gthumbs">{th}</div>' if th else "")
+                + f'<div class="gfoot">{locate}{used}</div></article>')
+        secs.append(f'<section class="gsec" data-part="{esc(p)}"><h2>{esc(p)} <span class="count">{len(by_part[p])}</span></h2>'
+                    f'<div class="gcards">{"".join(cards)}</div></section>')
+
+    filt = (f'<div class="gfilter" role="search"><input id="gsearch" type="search" placeholder="Search terms, synonyms, meanings…" aria-label="Search the glossary">'
+            f'<div class="seg" role="group" aria-label="Sex"><button type="button" data-sex="" class="on">All</button>'
+            f'<button type="button" data-sex="female">♀ Female</button><button type="button" data-sex="male">♂ Male</button></div>'
+            f'<div class="partchips">' + "".join(f'<button type="button" data-part="{esc(p)}">{esc(p)}</button>' for p in parts) + '</div>'
+            f'<p class="gcount muted" aria-live="polite"></p></div>')
+
+    # ---- abbreviation table
+    ab_rows = []
+    for p in BODY_PARTS + sorted({a["body_part"] for a in abbrevs} - set(BODY_PARTS)):
+        rows_p = [a for a in abbrevs if a["body_part"] == p]
+        if not rows_p:
+            continue
+        ab_rows.append(f'<tr class="grp"><th colspan="4">{esc(p)}</th></tr>')
+        for a in rows_p:
+            see = (f'<a href="#{slug(a["glossary_term"])}">{esc(a["glossary_term"])}</a>' if a["glossary_term"] in gl_by_term else "")
+            ab_rows.append(f'<tr id="a-{slug(a["id"])}"><td><span class="gt" tabindex="0" data-t="a-{slug(a["id"])}"><b>{esc(a["abbr"])}</b></span></td>'
+                           f'<td>{esc(a["full_name"])}</td><td>{italic_names(a["description"])}</td><td>{see}</td></tr>')
+    abtable = (f'<h2 id="abbreviations">Abbreviations and labels <span class="count">{len(abbrevs)}</span></h2>'
+               f'<p class="muted">Labels used in the diagrams above and abbreviations found in the keys (for example A3/E, R2/R2+3).</p>'
+               f'<table class="list small abbr"><tr><th>Label</th><th>Full name</th><th>Meaning</th><th>Glossary</th></tr>{"".join(ab_rows)}</table>') if abbrevs else ""
+
     body = f"""<h1>Glossary of characters</h1>
 {CFG.get("glossary_intro_html", "<p>Terms used in the keys, with preferred terms and synonyms. Thumbnails open the illustrating figure.</p>")}
-<table class="list gloss"><tr><th>Term in keys</th><th>Preferred term</th><th>Synonyms</th><th>Sex</th><th>Meaning</th><th>Figures</th></tr>{''.join(rows)}</table>"""
+<p class="tip">Tip: on every key and species page, terms with a <span class="gt-demo">dotted underline</span> show their meaning when you point at them.</p>
+{explorer}
+{filt}
+{"".join(secs)}
+{abtable}"""
     write("glossary.html", page("Glossary", body, "", "glossary.html"))
+    write("assets/terms.js", "// Generated by build_site.py from data/glossary.csv and data/abbreviations.csv: popup text for terms.\n"
+          "window.SF_TERMS = " + json.dumps(make_terms(), ensure_ascii=False, separators=(",", ":")) + ";\n")
+
+
+def build_misc():
+    build_glossary()
 
     bysrc = defaultdict(list)
     for f in figures.values():
