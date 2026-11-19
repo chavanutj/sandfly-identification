@@ -527,13 +527,16 @@ def build_glossary():
     explorer = (f'<section class="explorer" id="explorer" aria-label="Labelled diagrams"><div class="dtabs" role="tablist">{"".join(tabs)}</div>'
                 f'{"".join(panels)}</section>') if diagrams else ""
 
-    # which glossary terms have hotspots (directly or through an abbreviation), and on which diagram
-    on_diag = defaultdict(set)
+    # which glossary terms have hotspots (directly or through an abbreviation), and how many on each diagram;
+    # "Show on diagram" opens the diagram with the most of them (first in tab order on a tie)
+    from collections import Counter
+    diag_order = [d["diagram_id"] for d in diagrams]
+    on_diag = defaultdict(Counter)
     for h in hotspots:
         kind, _, name = h["entry"].partition(":")
         g = name if kind == "g" else (absl.get(name, {}).get("glossary_term", ""))
         if g in gl_by_term:
-            on_diag[slug(g)].add(h["diagram_id"])
+            on_diag[slug(g)][h["diagram_id"]] += 1
 
     # ---- cards
     by_part = defaultdict(list)
@@ -560,7 +563,7 @@ def build_glossary():
                     for kid, lids in use.items())
                 used = f'<details class="used"><summary>Used in {n_use} lead{"s" if n_use > 1 else ""} of {len(use)} key{"s" if len(use) > 1 else ""}</summary><ul>{li}</ul></details>'
             locate = "".join(f'<button type="button" class="locate" data-d="{dd}" data-g="{gid}">Show on diagram</button>'
-                             for dd in sorted(on_diag.get(gid, []))[:1])
+                             for dd in sorted(on_diag.get(gid, {}), key=lambda d: (-on_diag[gid][d], diag_order.index(d)))[:1])
             text = " ".join([g["term"], g["preferred_term"], g["synonyms"], g["definition"]]).lower()
             cards.append(
                 f'<article class="gcard" id="{gid}" data-sex="{esc(g["sex"])}" data-part="{esc(p)}" data-text="{esc(text)}">'

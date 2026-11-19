@@ -1,6 +1,10 @@
 diagram_id,title,body_part,figure_id,crop,file,specimen
 head,Head (female),Head & antenna,galati2017:Fig1,0 0 1155 1312,assets/img/diagrams/head.jpg,"Dorsal view of the head of a female, <i>Nyssomyia intermedia</i>"
+antenna,Antenna (flagellomeres),Head & antenna,galati2017:Fig4,0 0 1155 1235,assets/img/diagrams/antenna.jpg,"Flagellomeres with ascoids, papillae and simple setae: (A–C) apical flagellomeres fXI–fXIV; (D1–D4) first flagellomere fI; (E1–E3) fII and fIII of several genera"
+palp,Palp (palpus),Head & antenna,galati2017:Fig3,0 0 1155 800,assets/img/diagrams/palp.jpg,"Palpus: (A) segments p1–p5 with Newstead's sensilla, <i>Psathyromyia naftalekatzi</i>; (B) Newstead's sensilla concentrated on the base of p3, <i>Micropygomyia echinathopharynx</i>; (C) several simple setae on p3, <i>Warileya phlebotomanica</i>"
 cibarium,Cibarium & pharynx,"Mouthparts, cibarium & pharynx",galati2017:Fig7,0 0 1155 1307,assets/img/diagrams/cibarium.jpg,Cibarium and pharynx of females: (A) <i>Micropygomyia atroclavata</i>; (B) <i>Bichromomyia flaviscutellata</i> (labelled)
 wing,Wing,Thorax & wing,galati2017:Fig14,0 0 1156 927,assets/img/diagrams/wing.jpg,"Wing: (A) main indices; (B) <i>Chinius eunicegalatiae</i>, with R2 and R3 fused"
+thorax,Thorax (sclerites),Thorax & wing,galati2017:Fig10,0 0 1155 1312,assets/img/diagrams/thorax.jpg,"Sclerites of cervix and thorax, lateral view, <i>Deanemyia samueli</i>"
+setae,Thorax (setae),Thorax & wing,galati2017:Fig11,0 0 1155 1343,assets/img/diagrams/setae.jpg,"Setae on the thorax, lateral view, <i>Brumptomyia pintoi</i>"
 female,Female genitalia,Female genitalia,galati2017:Fig16,0 0 1156 1331,assets/img/diagrams/female.jpg,"Abdomen and genitalia of a female, <i>Nyssomyia neivai</i>: (A) abdomen, (B) genitalia, lateral; (C) 8th segment; (D) spermathecae; (E) 9th–10th segments, ventral"
 male,Male genitalia,Male genitalia,galati2017:Fig21,0 0 1150 1098,assets/img/diagrams/male.jpg,Male genitalia in lateral view: (A) <i>Nyssomyia neivai</i> (labelled); (B) <i>Warileya nigrosaccula</i>
