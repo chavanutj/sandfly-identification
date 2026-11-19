@@ -302,6 +302,45 @@
     }
   })();
 
+  // ---------- offline use: service worker (saves the whole site), progress label, install button, update notice
+  (function () {
+    if (!("serviceWorker" in navigator) || !/^https?:$/.test(location.protocol)) return;  // not for file:// copies
+    var s = document.querySelector('script[src$="assets/site.js"]');
+    var base = s ? s.getAttribute("src").replace(/assets\/site\.js$/, "") : "";
+    var label = document.getElementById("offline"), inst = document.getElementById("installbtn");
+    var hadController = !!navigator.serviceWorker.controller;
+    function show(st) {
+      if (!label || !st || st.type !== "sf-offline" || st.state === "idle") return;
+      label.hidden = false;
+      label.className = "offline " + st.state;
+      if (st.state === "ready") { label.textContent = "✓ Available offline"; label.title = "The whole site is saved on this device and works without internet."; }
+      else if (st.state === "saving") { label.textContent = "⤓ Saving for offline " + Math.round(100 * st.done / Math.max(1, st.total)) + "%"; label.title = "Keep this page open with internet until it says Available offline."; }
+      else if (st.state === "partial") { label.textContent = "⚠ Partly saved offline"; label.title = "Some files could not be saved. Reload with internet to finish."; }
+      else label.hidden = true;
+    }
+    navigator.serviceWorker.addEventListener("message", function (e) { show(e.data); });
+    navigator.serviceWorker.register(base + "sw.js").then(function (reg) {
+      if (navigator.serviceWorker.controller) navigator.serviceWorker.controller.postMessage("sf-status");
+      else if (reg.installing || reg.waiting) show({ type: "sf-offline", state: "saving", done: 0, total: 1 });
+    }).catch(function () {});
+    navigator.serviceWorker.addEventListener("controllerchange", function () {
+      if (!hadController) { hadController = true; return; }  // first install: nothing to reload
+      var bar = document.createElement("div");
+      bar.className = "updbar";
+      bar.innerHTML = 'A new version of the site has been saved. <button type="button">Reload</button>';
+      bar.querySelector("button").addEventListener("click", function () { location.reload(); });
+      document.body.appendChild(bar);
+    });
+    var deferred = null;
+    window.addEventListener("beforeinstallprompt", function (e) { e.preventDefault(); deferred = e; if (inst) inst.hidden = false; });
+    if (inst) inst.addEventListener("click", function () {
+      if (!deferred) return;
+      deferred.prompt();
+      deferred.userChoice.then(function () { deferred = null; inst.hidden = true; });
+    });
+    window.addEventListener("appinstalled", function () { if (inst) inst.hidden = true; });
+  })();
+
   // ---------- figure viewer (glossary page only): thumbnails open in an overlay (zoom, ← → between figures)
   (function () {
     if (!document.querySelector(".gcards")) return;

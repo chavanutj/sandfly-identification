@@ -243,6 +243,8 @@ def page(title, body, prefix="", active=""):
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{esc(title)} | {esc(SHORT)}</title>
 <link rel="stylesheet" href="{prefix}assets/style.css">
+<link rel="manifest" href="{prefix}manifest.webmanifest"><meta name="theme-color" content="#1f5c4a">
+<link rel="icon" href="{prefix}assets/icons/icon-32.png"><link rel="apple-touch-icon" href="{prefix}assets/icons/icon-180.png">
 <script>(function(){{var d=document.documentElement,q=new URLSearchParams(location.search),s=null,v=null;
 try{{s=localStorage.getItem("sf-size");v=localStorage.getItem("sf-view");}}catch(e){{}}
 if(q.get("size")){{s=q.get("size");try{{localStorage.setItem("sf-size",s);}}catch(e){{}}}}
@@ -253,7 +255,9 @@ d.dataset.size=s||"m";d.dataset.view=v||"normal";}})();</script></head>
 <span class="t2">{esc(SITE_SUB)}</span></a>
 <div class="viewctl" role="group" aria-label="Display settings">
 <span class="lbl">Text</span><button type="button" data-size="s" title="Smaller text">A−</button><button type="button" data-size="m" title="Normal text">A</button><button type="button" data-size="l" title="Large text">A+</button><button type="button" data-size="xl" title="Extra large text">A++</button>
-<button type="button" class="scope" data-view="scope" title="Large high-contrast view for use beside the microscope">🔬 Microscope mode</button></div></header>
+<button type="button" class="scope" data-view="scope" title="Large high-contrast view for use beside the microscope">🔬 Microscope mode</button>
+<button type="button" id="installbtn" class="install" hidden title="Install this site as an app on this device">⤓ Install app</button>
+<span id="offline" class="offline" hidden aria-live="polite"></span></div></header>
 <div class="wrap">
 <nav class="side"><ul>{nav}</ul>
 <form class="search" action="{prefix}taxa/index.html"><input name="q" placeholder="Find a species…" aria-label="Find a species"></form>
@@ -580,7 +584,7 @@ def build_glossary():
 
     body = f"""<h1>Glossary of characters</h1>
 {CFG.get("glossary_intro_html", "<p>Terms used in the keys, with preferred terms and synonyms. Thumbnails open the illustrating figure.</p>")}
-<p class="tip">Tip: on every key and species page, terms with a <span class="gt-demo">dotted underline</span> show their meaning when you point at them.</p>
+<p class="tip">Tip: on this page, terms with a <span class="gt-demo">dotted underline</span> show their meaning when you point at them.</p>
 {explorer}
 {filt}
 {"".join(secs)}
@@ -690,16 +694,39 @@ disagreement is listed here with both citations. The keys themselves stay as pri
     write("index.html", page("Home", body, "", "index.html"))
 
 
+def build_offline():
+    """Installable, offline-capable site: manifest.webmanifest + sw.js (service worker) listing every file with a
+    content hash, so browsers save the whole site on the first visit and later download only changed files."""
+    import hashlib
+    manifest = {
+        "name": SITE_TITLE, "short_name": SHORT, "description": SITE_SUB,
+        "start_url": "./index.html", "scope": "./", "display": "standalone",
+        "background_color": "#fbfaf7", "theme_color": "#1f5c4a",
+        "icons": [{"src": "assets/icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable"},
+                  {"src": "assets/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable"}],
+    }
+    write("manifest.webmanifest", json.dumps(manifest, ensure_ascii=False, indent=1))
+    files = {}
+    for p in sorted(SITE.rglob("*")):
+        if p.is_file() and p.name != "sw.js" and not p.name.startswith("."):
+            files[p.relative_to(SITE).as_posix()] = hashlib.md5(p.read_bytes()).hexdigest()[:10]
+    version = hashlib.md5(json.dumps(files, sort_keys=True).encode()).hexdigest()[:10]
+    tpl = (ASSETS / "sw.template.js").read_text(encoding="utf-8")
+    write("sw.js", tpl.replace("__VERSION__", version).replace("__FILES__", json.dumps(files, separators=(",", ":"))))
+    print(f"offline: {len(files)} files, {sum(p.stat().st_size for p in SITE.rglob('*') if p.is_file()) / 1e6:.1f} MB, version {version}")
+
+
 def main():
     if (SITE / "assets").exists():
         shutil.rmtree(SITE / "assets")
     for d in ("keys", "taxa"):
         if (SITE / d).exists():
             shutil.rmtree(SITE / d)
-    shutil.copytree(ASSETS, SITE / "assets", ignore=shutil.ignore_patterns("about.html", "biology.html"))
+    shutil.copytree(ASSETS, SITE / "assets", ignore=shutil.ignore_patterns("about.html", "biology.html", "sw.template.js"))
     build_keys()
     build_taxa()
     build_misc()
+    build_offline()
     n = len(list(SITE.rglob("*.html")))
     print(f"site/: {n} HTML pages written. Open site/index.html")
 

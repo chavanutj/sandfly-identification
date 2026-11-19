@@ -2,6 +2,8 @@
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Phlebotomus sinxayarami | Sand Fly ID</title>
 <link rel="stylesheet" href="../assets/style.css">
+<link rel="manifest" href="../manifest.webmanifest"><meta name="theme-color" content="#1f5c4a">
+<link rel="icon" href="../assets/icons/icon-32.png"><link rel="apple-touch-icon" href="../assets/icons/icon-180.png">
 <script>(function(){var d=document.documentElement,q=new URLSearchParams(location.search),s=null,v=null;
 try{s=localStorage.getItem("sf-size");v=localStorage.getItem("sf-view");}catch(e){}
 if(q.get("size")){s=q.get("size");try{localStorage.setItem("sf-size",s);}catch(e){}}
@@ -12,7 +14,9 @@ d.dataset.size=s||"m";d.dataset.view=v||"normal";})();</script></head>
 <span class="t2">Identification keys, species pages and terminology</span></a>
 <div class="viewctl" role="group" aria-label="Display settings">
 <span class="lbl">Text</span><button type="button" data-size="s" title="Smaller text">A−</button><button type="button" data-size="m" title="Normal text">A</button><button type="button" data-size="l" title="Large text">A+</button><button type="button" data-size="xl" title="Extra large text">A++</button>
-<button type="button" class="scope" data-view="scope" title="Large high-contrast view for use beside the microscope">🔬 Microscope mode</button></div></header>
+<button type="button" class="scope" data-view="scope" title="Large high-contrast view for use beside the microscope">🔬 Microscope mode</button>
+<button type="button" id="installbtn" class="install" hidden title="Install this site as an app on this device">⤓ Install app</button>
+<span id="offline" class="offline" hidden aria-live="polite"></span></div></header>
 <div class="wrap">
 <nav class="side"><ul><li><a href="../index.html">Home</a></li><li><a href="../biology.html">Biology &amp; disease</a></li><li><a href="../keys.html">Identification keys</a></li><li><a href="../taxa/index.html" class=on>Species list</a></li><li><a href="../thailand.html">Thailand records</a></li><li><a href="../glossary.html">Glossary</a></li><li><a href="../figures.html">Figures</a></li><li><a href="../conflicts.html">Conflicts &amp; updates</a></li><li><a href="../sources.html">Sources</a></li><li><a href="../about.html">About / how to edit</a></li></ul>
 <form class="search" action="../taxa/index.html"><input name="q" placeholder="Find a species…" aria-label="Find a species"></form>

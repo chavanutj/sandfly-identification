@@ -42,6 +42,23 @@ would otherwise reach the older name.</li>
 <li>Figures are reproduced only from CC BY 4.0 publications, with attribution.</li>
 </ul>
 
+<h2>Offline use and installing as an app</h2>
+<p>Open the website once with an internet connection and keep the page open until the green label in the header says
+<b>✓ Available offline</b> (about 26 MB is saved in the browser). After that every page, key, figure and the glossary work
+without internet, at the same address. Links to other websites (journals, CDC, DOIs) still need a connection.</p>
+<ul>
+<li><b>Install as an app:</b> click <b>⤓ Install app</b> in the header (Chrome, Edge, Android), or use the browser menu
+(<i>Add to Home Screen</i> on iPhone/iPad Safari). The app opens in its own window and also works offline.</li>
+<li><b>Updates</b> are downloaded automatically the next time the site is opened with internet; only changed files are
+downloaded. A notice offers to reload when a new version has been saved.</li>
+<li>Open the site on each device <b>before</b> going to the field. Phones and tablets may delete the saved copy when storage is
+very low; installing the app makes this less likely.</li>
+<li>A copy of the <code>site/</code> folder opened from a USB stick also works offline (without the app features).</li>
+</ul>
+<p>Technical: <code>build_site.py</code> writes <code>site/sw.js</code> (service worker, from
+<code>scripts/assets/sw.template.js</code>) with a list of every file and a content hash, and
+<code>site/manifest.webmanifest</code>. Nothing needs to be done by hand.</p>
+
 <h2>Publishing</h2>
 <p>The <code>site/</code> folder is a complete static website. On GitHub: Settings → Pages → deploy from branch,
 folder <code>/site</code> (or copy it to a <code>docs/</code> folder). Do not commit the source PDFs to a public repository;

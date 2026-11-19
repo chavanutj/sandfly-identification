@@ -90,6 +90,18 @@ img { max-width: 100%; }
 .viewctl button:hover { background: rgba(255, 255, 255, .2); border-color: #fff; }
 .viewctl button.on { background: #fff; color: var(--brand-deep); border-color: #fff; }
 .viewctl .scope { margin-left: .5rem; }
+/* offline status label, install button, update notice */
+.viewctl .install { background: var(--accent); border-color: var(--accent); color: #fff; }
+.offline { font: 600 .75rem var(--sans); padding: .3em .7em; border-radius: 999px; background: rgba(255, 255, 255, .14); color: #fff;
+  border: 1px solid rgba(255, 255, 255, .35); white-space: nowrap; cursor: help; }
+.offline.ready { background: rgba(124, 196, 164, .25); border-color: #9fdcc0; }
+.offline.partial { background: rgba(242, 180, 90, .3); border-color: #f2b45a; }
+.updbar { position: fixed; left: 50%; bottom: 1rem; transform: translateX(-50%); z-index: 60; display: flex; gap: .8rem; align-items: center;
+  background: var(--brand-deep); color: #fff; padding: .6rem .8rem .6rem 1.1rem; border-radius: 999px; box-shadow: var(--shadow-up);
+  font: .88rem var(--sans); max-width: calc(100vw - 2rem); }
+.updbar button { font: 600 .82rem var(--sans); border: 0; border-radius: 999px; padding: .35em .9em; background: var(--accent); color: #fff; cursor: pointer; }
+html[data-view="scope"] .offline { color: var(--brand); border-color: var(--brand); background: transparent; }
+@media print { .offline, .install, .updbar { display: none !important; } }
 @media all {
   :root[data-theme="dark"]:not([data-view="scope"]) .viewctl button.on { color: #0f2a22; }
 }
