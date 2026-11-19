@@ -232,7 +232,7 @@ def fig_links(lead, prefix):
 
 
 # --------------------------------------------------------------------------- page shell
-NAV = [("index.html", "Home"), ("keys.html", "Identification keys"), ("taxa/index.html", "Species list"),
+NAV = [("index.html", "Home"), ("biology.html", "Biology & disease"), ("keys.html", "Identification keys"), ("taxa/index.html", "Species list"),
        *([(FOCUS_PAGE, f"{FOCUS} records")] if FOCUS else []), ("glossary.html", "Glossary"), ("figures.html", "Figures"),
        ("conflicts.html", "Conflicts & updates"), ("sources.html", "Sources"), ("about.html", "About / how to edit")]
 
@@ -629,6 +629,9 @@ disagreement is listed here with both citations. The keys themselves stay as pri
 
     body = (ROOT / "scripts" / "assets" / "about.html").read_text(encoding="utf-8")
     write("about.html", page("About", body, "", "about.html"))
+    if (ROOT / "scripts" / "assets" / "biology.html").exists():  # hand-written page: biology, disease, vector role
+        body = (ROOT / "scripts" / "assets" / "biology.html").read_text(encoding="utf-8")
+        write("biology.html", page("Biology & disease", body, "", "biology.html"))
 
     n_th = sum(1 for t in taxa if t["focus_record"])
     start = CFG.get("start_key") or (keys_index[0]["key_id"] if keys_index else "")
@@ -690,7 +693,7 @@ def main():
     for d in ("keys", "taxa"):
         if (SITE / d).exists():
             shutil.rmtree(SITE / d)
-    shutil.copytree(ASSETS, SITE / "assets", ignore=shutil.ignore_patterns("about.html"))
+    shutil.copytree(ASSETS, SITE / "assets", ignore=shutil.ignore_patterns("about.html", "biology.html"))
     build_keys()
     build_taxa()
     build_misc()

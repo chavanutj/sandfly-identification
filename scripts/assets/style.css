@@ -295,6 +295,41 @@ html[data-view="scope"] .keycard:hover, html[data-view="scope"] .btn:hover { tra
 .tiles a b { display: block; font: 700 2rem/1.1 var(--serif); color: var(--brand); margin-bottom: .15rem; }
 .tiles a span { color: var(--muted); font-size: .78rem; }
 
+/* ---------- biology page ---------- */
+.lede-text { font-size: 1.08rem; max-width: 52rem; }
+.facts { display: grid; grid-template-columns: repeat(auto-fit, minmax(10.5rem, 1fr)); gap: .8rem; margin: 1.2rem 0; }
+.facts > div { background: var(--card); border: 1px solid var(--line); border-top: 4px solid var(--brand); border-radius: var(--radius);
+  padding: .8rem 1rem; box-shadow: var(--shadow); font: .85rem/1.4 var(--sans); }
+.facts > div:nth-child(2) { border-top-color: var(--accent); } .facts > div:nth-child(3) { border-top-color: var(--link); }
+.facts > div:nth-child(4) { border-top-color: var(--bad); }
+.facts b { display: block; font: 700 1.6rem/1.15 var(--serif); color: var(--brand); margin-bottom: .2rem; }
+.facts span { color: var(--muted); }
+.toc { display: flex; flex-wrap: wrap; gap: .35rem .4rem; align-items: center; font: .82rem var(--sans); margin: .4rem 0 1rem; }
+.toc a { padding: .25em .7em; border: 1px solid var(--line); border-radius: 999px; background: var(--card); text-decoration: none; color: var(--ink); }
+.toc a:hover { border-color: var(--brand); background: var(--brand2); }
+.split { display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr); gap: 1.4rem; align-items: start; }
+.split.rev { grid-template-columns: minmax(0, 1fr) minmax(0, 1.25fr); }
+.split ul, .split ol { margin-top: 0; }
+.figcard { margin: 0 0 1rem; background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: .5rem;
+  box-shadow: var(--shadow); }
+.figcard img { display: block; width: 100%; height: auto; border-radius: 6px; background: #fff; }
+.figcard.wide { max-width: 56rem; }
+.figcard figcaption { font: .78rem/1.5 var(--sans); color: var(--muted); margin: .45rem .2rem .1rem; }
+.cards3 { display: grid; grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr)); gap: .8rem; margin: .6rem 0 1rem; }
+.dcard { background: var(--card); border: 1px solid var(--line); border-left: 4px solid var(--brand); border-radius: var(--radius);
+  padding: .7rem 1rem; box-shadow: var(--shadow); }
+.dcard.danger { border-left-color: var(--bad); }
+.dcard h4 { margin: 0 0 .3rem; font: 600 1rem var(--serif); color: var(--brand); }
+.dcard.danger h4 { color: var(--bad); }
+.dcard p { margin: 0; font-size: .92rem; }
+ol.criteria { max-width: 52rem; }
+ol.criteria li { margin: .3rem 0; }
+.callout { max-width: 52rem; background: var(--updbg); border-left: 4px solid var(--upd); border-radius: 8px; padding: .75rem 1rem;
+  font: .92rem/1.6 var(--sans); margin: 1rem 0; }
+ol.refs { font: .85rem/1.55 var(--sans); color: var(--muted); padding-left: 1.4rem; }
+ol.refs li { margin: .25rem 0; }
+@media (max-width: 900px) { .split, .split.rev { grid-template-columns: 1fr; } }
+
 /* ---------- term popups (words with a dotted underline) ---------- */
 .gt, .gt-demo { text-decoration: underline dotted; text-decoration-color: color-mix(in srgb, var(--brand) 70%, transparent);
   text-decoration-thickness: 1.5px; text-underline-offset: .2em; cursor: help; border-radius: 3px; }
