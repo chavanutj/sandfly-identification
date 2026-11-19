@@ -273,7 +273,10 @@ def write(rel, content):
 
 def cite(sid, prefix=""):
     s = sources.get(sid)
-    return f'<a href="{prefix}sources.html#{sid}">{esc(s["short"] if s else sid)}</a>'
+    # non-breaking spaces keep "Lewis 1978" / "et al. 2025" together and stop justified text from stretching them
+    label = esc(s["short"] if s else sid).replace(" et al.", "&nbsp;et&nbsp;al.")
+    label = re.sub(r" (\d{4}[a-z]?)$", r"&nbsp;\1", label)
+    return f'<a href="{prefix}sources.html#{sid}">{label}</a>'
 
 
 # --------------------------------------------------------------------------- key pages

@@ -118,6 +118,12 @@ main p, main li, main td, main dd, main figcaption, main .callout, main .facts s
 #gpop p, #lbox .lb-cap { text-align: justify; text-justify: inter-word; hyphens: auto; -webkit-hyphens: auto; }
 main th, main .toc, main .chips, main .crumb, main .stepnav, main .trail, main .gfilter *, main td.num { text-align: left; hyphens: manual; }
 main td.num { text-align: right; }
+/* narrow table columns: no stretching or hyphenation (justify only suits wide text) */
+main table.list td, main table.list td * { text-align: left; hyphens: manual; -webkit-hyphens: manual; }
+main table.list td { overflow-wrap: anywhere; }  /* very long tokens (URLs, file names) wrap instead of widening the table */
+main table.list td.num { text-align: right; }
+/* links and citations are never stretched or split: "Lewis 1978" stays together */
+main a, #gpop a { hyphens: manual; -webkit-hyphens: manual; }  /* citations use non-breaking spaces (see cite() in build_site.py) */
 footer { border-top: 1px solid var(--line); padding: 1rem 1.6rem 1.4rem; font: .78rem/1.6 var(--sans); color: var(--muted);
   max-width: 1360px; margin: 0 auto; }
 
