@@ -219,6 +219,16 @@ def taxon_link(name, prefix):
     return label
 
 
+def taxon_cell(t, prefix=""):
+    """Two-line taxon cell for tables: line 1 = name (link, never broken), line 2 = author, or the citation of an
+    unnamed form, e.g. 'Idiophlebotomus sp. (Sunantaraporn et al. 2024)' -> 'Idiophlebotomus sp.' / '(Sunantaraporn et al. 2024)'."""
+    name = t["taxon"]
+    m = re.match(r"^(.*?\bspp?\.(?:\s*[\w-]+)?)\s+(\(.*\))$", name)
+    main, extra = (m.group(1), m.group(2)) if m else (name, t.get("author", ""))
+    return (f'<a class="tname" href="{prefix}taxa/{slug(name)}.html"><i>{esc(main)}</i></a>'
+            + (f'<span class="tauth">{esc(extra)}</span>' if extra else ""))
+
+
 def fig_links(lead, prefix):
     src = key_figure_source.get(lead["key_id"])
     out = []
@@ -449,7 +459,7 @@ def build_taxa():
     if not FOCUS:
         return
     th = [t for t in taxa if t["focus_record"]]
-    rows = "".join(f'<tr><td><a href="taxa/{slug(t["taxon"])}.html"><i>{esc(t["taxon"])}</i></a></td><td>{italic_names(t["focus_record"])}</td>'
+    rows = "".join(f'<tr><td class="tcell">{taxon_cell(t)}</td><td>{italic_names(t["focus_record"])}</td>'
                    f'<td>{italic_names(t["medical_note"])}</td></tr>' for t in sorted(th, key=lambda x: x["taxon"]))
     body = f"""<h1>Species recorded from {esc(FOCUS)}</h1>
 <p>Only records stated in the sources of this project are listed ({len(th)} taxa). This is <b>not</b> a complete national

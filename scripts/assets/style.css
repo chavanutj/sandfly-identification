@@ -134,6 +134,10 @@ main td.num { text-align: right; }
 /* narrow table columns: no stretching or hyphenation (justify only suits wide text) */
 main table.list td, main table.list td * { text-align: left; hyphens: manual; -webkit-hyphens: manual; }
 main table.list td { overflow-wrap: anywhere; }  /* very long tokens (URLs, file names) wrap instead of widening the table */
+/* two-line taxon cells: name on one line (never broken), author or citation below */
+main table.list td.tcell { overflow-wrap: normal; }
+td.tcell a.tname { display: block; white-space: nowrap; }
+td.tcell .tauth { display: block; font: .78rem/1.35 var(--sans); color: var(--muted); margin-top: .1rem; }
 main table.list td.num { text-align: right; }
 /* links and citations are never stretched or split: "Lewis 1978" stays together */
 main a, #gpop a { hyphens: manual; -webkit-hyphens: manual; }  /* citations use non-breaking spaces (see cite() in build_site.py) */
