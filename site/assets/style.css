@@ -57,10 +57,8 @@ html[data-view="scope"] {
 html { font-size: 17px; }
 html[data-size="s"] { font-size: 15px; }
 html[data-size="l"] { font-size: 20px; }
-html[data-size="phone"] { font-size: 19px; }
 html[data-view="scope"] { font-size: 21px; }
 html[data-view="scope"][data-size="l"] { font-size: 24px; }
-html[data-view="scope"][data-size="phone"] { font-size: 24px; }
 
 * { box-sizing: border-box; }
 body { margin: 0; font: 1rem/1.65 var(--sans); color: var(--ink); background: var(--bg);
@@ -547,38 +545,6 @@ html[data-view="scope"] .tiles a, html[data-view="scope"] .gallery figure:hover 
   main table.list td.num { text-align: left; }
   td.tcell a.tname { white-space: normal; }
 }
-
-/* ---------- Phone text style (header button): easy-reading view on any device ----------
-   larger text, left-aligned lines, more line spacing, species details stacked, tables as cards */
-html[data-size="phone"] body { line-height: 1.8; }
-html[data-size="phone"] .viewctl button, html[data-size="phone"] .btn, html[data-size="phone"] .modes button, html[data-size="phone"] .stepnav button { padding: .5em .9em; }
-html[data-size="phone"] .wrap { display: block; }
-html[data-size="phone"] nav.side { padding: .7rem 1rem 0; }
-html[data-size="phone"] nav.side ul { display: flex; flex-wrap: wrap; gap: .15rem .25rem; }
-html[data-size="phone"] nav.side li a { border-left: 0; }
-html[data-size="phone"] main { max-width: 46rem; margin: 0 auto; padding: 1rem 1rem 2rem; }
-html[data-size="phone"] .lead { grid-template-columns: 1fr; } html[data-size="phone"] .lead .res { text-align: left; white-space: normal; }
-html[data-size="phone"] .split, html[data-size="phone"] .split.rev, html[data-size="phone"] .hero, html[data-size="phone"] .dpanel.on { grid-template-columns: 1fr; }
-html[data-size="phone"] .gcards { grid-template-columns: 1fr; }
-html[data-size="phone"] main p, html[data-size="phone"] main li, html[data-size="phone"] main td, html[data-size="phone"] main dd, html[data-size="phone"] main figcaption, html[data-size="phone"] main .callout, html[data-size="phone"] .lead .lt, html[data-size="phone"] .lead details > .body, html[data-size="phone"] .intro p, html[data-size="phone"] #gpop p, html[data-size="phone"] #lbox .lb-cap, html[data-size="phone"] .hero .lede p { text-align: left; hyphens: manual; -webkit-hyphens: manual; }
-html[data-size="phone"] table.meta { display: block; padding: .4rem .8rem .6rem; }
-html[data-size="phone"] table.meta tbody, html[data-size="phone"] table.meta tr, html[data-size="phone"] table.meta th, html[data-size="phone"] table.meta td { display: block; }
-html[data-size="phone"] table.meta th { padding: .7rem 0 .1rem; white-space: normal; }
-html[data-size="phone"] table.meta td { padding: 0 0 .2rem; }
-html[data-size="phone"] main table.list { display: block; width: 100%; background: transparent; border: 0; box-shadow: none; border-radius: 0; overflow: visible; }
-html[data-size="phone"] main table.list tbody { display: block; }
-html[data-size="phone"] main table.list tr { display: block; background: var(--card); border: 1px solid var(--line); border-radius: var(--radius);
-    box-shadow: var(--shadow); padding: .55rem .8rem .65rem; margin: 0 0 .65rem; }
-html[data-size="phone"] main table.list tr.hdr { display: none; }
-html[data-size="phone"] main table.list tr.grp { background: var(--brand2); box-shadow: none; padding: .4rem .8rem; }
-html[data-size="phone"] main table.list tr.grp th { display: block; padding: 0; border: 0; background: transparent; }
-html[data-size="phone"] main table.list tbody tr:nth-child(even) td, html[data-size="phone"] main table.list tbody tr:hover td { background: transparent; }
-html[data-size="phone"] main table.list td { display: block; border: 0; padding: .18rem 0; overflow-wrap: break-word; }
-html[data-size="phone"] main table.list td:empty { display: none; }
-html[data-size="phone"] main table.list td[data-label]::before { content: attr(data-label); display: block; font: 650 .68rem/1.4 var(--sans);
-    text-transform: uppercase; letter-spacing: .05em; color: var(--muted); }
-html[data-size="phone"] main table.list td.num { text-align: left; }
-html[data-size="phone"] td.tcell a.tname { white-space: normal; }
 
 /* ---------- print ---------- */
 @media print {
