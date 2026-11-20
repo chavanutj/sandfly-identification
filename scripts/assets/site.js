@@ -341,9 +341,10 @@
     window.addEventListener("appinstalled", function () { if (inst) inst.hidden = true; });
   })();
 
-  // ---------- figure viewer (glossary page only): thumbnails open in an overlay (zoom, ← → between figures)
+  // ---------- figure viewer (all pages): figures open in an overlay instead of leaving the page (zoom, ← → between
+  // figures). The phone/browser Back button closes it, so the installed app (which has no Back button of its own)
+  // never gets stuck on a bare image.
   (function () {
-    if (!document.querySelector(".gcards")) return;
     var SEL = "a.thumb, .gallery figure > a, .gthumbs a";
     var isImg = function (a) { return /\.(jpe?g|png|gif|webp|svg)$/i.test(a.getAttribute("href") || ""); };
     var box = null, list = [], idx = 0;
@@ -372,12 +373,18 @@
       box.classList.remove("zoom");
       box.querySelector("img").src = a.getAttribute("href");
       box.querySelector(".lb-cap").innerHTML = caption(a) +
-        ' <span class="lb-hint">' + (list.length > 1 ? (idx + 1) + " / " + list.length + " · " : "") + "click the image to zoom · Esc to close</span>";
+        ' <span class="lb-hint">' + (list.length > 1 ? (idx + 1) + " / " + list.length + " · " : "") + "tap the image to zoom · ✕ or Back to close</span>";
       box.classList.toggle("single", list.length < 2);
+      if (!box.classList.contains("on")) { try { window.history.pushState({ sfViewer: 1 }, ""); } catch (e) {} }  // Back = close
       box.classList.add("on"); document.documentElement.classList.add("lb-open");
       box.querySelector(".lb-x").focus();
     }
-    function close() { if (box) { box.classList.remove("on"); document.documentElement.classList.remove("lb-open"); } }
+    function hide() { if (box) { box.classList.remove("on"); document.documentElement.classList.remove("lb-open"); } }
+    function close() {  // ✕, Esc, tap outside: undo the history entry added on open (popstate then hides)
+      if (!box || !box.classList.contains("on")) return;
+      if (window.history.state && window.history.state.sfViewer) window.history.back(); else hide();
+    }
+    window.addEventListener("popstate", function () { if (box && box.classList.contains("on")) hide(); });
     document.addEventListener("click", function (e) {
       if (e.defaultPrevented || e.button !== 0 || e.ctrlKey || e.metaKey || e.shiftKey) return;
       var a = e.target.closest(SEL);

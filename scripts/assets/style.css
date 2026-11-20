@@ -128,7 +128,7 @@ main { flex: 1; min-width: 0; padding: 1.5rem 2rem 3rem; }
 /* distributed (justified) text on every page: lines run to the heading line; short items stay left-aligned (see below) */
 main p, main li, main td, main dd, main figcaption, main .callout, .lead .lt, .lead details > .body, .intro p,
 #gpop p, #lbox .lb-cap { text-align: justify; text-justify: inter-word; hyphens: auto; -webkit-hyphens: auto; }
-main th, main .toc, main .chips, main .crumb, main .stepnav, main .trail, main .gfilter *, main td.num,
+main th, main .toc, main .chips, main .crumb, main .stepnav, main .trail, main .gfilter *, main td.num, main ul.taxlist li,
 main .keycard *, main .tiles *, main .facts *, main .chip { text-align: left; hyphens: manual; -webkit-hyphens: manual; }  /* short card text: never stretched */
 main td.num { text-align: right; }
 /* narrow table columns: no stretching or hyphenation (justify only suits wide text) */
