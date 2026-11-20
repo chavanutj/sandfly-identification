@@ -23,6 +23,17 @@
   });
   syncCtl();
 
+  // ---------- tables: give every cell its column name (shown above the value when tables become cards on phones)
+  document.querySelectorAll("table.list").forEach(function (t) {
+    var head = null;
+    Array.prototype.forEach.call(t.rows, function (tr) {
+      var th = tr.querySelectorAll("th"), td = tr.querySelectorAll("td");
+      if (!td.length && th.length > 1) { tr.classList.add("hdr"); head = Array.prototype.map.call(th, function (x) { return x.textContent.trim(); }); return; }
+      if (!td.length && th.length === 1 && th[0].colSpan > 1) { tr.classList.add("grp"); return; }
+      if (head) Array.prototype.forEach.call(td, function (c, i) { if (head[i]) c.setAttribute("data-label", head[i]); });
+    });
+  });
+
   // ---------- home page photo slideshow (pauses on hover/focus and when the tab is hidden)
   (function () {
     var show_ = document.querySelector(".slideshow");

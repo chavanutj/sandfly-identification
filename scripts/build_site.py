@@ -255,7 +255,7 @@ def page(title, body, prefix="", active=""):
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{esc(title)} | {esc(SHORT)}</title>
 <link rel="stylesheet" href="{prefix}assets/style.css">
-<link rel="manifest" href="{prefix}manifest.webmanifest"><meta name="theme-color" content="#1f5c4a">
+<link rel="manifest" href="{prefix}manifest.webmanifest"><meta name="theme-color" content="#1f5c4a"><meta name="color-scheme" content="only light">
 <link rel="icon" href="{prefix}assets/icons/icon-32.png"><link rel="apple-touch-icon" href="{prefix}assets/icons/icon-180.png">
 <script>(function(){{var d=document.documentElement,q=new URLSearchParams(location.search),s=null,v=null;
 try{{s=localStorage.getItem("sf-size");v=localStorage.getItem("sf-view");}}catch(e){{}}
