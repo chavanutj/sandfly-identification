@@ -261,12 +261,12 @@ def page(title, body, prefix="", active=""):
 try{{s=localStorage.getItem("sf-size");v=localStorage.getItem("sf-view");}}catch(e){{}}
 if(q.get("size")){{s=q.get("size");try{{localStorage.setItem("sf-size",s);}}catch(e){{}}}}
 if(q.get("view")){{v=q.get("view");try{{localStorage.setItem("sf-view",v);}}catch(e){{}}}}
-d.dataset.size=s||"m";d.dataset.view=v||"normal";}})();</script></head>
+if(s==="xl")s="phone";d.dataset.size=s||"m";d.dataset.view=v||"normal";}})();</script></head>
 <body>
 <header class="banner"><a class="brand" href="{prefix}index.html"><span class="t1">{esc(SITE_TITLE)}</span>
 <span class="t2">{esc(SITE_SUB)}</span></a>
 <div class="viewctl" role="group" aria-label="Display settings">
-<span class="lbl">Text</span><button type="button" data-size="s" title="Smaller text">A−</button><button type="button" data-size="m" title="Normal text">A</button><button type="button" data-size="l" title="Large text">A+</button><button type="button" data-size="xl" title="Extra large text">A++</button>
+<span class="lbl">Text</span><button type="button" data-size="s" title="Small text">Small</button><button type="button" data-size="m" title="Medium text">Medium</button><button type="button" data-size="l" title="Large text">Large</button><button type="button" data-size="phone" title="Phone: easy-reading view - larger text, left-aligned lines, tables as cards (any device)">📱 Phone</button>
 <button type="button" class="scope" data-view="scope" title="Large high-contrast view for use beside the microscope">🔬 Microscope mode</button>
 <button type="button" id="installbtn" class="install" hidden title="Install this site as an app on this device">⤓ Install app</button>
 <span id="offline" class="offline" hidden aria-live="polite"></span></div></header>
